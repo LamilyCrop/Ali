@@ -1,0 +1,2965 @@
+[
+  {
+    "Index": 1,
+    "Title": "Area Light",
+    "Variant": "70W/100W/150W ，5000K",
+    "Description": "This slick and modern luminaire has been designed to handle any environment. this versatile fixture can be used as a flood light or an area light. Including a multitude of mounting options, surge protection devices，Daylight/Motion sensor capability, and the most technologically advanced LED’s on the mark.",
+    "Category": "Area Light",
+    "mainImage": "/images/products/1/安装面 (2).png",
+    "images": [
+      "/images/products/1/安装面 (2).png",
+      "/images/products/1/安装面.png",
+      "/images/products/1/正侧面.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-71VT-004",
+        "CCT": "5000K",
+        "Wattage": "70W-100W-150W",
+        "Voltage": "AC120-277V",
+        "Lumens": "19500lm",
+        "IES Files": [
+          {
+            "name": "1-1",
+            "file": "/LC-IES/1-1",
+            "show": true
+          },
+          {
+            "name": "1-2",
+            "file": "/LC-IES/1-2",
+            "show": true
+          },
+          {
+            "name": "1-3",
+            "file": "/LC-IES/1-3",
+            "show": true
+          },
+          {
+            "name": "1-4",
+            "file": "/LC-IES/1-4",
+            "show": true
+          },
+          {
+            "name": "1-5",
+            "file": "/LC-IES/1-5",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/1.pdf",
+        "DLC": "/LC-DLC/1.pdf",
+        "Spec Sheet": "/products-spec-sheets/1.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Damp Location",
+    "mounting_category": "Pole Mount",
+    "Features": [
+      "Streamlined shape---simple, clean and stylish.",
+      "Wattage Selectable.",
+      "UV resistant polycarbonate optical lens with high impact capability---IK09.",
+      "Fast and easy installation by 1 person.",
+      "Multiple Installation Accessories for choice---Slip-Fitter / Adjustable Arm / Fixed arm / Trunnion / Yoke / Slip-Fitter long arm / Fixed adapter arm.",
+      "Excellent heat dissipation management ensures long life-span, with very low driver Tc point.",
+      "Great air-pressure management for avoiding distortion of the lens and water-proof failure over time.",
+      "DLC 5.1 Premium and UL listed."
+    ]
+  },
+  {
+    "Index": 2,
+    "Title": "Area Light",
+    "Variant": "200/240/300W，3000/4000/5000K",
+    "Description": "This slick and modern luminaire has been designed to handle any environment. This versatile fixture can be used as a flood light or an area light. Including a multitude of mounting options, surge protection devices，Daylight/Motion sensor capability, and the most technologically advanced LED's on the mark.",
+    "Category": "Area Light",
+    "mainImage": "/images/products/2/侧正面.png",
+    "images": [
+      "/images/products/2/侧正面.png",
+      "/images/products/2/侧背面.png",
+      "/images/products/2/安装面 (2).png",
+      "/images/products/2/安装面.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-71VT-005",
+        "CCT": "5000K",
+        "Wattage": "200W-240W-300W",
+        "Voltage": "AC120-277V",
+        "Lumens": "39000lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/2.pdf",
+        "Spec Sheet": "/products-spec-sheets/2，3.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Damp Location",
+    "mounting_category": "Pole Mount",
+    "Features": [
+      "Streamlined shape---simple, clean and stylish.",
+      "Wattage Selectable.",
+      "UV resistant polycarbonate optical lens with high impact capability---IK09.",
+      "Fast and easy installation by 1 person.",
+      "Multiple Installation Accessories for choice---Slip-Fitter / Adjustable Arm / Fixed arm / Trunnion / Yoke / Slip-Fitter long arm / Fixed adapter arm.",
+      "Excellent heat dissipation management ensures long life-span, with very low driver Tc point.",
+      "Great air-pressure management for avoiding distortion of the lens and water-proof failure over time.",
+      "DLC 5.1 Premium and UL listed."
+    ]
+  },
+  {
+    "Index": 3,
+    "Title": "Area Light",
+    "Variant": "200/240/300W，3000/4000/5000K，480V",
+    "Description": "This slick and modern luminaire has been designed to handle any environment. this versatile fixture can be used as a flood light or an area light. Including a multitude of mounting options, surge protection devices，Daylight/Motion sensor capability, and the most technologically advanced LED’s on the mark.",
+    "Category": "Area Light",
+    "mainImage": "/images/products/3/侧正面.png",
+    "images": [
+      "/images/products/3/侧正面.png",
+      "/images/products/3/侧背面.png",
+      "/images/products/3/安装面 (2).png",
+      "/images/products/3/安装面.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-71VT-006",
+        "CCT": "5000K",
+        "Wattage": "200W-240W-300W",
+        "Voltage": "AC277-480V",
+        "Lumens": "39000lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/2，3.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Damp Location",
+    "mounting_category": "Pole Mount",
+    "Features": [
+      "Streamlined shape---simple, clean and stylish.",
+      "Wattage Selectable.",
+      "UV resistant polycarbonate optical lens with high impact capability---IK09.",
+      "Fast and easy installation by 1 person.",
+      "Multiple Installation Accessories for choice---Slip-Fitter / Adjustable Arm / Fixed arm / Trunnion / Yoke / Slip-Fitter long arm / Fixed adapter arm.",
+      "Excellent heat dissipation management ensures long life-span, with very low driver Tc point.",
+      "Great air-pressure management for avoiding distortion of the lens and water-proof failure over time.",
+      "DLC 5.1 Premium and UL listed."
+    ]
+  },
+  {
+    "Index": 4,
+    "Title": "Area Light",
+    "Variant": "200W/240W/300W，5000/5700/6500K",
+    "Description": "This slick and modern luminaire has been designed to handle any environment. this versatile fixture can be used as a flood light or an area light. Including a multitude of mounting options, surge protection devices，Daylight/Motion sensor capability, and the most technologically advanced LED’s on the mark.",
+    "Category": "Area Light",
+    "mainImage": "/images/products/4/侧正面_副本.png",
+    "images": [
+      "/images/products/4/侧正面_副本.png",
+      "/images/products/4/侧背面_副本.png",
+      "/images/products/4/安装面 (2)_副本.png",
+      "/images/products/4/安装面_副本.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-71VT-007",
+        "CCT": "5000/5700/6500K",
+        "Wattage": "200W/240W/300W",
+        "Voltage": "AC120-277V",
+        "Lumens": "39000lm",
+        "IES Files": [
+          {
+            "name": "4-1",
+            "file": "/LC-IES/4-1",
+            "show": true
+          },
+          {
+            "name": "4-2",
+            "file": "/LC-IES/4-2",
+            "show": true
+          },
+          {
+            "name": "4-3",
+            "file": "/LC-IES/4-3",
+            "show": true
+          },
+          {
+            "name": "4-4",
+            "file": "/LC-IES/4-4",
+            "show": true
+          },
+          {
+            "name": "4-5",
+            "file": "/LC-IES/4-5",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/4.pdf",
+        "DLC": "/LC-DLC/4.pdf",
+        "Spec Sheet": "/products-spec-sheets/4.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Damp Location",
+    "mounting_category": "Pole Mount",
+    "Features": [
+      "Streamlined shape---simple, clean and stylish.",
+      "Wattage Selectable.",
+      "UV resistant polycarbonate optical lens with high impact capability---IK09.",
+      "Fast and easy installation by 1 person.",
+      "Multiple Installation Accessories for choice---Slip-Fitter / Adjustable Arm / Fixed arm / Trunnion / Yoke / Slip-Fitter long arm / Fixed adapter arm.",
+      "Excellent heat dissipation management ensures long life-span, with very low driver Tc point.",
+      "Great air-pressure management for avoiding distortion of the lens and water-proof failure over time.",
+      "DLC 5.1 Premium and UL listed."
+    ]
+  },
+  {
+    "Index": 5,
+    "Title": "Traditional Wall Pack",
+    "Variant": "60/90/100/120W,3CCT",
+    "Description": "LED WALL PACK Outdoor LED Semi-Cutoff Wall Pack with photocell, 0-10V Dimming and IP65 rating (Dust proof and waterproof) which sealed by silicone ring so waterproof and dust-proof completely can be ensured. Includes level indicator inside to ensure proper alignment when installed.",
+    "Category": "Wall Pack",
+    "mainImage": "/images/products/5/安装角度.png",
+    "images": [
+      "/images/products/5/安装角度.png",
+      "/images/products/5/正侧面角度.png",
+      "/images/products/5/正面角度.png",
+      "/images/products/5/背侧面角度.png",
+      "/images/products/5/背面角度.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-98-002",
+        "CCT": "4000/5000/5700K",
+        "Wattage": "60/90/100/120W",
+        "Voltage": "AC120-277V",
+        "Lumens": "13000lm",
+        "IES File": null,
+        "LM79 File": "/LC-LM79/5.pdf",
+        "DLC": "/LC-DLC/5.pdf",
+        "Spec Sheet": "/products-spec-sheets/5.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Damp Location",
+    "mounting_category": "Wall Mount",
+    "Features": [
+      "Two different mold size to ensure fixture to be cost-effective. Small size & Medium size.",
+      "Outdoor special optical tempered glass lens.",
+      "Uniform and soft light.",
+      "Suitable for wet location.",
+      "Wire Guard and Sky Shield available.",
+      "CCT selectable + Power selectable version available.",
+      "DLC 5.1 Premium and UL listed."
+    ]
+  },
+  {
+    "Index": 6,
+    "Title": "Mini Wall Pack",
+    "Variant": "15/20/30W,3CCT",
+    "Description": "Lamily's mini wall lights use the latest high-performance LED chips, which are high-brightness and low-energy consumption. The daylight sensor makes it to be higher energy-efficient. The fixture is composed of a die-cast. Aluminum ADC12 shell and a transparent lens, which waterproof can be ensure . A wide range of applications include stairwells, passageways and entryways in commercial and residential settings.",
+    "Category": "Wall Pack",
+    "mainImage": "/images/products/6/wp20 (1).png",
+    "images": [
+      "/images/products/6/wp20 (1).png",
+      "/images/products/6/wp20 (2).png",
+      "/images/products/6/wp20 (3).png",
+      "/images/products/6/wp20 (4).png",
+      "/images/products/6/wp20 (5).png",
+      "/images/products/6/wp20 (6).png",
+      "/images/products/6/wp20 (7).png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-98-001",
+        "CCT": "3000K-4000K-5000K",
+        "Wattage": "15W-20W-30W",
+        "Voltage": "AC120-277V",
+        "Lumens": "3900lm",
+        "IES File": null,
+        "LM79 File": "/LC-LM79/6.pdf",
+        "DLC": "/LC-DLC/6.pdf",
+        "Spec Sheet": "/products-spec-sheets/6.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Damp Location",
+    "mounting_category": "Wall Mount",
+    "Features": [
+      "Up to 130lm/W.",
+      "3 CCT and 3 Wattage Selectable.",
+      "Automated Dusk to Dawn photocell functionality.",
+      "ADC12 Aluminum Die Casting housing provides excellent heat dissipation.",
+      "ETL/cETL/DLC Premium listed.",
+      "Lifespan: >50,000Hrs.",
+      "Wet location rated IP65."
+    ]
+  },
+  {
+    "Index": 7,
+    "Title": "Full Cutoff Wall Pack",
+    "Variant": "（45/60/75W,3CCT",
+    "Description": "LED Full Cutoff Wall Pack Smooth curved design, clean and stylish appearance. Cloudy friendly. Die-cast aluminum housing and polycarbonate lens can work well in the extreme weather. Suitable for outdoor indoor lighting. Widely used in villa, house, shopping mall, building, factories, warehouse, garage etc.",
+    "Category": "Wall Pack",
+    "mainImage": "/images/products/7/侧面.png",
+    "images": [
+      "/images/products/7/侧面.png",
+      "/images/products/7/安装面.png",
+      "/images/products/7/背面.png",
+      "/images/products/7/背面2.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-91VT-003",
+        "CCT": "3000K-4000K-5000K",
+        "Wattage": "45W-60W-75W",
+        "Voltage": "AC120-277V",
+        "Lumens": "9750lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/7.pdf",
+        "Spec Sheet": "/products-spec-sheets/7.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Damp Location",
+    "mounting_category": "Wall Mount",
+    "Features": [
+      "Smooth, clean and stylish appearance. UV resistant lens and coating.",
+      "Uniform and soft light.",
+      "Light 100% face down. Dark sky friendly. Suitable for wet location.",
+      "CCT and Wattage selectable.",
+      "Built-in Microwave sensor and emergency back-up driver available.",
+      "Built-in DC12V or External AC120V photocell, level indicator for optional.",
+      "DLC 5.1 Premium and UL listed."
+    ]
+  },
+  {
+    "Index": 8,
+    "Title": "Garage Canopy",
+    "Variant": "",
+    "Description": "",
+    "Category": "Canopy",
+    "mainImage": "/images/products/8/cp02.477-01.png",
+    "images": [
+      "/images/products/8/cp02.477-01.png",
+      "/images/products/8/cp02.479.png",
+      "/images/products/8/cp02.480.png",
+      "/images/products/8/cp02.483.png",
+      "/images/products/8/cp02.492.png",
+      "/images/products/8/cp02.500.png",
+      "/images/products/8/cp02.600.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-138-001",
+        "CCT": "3500K-4000K-5000K",
+        "Wattage": "20/40/60/70/80W",
+        "Voltage": "AC120-277V",
+        "Lumens": "10125lm",
+        "IES File": null,
+        "LM79 File": "/LC-LM79/8.pdf",
+        "DLC": "/LC-DLC/8-1.pdf",
+        "Spec Sheet": "/products-spec-sheets/8.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null,
+        "DLC Files": [
+          {
+            "name": "8-1",
+            "file": "/LC-DLC/8-1.pdf",
+            "show": true
+          },
+          {
+            "name": "8-2",
+            "file": "/LC-DLC/8-2.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Covered",
+    "mounting_category": "Surface Mount",
+    "Features": [
+      "Field-adjustable 3CCT & wattages to reduce SKU's.",
+      "New style design.",
+      "High efficacy up to 135LM/W.",
+      "AC120-277V/120-347V for options.",
+      "Perfect LED canopy lights to replace HID fixtures.",
+      "Rugged die cast aluminum housing for long last time using.",
+      "DLC 5.1 Premium and UL listed."
+    ]
+  },
+  {
+    "Index": 9,
+    "Title": "Gas Station Canopy",
+    "Variant": "",
+    "Description": "Lamily's LED canopy lights are versatile and energy saving fixtures, which are ideal for parking garages, entryways, gas stations, outdoor aisles and many other commercial applications. It comes with color and wattage selectable, allowing you to customize the LED light output to best fit your project. Energy and maintenance savings up to 86% versus HID solutions, and can be easily surface mounted.",
+    "Category": "Canopy",
+    "mainImage": "/images/products/9/cp05 (10).png",
+    "images": [
+      "/images/products/9/cp05 (10).png",
+      "/images/products/9/cp05 (13).png",
+      "/images/products/9/cp05 (14).png",
+      "/images/products/9/cp05 (8).png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-128-001",
+        "CCT": "5000K",
+        "Wattage": "120/150/180W",
+        "Voltage": "AC120-277V",
+        "Lumens": "19500lm",
+        "IES File": null,
+        "LM79 File": "/LC-LM79/9.pdf",
+        "DLC": "/LC-DLC/9.pdf",
+        "Spec Sheet": "/products-spec-sheets/9.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Covered",
+    "mounting_category": "Surface Mount",
+    "Features": [
+      "Microwave motion sensor available.",
+      "High efficiency up to 140LM/W.",
+      "Perfect LED canopy lights to replace HID fixtures.",
+      "Rugged die cast aluminum housing provides excellent heat dissipation.",
+      "Wet location rated IP65.",
+      "DLC 5.1 Premium and UL listed."
+    ]
+  },
+  {
+    "Index": 10,
+    "Title": "Flood Light",
+    "Variant": "（40/50/60W，3CCT）",
+    "Description": "LED Flood Light Replace traditional Metal Halide Flood Lights and save big with our energy efficient LED Flood Lights. Global™ LED Flood Lights are perfect for landscape, signage, and accent lighting in heavy commercial and residential applications. Chip-On-Board LEDs are coupled directly to the housing and provide a service life of over 50,000 hours.",
+    "Category": "Flood Light",
+    "mainImage": "/images/products/10/10，11-1.png",
+    "images": [
+      "/images/products/10/10，11-1.png",
+      "/images/products/10/10，11-2.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-1912-001",
+        "CCT": "3000/4000/5000K",
+        "Wattage": "40/50/60W",
+        "Voltage": "AC120-277V",
+        "Lumens": "7800lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/10，11.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Dry Location",
+    "mounting_category": "Pole Mount",
+    "Features": [
+      "Corrosion resistant die cast aluminum housing.",
+      "3000K/4000K/5000K CCT selectable.",
+      "150-120-90W selectable, 100-80-60W selectable, 60-50-40W selectable, 30-24-18W selectable, 15-12-9W selectable.",
+      "120-277VAC, 0-10V Dimming.",
+      "On/off photocell comes standard on all models.",
+      "Available with black, bronze, white finish color.",
+      "Mount: 1/2\" knuckle or bracket mount.",
+      "50,000+ Hour LED life expectancy.",
+      "IP65 rated, for wet location.",
+      "5 years warranty."
+    ]
+  },
+  {
+    "Index": 11,
+    "Title": "Flood Light",
+    "Variant": "（60/80/100W，3CCT）",
+    "Description": "LED Flood Light Replace traditional Metal Halide Flood Lights and save big with our energy efficient LED Flood Lights. Global™ LED Flood Lights are perfect for landscape, signage, and accent lighting in heavy commercial and residential applications. Chip-On-Board LEDs are coupled directly to the housing and provide a service life of over 50,000 hours.",
+    "Category": "Flood Light",
+    "mainImage": "/images/products/11/10，11-1.png",
+    "images": [
+      "/images/products/11/10，11-1.png",
+      "/images/products/11/10，11-2.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-1912-002",
+        "CCT": "3000/4000/5000K",
+        "Wattage": "60/80/100W",
+        "Voltage": "AC120-277V",
+        "Lumens": "13000lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/10，11.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Dry Location",
+    "mounting_category": "Pole Mount",
+    "Features": [
+      "Corrosion resistant die cast aluminum housing.",
+      "3000K/4000K/5000K CCT selectable.",
+      "150-120-90W selectable, 100-80-60W selectable, 60-50-40W selectable, 30-24-18W selectable, 15-12-9W selectable.",
+      "120-277VAC, 0-10V Dimming.",
+      "On/off photocell comes standard on all models.",
+      "Available with black, bronze, white finish color.",
+      "Mount: 1/2\" knuckle or bracket mount.",
+      "50,000+ Hour LED life expectancy.",
+      "IP65 rated, for wet location.",
+      "5 years warranty."
+    ]
+  },
+  {
+    "Index": 12,
+    "Title": "Frame Light",
+    "Variant": "（2X2，20/25/30/35/40W，5CCT）",
+    "Description": "LED Frame Light Brighten your space with the sleek, modern aesthetic of the LED T-Bar Grid Ceiling Panel Light. Perfectly sized at a compact 2x2, this ceiling light fixture offers superior illumination and complements any décor with its minimalist design. Select from various wattages for your desired lumen output and adjust the ambiance with 5 color temperature options. It is designed for recessed mounting with T-bar installation, making it suitable for various ceiling configurations. Plus, it features 0-10V dimming capabilities. With its cutting-edge optical tech, this energy-efficient 2x4 LED flat panel replaces traditional lighting options.",
+    "Category": "Frame Light",
+    "mainImage": "/images/products/12/12，13.png",
+    "images": [
+      "/images/products/12/12，13.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-21VT-011",
+        "CCT": "3000K-3500K-4000K-5000K-6500K",
+        "Wattage": "20/25/30/35/40W",
+        "Voltage": "AC120-277V",
+        "Lumens": "5200lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/12，13.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Dry Location",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "The Frame light is mainly used in commercial lighting places, such as office, supermarket and so on.",
+      "The Frame light has uniform and soft luminance, high luminous efficacy, saving energy and protecting environment.",
+      "Using high quality material, with great heat dissipation and low light degradation.",
+      "Using high quality driver, efficiency>90%, PF>0.9.",
+      "Lifespan>50,000 hours.",
+      "0-10V dimming function dimming driver.",
+      "Dustproof: Zero distance between back cover and the frame protect against dust perfectly.",
+      "No yellowing problem of Light Guided Plate for this Frame light.",
+      "CCT Adjustable range: 3500K-4000K-5000K or 3500K-4000K-5000K-5700K-6500K.",
+      "Power Adjustable range."
+    ]
+  },
+  {
+    "Index": 13,
+    "Title": "Frame Light",
+    "Variant": "（2X4，20/30/40/50/55W，5CCT）",
+    "Description": "LED Frame Light Brighten your space with the sleek, modern aesthetic of the LED T-Bar Grid Ceiling Panel Light. Perfectly sized at a compact 2x4, this ceiling light fixture offers superior illumination and complements any décor with its minimalist design. Select from various wattages for your desired lumen output and adjust the ambiance with 5 color temperature options. It is designed for recessed mounting with T-bar installation, making it suitable for various ceiling configurations. Plus, it features 0-10V dimming capabilities. With its cutting-edge optical tech, this energy-efficient 2x4 LED flat panel replaces traditional lighting options.",
+    "Category": "Frame Light",
+    "mainImage": "/images/products/13/12，13.png",
+    "images": [
+      "/images/products/13/12，13.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-21VT-012",
+        "CCT": "3000K-3500K-4000K-5000K-6500K",
+        "Wattage": "20/30/40/50/55W",
+        "Voltage": "AC120-277V",
+        "Lumens": "7150lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/12，13.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Dry Location",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "The Frame light is mainly used in commercial lighting places, such as office, supermarket and so on.",
+      "The Frame light has uniform and soft luminance, high luminous efficacy, saving energy and protecting environment.",
+      "Using high quality material, with great heat dissipation and low light degradation.",
+      "Using high quality driver, efficiency>90%, PF>0.9.",
+      "Lifespan>50,000 hours.",
+      "0-10V dimming function dimming driver.",
+      "Dustproof: Zero distance between back cover and the frame protect against dust perfectly.",
+      "No yellowing problem of Light Guided Plate for this Frame light.",
+      "CCT Adjustable range: 3500K-4000K-5000K or 3500K-4000K-5000K-5700K-6500K.",
+      "Power Adjustable range."
+    ]
+  },
+  {
+    "Index": 14,
+    "Title": "Backlit Panel",
+    "Variant": "1X4,15/20/30/40/50W,6CCT",
+    "Description": "PL Series LED panel come with multiple CCT and multiple lumens output, which allows us to choose the most suitable solutions to your projects in one fixture. Back-lit design is without LGP, no risk for yellowing. PMMA lens offers an uniform light effect, also could add additional function such as motion sensor and Emergency battery drivers.",
+    "Category": "Backlit Panel",
+    "mainImage": "/images/products/14/1X4-1.png",
+    "images": [
+      "/images/products/14/1X4-1.png",
+      "/images/products/14/1X4-2.png",
+      "/images/products/14/1X4-3.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-22-007",
+        "CCT": "3000K-3500K-4000K-5000K-5700K-6500K",
+        "Wattage": "15/20/30/40/50W",
+        "Voltage": "AC120-277V",
+        "Lumens": "6500lm",
+        "IES Files": [
+          {
+            "name": "14-1",
+            "file": "/LC-IES/14-1",
+            "show": true
+          },
+          {
+            "name": "14-2",
+            "file": "/LC-IES/14-2",
+            "show": true
+          },
+          {
+            "name": "14-20W-3000K",
+            "file": "/LC-IES/14-20W-3000K",
+            "show": true
+          },
+          {
+            "name": "14-20W-4000K",
+            "file": "/LC-IES/14-20W-4000K",
+            "show": true
+          },
+          {
+            "name": "14-20W-5000K",
+            "file": "/LC-IES/14-20W-5000K",
+            "show": true
+          },
+          {
+            "name": "14-40W-3000K",
+            "file": "/LC-IES/14-40W-3000K",
+            "show": true
+          },
+          {
+            "name": "14-40W-4000K",
+            "file": "/LC-IES/14-40W-4000K",
+            "show": true
+          },
+          {
+            "name": "14-40W-5000K",
+            "file": "/LC-IES/14-40W-5000K",
+            "show": true
+          },
+          {
+            "name": "14-60W-3000K",
+            "file": "/LC-IES/14-60W-3000K",
+            "show": true
+          },
+          {
+            "name": "14-60W-4000K",
+            "file": "/LC-IES/14-60W-4000K",
+            "show": true
+          },
+          {
+            "name": "14-60W-5000K",
+            "file": "/LC-IES/14-60W-5000K",
+            "show": true
+          },
+          {
+            "name": "14-70W-3000K",
+            "file": "/LC-IES/14-70W-3000K",
+            "show": true
+          },
+          {
+            "name": "14-70W-4000K",
+            "file": "/LC-IES/14-70W-4000K",
+            "show": true
+          },
+          {
+            "name": "14-70W-5000K",
+            "file": "/LC-IES/14-70W-5000K",
+            "show": true
+          },
+          {
+            "name": "14-80W-3000K",
+            "file": "/LC-IES/14-80W-3000K",
+            "show": true
+          },
+          {
+            "name": "14-80W-4000K",
+            "file": "/LC-IES/14-80W-4000K",
+            "show": true
+          },
+          {
+            "name": "14-80W-5000K",
+            "file": "/LC-IES/14-80W-5000K",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/14-2.pdf",
+        "DLC": "/LC-DLC/14-2.pdf",
+        "Spec Sheet": "/products-spec-sheets/14，15，16.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null,
+        "DLC Files": [
+          {
+            "name": "14-1",
+            "file": "/LC-DLC/14-1.pdf",
+            "show": true
+          },
+          {
+            "name": "14-2",
+            "file": "/LC-DLC/14-2.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Field 5 CCT selectable.",
+      "Flicker free driver available.",
+      "Emergency battery drivers for options.",
+      "12V AUX driver available.",
+      "Uniform light effect with optic PMMA lens.",
+      "PIR/Microwave motion sensor available.",
+      "Recessed/ suspended/ surface mounted.",
+      "ETL/cETL/DLC Premium listed."
+    ]
+  },
+  {
+    "Index": 15,
+    "Title": "Backlit Panel",
+    "Variant": "2X2,15/20/30/40/50W,6CCT",
+    "Description": "PL Series LED panel come with multiple CCT and multiple lumens output, which allows us to choose the most suitable solutions to your projects in one fixture. Back-lit design is without LGP, no risk for yellowing. PMMA lens offers an uniform light effect, also could add additional function such as motion sensor and Emergency battery drivers.",
+    "Category": "Backlit Panel",
+    "mainImage": "/images/products/15/PL-ck2x2.709.jpg",
+    "images": [
+      "/images/products/15/PL-ck2x2.709.jpg",
+      "/images/products/15/PL-ck2x2.710.jpg",
+      "/images/products/15/PL-ck2x2.714.jpg"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-22-011",
+        "CCT": "3000K-3500K-4000K-5000K-5700K-6500K",
+        "Wattage": "15W-20W-30W-40W-50W",
+        "Voltage": "AC120-277V",
+        "Lumens": "6750lm",
+        "IES Files": [
+          {
+            "name": "15-1",
+            "file": "/LC-IES/15-1",
+            "show": true
+          },
+          {
+            "name": "15-2",
+            "file": "/LC-IES/15-2",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/15-1.pdf",
+        "DLC": "/LC-DLC/15-1.pdf",
+        "Spec Sheet": "/products-spec-sheets/14，15，16.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null,
+        "DLC Files": [
+          {
+            "name": "15-1",
+            "file": "/LC-DLC/15-1.pdf",
+            "show": true
+          },
+          {
+            "name": "15-2",
+            "file": "/LC-DLC/15-2.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Field 6 CCT selectable & 5 Watts adjustable.",
+      "Flicker free driver available.",
+      "Emergency battery drivers for options.",
+      "12V AUX driver available.",
+      "Uniform light effect with optic PMMA lens.",
+      "PIR/Microwave motion sensor available.",
+      "Recessed/ suspended/ surface mounted.",
+      "ETL/cETL/DLC Premium listed."
+    ]
+  },
+  {
+    "Index": 16,
+    "Title": "Backlit Panel",
+    "Variant": "2X4,20/30/40/50/75W,6CCT",
+    "Description": "PL Series LED panel come with multiple CCT and multiple lumens output, which allows us to choose the most suitable solutions to your projects in one fixture. Back-lit design is without LGP, no risk for yellowing. PMMA lens offers an uniform light effect, also could add additional function such as motion sensor and Emergency battery drivers.",
+    "Category": "Backlit Panel",
+    "mainImage": "/images/products/16/5CCT 2x4.png",
+    "images": [
+      "/images/products/16/5CCT 2x4.png",
+      "/images/products/16/PL-ck2x4.708.jpg",
+      "/images/products/16/PL-ck2x4.711.jpg",
+      "/images/products/16/PL-ck2x4.712.jpg",
+      "/images/products/16/PLck2x4.664.jpg",
+      "/images/products/16/PLck2x4.665.jpg"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-22-009",
+        "CCT": "3500K-4000K-5000K-5700K-6500K",
+        "Wattage": "20/30/40/50/75W",
+        "Voltage": "AC120-277V",
+        "Lumens": "10500lm",
+        "IES Files": [
+          {
+            "name": "16-1",
+            "file": "/LC-IES/16-1",
+            "show": true
+          },
+          {
+            "name": "16-2",
+            "file": "/LC-IES/16-2",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/16-1.pdf",
+        "DLC": "/LC-DLC/16-1.pdf",
+        "Spec Sheet": "/products-spec-sheets/14，15，16.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null,
+        "DLC Files": [
+          {
+            "name": "16-1",
+            "file": "/LC-DLC/16-1.pdf",
+            "show": true
+          },
+          {
+            "name": "16-2",
+            "file": "/LC-DLC/16-2.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Field 6 CCT selectable & 5 Watts adjustable.",
+      "Flicker free driver available.",
+      "Emergency battery drivers for options.",
+      "12V AUX driver available.",
+      "Uniform light effect with optic PMMA lens.",
+      "PIR/Microwave motion sensor available.",
+      "Recessed/ suspended/ surface mounted.",
+      "ETL/cETL/DLC Premium listed."
+    ]
+  },
+  {
+    "Index": 17,
+    "Title": "Troffer Light",
+    "Variant": "2X2,15/20/30/35/40W,5CCT",
+    "Description": "2x2 LED TROFFER The 6G Series LED Troffer housing is adopted one-piece production process, offers neat appearance and ultra-thin structure. It makes the fixture much more loaded in containers and cost-down freight. Also be available in multiple configurations of Color Temperatures and Wattages switchable. Ideal for office, retail, healthcare, school hospital etc.",
+    "Category": "Troffer Light",
+    "mainImage": "/images/products/17/DSC06002.png",
+    "images": [
+      "/images/products/17/DSC06002.png",
+      "/images/products/17/DSC06005.png",
+      "/images/products/17/DSC06010.png",
+      "/images/products/17/DSC06014.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-31VT-004",
+        "CCT": "3500K-4000K-5000K-5700K-6500K",
+        "Wattage": "15/20/30/35/40W",
+        "Voltage": "AC120-277V",
+        "Lumens": "5400lm",
+        "IES Files": [
+          {
+            "name": "17-1",
+            "file": "/LC-IES/17-1",
+            "show": true
+          },
+          {
+            "name": "17-2",
+            "file": "/LC-IES/17-2",
+            "show": true
+          },
+          {
+            "name": "17-3",
+            "file": "/LC-IES/17-3",
+            "show": true
+          },
+          {
+            "name": "17-4",
+            "file": "/LC-IES/17-4",
+            "show": true
+          },
+          {
+            "name": "17-5",
+            "file": "/LC-IES/17-5",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/17.pdf",
+        "DLC": "/LC-DLC/17.pdf",
+        "Spec Sheet": "/products-spec-sheets/17，18.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Smooth and comfortable light, low glare.",
+      "High lighting efficiency 125lm/W.",
+      "High quality isolated driver; High efficiency>87%,PF>0.9.",
+      "Mainly used in commercial lighting places, such as office, factory and supermarket.",
+      "Lifespan>50,000 hours & 5 years warrant.",
+      "Slim profile ensures much lower shipping and storage cost.",
+      "Very unique design for making it stand out easily, compared with regular troffers in the market."
+    ]
+  },
+  {
+    "Index": 18,
+    "Title": "Troffer Light",
+    "Variant": "2X4,20/25/30/40/50W,5CCT",
+    "Description": "2x4 LED TROFFER The 6G Series LED Troffer housing is adopted one-piece production process, offers neat appearance and ultra-thin structure. It makes the fixture much more loaded in containers and cost-down freight. Also be available in multiple configurations of Color Temperatures and Wattages switchable. Ideal for office, retail, healthcare, school hospital etc.",
+    "Category": "Troffer Light",
+    "mainImage": "/images/products/18/灯盘透明格式01.png",
+    "images": [
+      "/images/products/18/灯盘透明格式01.png",
+      "/images/products/18/灯盘透明格式02.png",
+      "/images/products/18/灯盘透明格式03.png",
+      "/images/products/18/灯盘透明格式04.png",
+      "/images/products/18/灯盘透明格式05.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-31VT-003",
+        "CCT": "3500K-4000K-5000K-5700K-6500K",
+        "Wattage": "20W-25W-30W-40W-50W",
+        "Voltage": "AC120-277V",
+        "Lumens": "6750lm",
+        "IES Files": [
+          {
+            "name": "18-1",
+            "file": "/LC-IES/18-1",
+            "show": true
+          },
+          {
+            "name": "18-2",
+            "file": "/LC-IES/18-2",
+            "show": true
+          },
+          {
+            "name": "18-3",
+            "file": "/LC-IES/18-3",
+            "show": true
+          },
+          {
+            "name": "18-4",
+            "file": "/LC-IES/18-4",
+            "show": true
+          },
+          {
+            "name": "18-5",
+            "file": "/LC-IES/18-5",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/18.pdf",
+        "DLC": "/LC-DLC/18.pdf",
+        "Spec Sheet": "/products-spec-sheets/17，18.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Smooth and comfortable light, low glare.",
+      "High lighting efficiency 125lm/W.",
+      "High quality isolated driver; High efficiency>87%,PF>0.9.",
+      "Mainly used in commercial lighting places, such as office, factory and supermarket.",
+      "Lifespan>50,000 hours & 5 years warrant.",
+      "Slim profile ensures much lower shipping and storage cost.",
+      "Very unique design for making it stand out easily, compared with regular troffers in the market."
+    ]
+  },
+  {
+    "Index": 19,
+    "Title": "Ceiling Light",
+    "Variant": "（24W,5CCT",
+    "Description": "（24W,5CCT) Ceiling Light This SMD Series Round 12\" 24W 3CCT surface mount downlight features a sleek, ultra-thin design with a smooth white finish, making it an ideal choice for various settings. The fixture's CCT can be adjusted in the field, offering versatile lighting solutions for different environments.",
+    "Category": "Ceiling Light",
+    "mainImage": "/images/products/19/001 (1).png",
+    "images": [
+      "/images/products/19/001 (1).png",
+      "/images/products/19/001 (2).png",
+      "/images/products/19/001 (3).png",
+      "/images/products/19/001 (8).png",
+      "/images/products/19/001 d(3).png",
+      "/images/products/19/ceiling lamp.png",
+      "/images/products/19/tunable.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-182-001",
+        "CCT": "3500K-4000K-5000K-5700K-6500K",
+        "Wattage": "24W",
+        "Voltage": "AC100-130V",
+        "Lumens": "3360lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/19.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Surface Mount",
+    "Features": [
+      "Easy installation directly to most round or octagon junction boxes.",
+      "Field-selectable color temperatures: 3000K, 4000K, 5000K.",
+      "TRIAC dimming capability.",
+      "High color rendering index (CRI>80) for accurate color representation.",
+      "Long lifespan with lumen maintenance over 70% after 50,000+ hours.",
+      "Energy-efficient with a wide 120° beam angle.",
+      "ETL and Energy Star certifications for safety and performance."
+    ]
+  },
+  {
+    "Index": 20,
+    "Title": "Slim Down Light",
+    "Variant": "",
+    "Description": "CCT Switch Back lighting LED Panel Ligh can choose between 3000K-6500K color temperature values of 3000K/3500K/4000K/5000K/6500K, which is convenient for consumers to choose the color temperature value they like. The product has high luminous efficiency, lighter weight, long life, environmental protection and no pollution. This is our private mode product whose frame, electric wire and driver box are all developed by our company. We have TRIAC dimmable driver that is compatible with LEVITON and Lutron dimmer .",
+    "Category": "Slim Down Light",
+    "mainImage": "/images/products/20/01 (1).jpg",
+    "images": [
+      "/images/products/20/01 (1).jpg",
+      "/images/products/20/1.png",
+      "/images/products/20/2.png",
+      "/images/products/20/3.png",
+      "/images/products/20/4.png",
+      "/images/products/20/5.jpg",
+      "/images/products/20/6.jpg",
+      "/images/products/20/7.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-102-001",
+        "CCT": "3000K-3500K-4000K-5000K-6500K",
+        "Wattage": "9W",
+        "Voltage": "100-130V",
+        "Lumens": "750lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/20，21.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Ultra-thin 11mm.",
+      "5 color temperature switching.",
+      "Instant on/off, no noise/UV/light leak/shadow.",
+      "Frameless design 120 degree beam angle.",
+      "Support SCR dimming.",
+      "Certified : ETL/Energy star."
+    ]
+  },
+  {
+    "Index": 21,
+    "Title": "Slim Down Light",
+    "Variant": "",
+    "Description": "CCT Switch Back lighting LED Panel Ligh can choose between 3000K-6500K color temperature values of 3000K/3500K/4000K/5000K/6500K, which is convenient for consumers to choose the color temperature value they like. The product has high luminous efficiency, lighter weight, long life, environmental protection and no pollution. This is our private mode product whose frame, electric wire and driver box are all developed by our company. We have TRIAC dimmable driver that is compatible with LEVITON and Lutron dimmer .",
+    "Category": "Slim Down Light",
+    "mainImage": "/images/products/21/01 (1).jpg",
+    "images": [
+      "/images/products/21/01 (1).jpg",
+      "/images/products/21/1.png",
+      "/images/products/21/2.png",
+      "/images/products/21/3.png",
+      "/images/products/21/4.png",
+      "/images/products/21/5.jpg",
+      "/images/products/21/6.jpg",
+      "/images/products/21/7.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-102-002",
+        "CCT": "3000K-3500K-4000K-5000K-6500K",
+        "Wattage": "12W",
+        "Voltage": "100-130V",
+        "Lumens": "1000lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/20，21.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Ultra-thin 11mm.",
+      "5 color temperature switching.",
+      "Instant on/off, no noise/UV/light leak/shadow.",
+      "Frameless design 120 degree beam angle.",
+      "Support SCR dimming.",
+      "Certified : ETL/Energy star."
+    ]
+  },
+  {
+    "Index": 22,
+    "Title": "Slim Down Light Square",
+    "Variant": "",
+    "Description": "CCT Switch Back lighting LED Panel Ligh can choose between 3000K-6500K color temperature values of 3000K/3500K/4000K/5000K/6500K, which is convenient for consumers to choose the color temperature value they like. The product has high luminous efficiency, lighter weight, long life, environmental protection and no pollution. This is our private mode product whose frame, electric wire and driver box are all developed by our company. We have TRIAC dimmable driver that is compatible with LEVITON and Lutron dimmer .",
+    "Category": "Slim Down Light",
+    "mainImage": "/images/products/22/22，23-1jpg.jpg",
+    "images": [
+      "/images/products/22/22，23-1jpg.jpg",
+      "/images/products/22/22，23-2.jpg",
+      "/images/products/22/22，23-3.jpg",
+      "/images/products/22/22，23-4.jpg"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-102-004",
+        "CCT": "3000K-3500K-4000K-5000K-6500K",
+        "Wattage": "9W",
+        "Voltage": "100-130V",
+        "Lumens": "750lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/22，23.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Ultra-thin 11mm.",
+      "5 color temperature switching.",
+      "Instant on/off, no noise/UV/light leak/shadow.",
+      "Frameless design 120 degree beam angle.",
+      "Support SCR dimming.",
+      "Certified : ETL/Energy star."
+    ]
+  },
+  {
+    "Index": 23,
+    "Title": "Slim Down Light Square",
+    "Variant": "",
+    "Description": "CCT Switch Back lighting LED Panel Ligh can choose between 3000K-6500K color temperature values of 3000K/3500K/4000K/5000K/6500K, which is convenient for consumers to choose the color temperature value they like. The product has high luminous efficiency, lighter weight, long life, environmental protection and no pollution. This is our private mode product whose frame, electric wire and driver box are all developed by our company. We have TRIAC dimmable driver that is compatible with LEVITON and Lutron dimmer .",
+    "Category": "Slim Down Light",
+    "mainImage": "/images/products/22/22，23-1jpg.jpg",
+    "images": [
+      "/images/products/23/22，23-1jpg.jpg",
+      "/images/products/23/22，23-2.jpg",
+      "/images/products/23/22，23-3.jpg",
+      "/images/products/23/22，23-4.jpg"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-102-004",
+        "CCT": "3000K-3500K-4000K-5000K-6500K",
+        "Wattage": "12W",
+        "Voltage": "100-130V",
+        "Lumens": "1000lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/22，23.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Ultra-thin 11mm.",
+      "5 color temperature switching.",
+      "Instant on/off, no noise/UV/light leak/shadow.",
+      "Frameless design 120 degree beam angle.",
+      "Support SCR dimming.",
+      "Certified : ETL/Energy star."
+    ]
+  },
+  {
+    "Index": 24,
+    "Title": "Recessed Down Light",
+    "Variant": "",
+    "Description": "The damp rated and dimmable Recessed LED Baffle 3/4\" Downlight with a bright 800 lumens adjusts to fit 3\" or 4\" cans. Easily convert the included mounting bracket with a screwdriver. Use the included TP24 connector or E26 adapter base, depending on what your existing can accepts. Uniformed, baffled grooves minimize glare. Consuming only 10W, this light is equivalent to a 60W bulb.",
+    "Category": "Slim Down Light",
+    "mainImage": "/images/products/24/1-BD.png",
+    "images": [
+      "/images/products/24/1-BD.png",
+      "/images/products/24/2.2.png",
+      "/images/products/24/3.33.png",
+      "/images/products/24/5.1.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-109-001",
+        "CCT": "2700K-3000K-4000K-5000K-6500K",
+        "Wattage": "10W",
+        "Voltage": "100-130V",
+        "Lumens": "800lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/24，25.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "5 color temperature switching.",
+      "Instant on/off, no noise/UV/light leak/shadow.",
+      "Support SCR dimming.",
+      "Certified : ETL/Energy star."
+    ]
+  },
+  {
+    "Index": 25,
+    "Title": "Retrofit Down Ligjt",
+    "Variant": "（6'，15W，5CCT）",
+    "Description": "The damp rated and dimmable Recessed LED Baffle 5/6\" Downlight with a bright 965 lumens adjusts to fit 5\" or 6\" cans. Easily convert the included mounting bracket with a screwdriver. Use the included TP24 connector or E26 adapter base, depending on what your existing can accepts. Uniformed, baffled grooves minimize glare. Consuming only 13W, this light is equivalent to a 75W bulb.",
+    "Category": "Slim Down Light",
+    "mainImage": "/images/products/25/1.1.png",
+    "images": [
+      "/images/products/25/1.1.png",
+      "/images/products/25/2.2.png",
+      "/images/products/25/4.11.png",
+      "/images/products/25/5.5.png",
+      "/images/products/25/9998.png",
+      "/images/products/25/toum2.png",
+      "/images/products/25/touming1.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-109-002",
+        "CCT": "2700K-3000K-4000K-5000K-6500K",
+        "Wattage": "15W",
+        "Voltage": "100-130V",
+        "Lumens": "1200lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/24，25.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "5 color temperature switching.",
+      "Instant on/off, no noise/UV/light leak/shadow.",
+      "Support SCR dimming.",
+      "Certified : ETL/Energy star."
+    ]
+  },
+  {
+    "Index": 26,
+    "Title": "UFO High Bay",
+    "Variant": "（80/100/150W，2CCT）",
+    "Description": "Unique design of reflector (85° or 110° are optional) will provide a warm glow to\nyour ceiling while illuminating your products to the best possible advantage.\nReliable, easy to install and energy efficient. ALI dimmable LED High Bays are\nthe perfect solution for your showroom, warehouse, retail, manufacturing\nfacilities and gymnasiums.",
+    "Category": "UFO High Bay",
+    "mainImage": "/images/products/26/DSC05386 2.png",
+    "images": [
+      "/images/products/26/DSC05386 2.png",
+      "/images/products/26/DSC05386.png",
+      "/images/products/26/DSC05528.png",
+      "/images/products/26/DSC05561.png",
+      "/images/products/26/DSC07582.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-61VT-005",
+        "CCT": "4000K-5000K",
+        "Wattage": "80W-100W-150W",
+        "Voltage": "AC120-277V",
+        "Lumens": "21000lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/26.pdf",
+        "Spec Sheet": "/products-spec-sheets/26，27.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "Simple and stylish appearance.",
+      "Excellent heat dissipation.",
+      "DLC 5.1 Premium with high luminous efficiency and low UGR.",
+      "PnP sensor option.",
+      "Mounting options: hook/chain, pole pendent and surface mounting.",
+      "Round EM driver for fast installation.",
+      "Very complete accessories for option.",
+      "CCT & Power selectable version for option."
+    ]
+  },
+  {
+    "Index": 27,
+    "Title": "UFO High Bay",
+    "Variant": "（150/200/240W,2CCT）",
+    "Description": "Unique design of reflector (85° or 110° are optional) will provide a warm glow to\nyour ceiling while illuminating your products to the best possible advantage.\nReliable, easy to install and energy efficient. ALI dimmable LED High Bays are\nthe perfect solution for your showroom, warehouse, retail, manufacturing\nfacilities and gymnasiums.",
+    "Category": "UFO High Bay",
+    "mainImage": "/images/products/27/DSC05386.png",
+    "images": [
+      "/images/products/27/DSC05386.png",
+      "/images/products/27/DSC05528.png",
+      "/images/products/27/DSC05561.png",
+      "/images/products/27/DSC07582.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-61VT-006",
+        "CCT": "4000K-5000K",
+        "Wattage": "150W-200W-240W",
+        "Voltage": "AC120-277V",
+        "Lumens": "33600lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/27.pdf",
+        "Spec Sheet": "/products-spec-sheets/26，27.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "Simple and stylish appearance.",
+      "Excellent heat dissipation.",
+      "DLC 5.1 Premium with high luminous efficiency and low UGR.",
+      "PnP sensor option.",
+      "Mounting options: hook/chain, pole pendent and surface mounting.",
+      "Round EM driver for fast installation.",
+      "Very complete accessories for option.",
+      "CCT & Power selectable version for option."
+    ]
+  },
+  {
+    "Index": 28,
+    "Title": "UFO High Bay",
+    "Variant": "（200/240/300W,3CCT）",
+    "Description": "Unique design of reflector (85° or 110° are optional) will provide a warm glow to\nyour ceiling while illuminating your products to the best possible advantage.\nReliable, easy to install and energy efficient. LC dimmable LED High Bays are\nthe perfect solution for your showroom, warehouse, retail, manufacturing\nfacilities and gymnasiums.",
+    "Category": "UFO High Bay",
+    "mainImage": "/images/products/28/DSC05386.png",
+    "images": [
+      "/images/products/28/DSC05386.png",
+      "/images/products/28/DSC05528.png",
+      "/images/products/28/DSC05561.png",
+      "/images/products/28/DSC07582.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-61VT-009",
+        "CCT": "4000K-5000K",
+        "Wattage": "200W-240W-300W",
+        "Voltage": "AC120-277V",
+        "Lumens": "33600lm",
+        "IES Files": [
+          {
+            "name": "28",
+            "file": "/LC-IES/28",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/28.pdf",
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/28.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "Simple and stylish appearance.",
+      "Excellent heat dissipation.",
+      "DLC 5.1 Premium with high luminous efficiency and low UGR.",
+      "PnP sensor option.",
+      "Mounting options: hook/chain, pole pendent and surface mounting.",
+      "Round EM driver for fast installation.",
+      "Very complete accessories for option.",
+      "CCT & Power selectable version for option."
+    ]
+  },
+  {
+    "Index": 29,
+    "Title": "Linear High Bay",
+    "Variant": "",
+    "Description": "New design 5th Gen LED Linear High Bay fixtures are the first choice for lighting of exhibition hall, warehouses, indoor gymnasium, work areas, storefronts, shopping mall and so on. This Linear High Bay have great heat dissipation function.",
+    "Category": "Linear High Bay",
+    "mainImage": "/images/products/29/（背面-多角度）.png",
+    "images": [
+      "/images/products/29/（背面-多角度）.png",
+      "/images/products/29/（背面）.png",
+      "/images/products/29/安装面-1.png",
+      "/images/products/29/安装面-2.png",
+      "/images/products/29/正面.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-51VT-010",
+        "CCT": "4000K-5000K",
+        "Wattage": "120W-165W-225W",
+        "Voltage": "AC120-277V",
+        "Lumens": "30800lm",
+        "IES Files": [
+          {
+            "name": "29-1",
+            "file": "/LC-IES/29-1",
+            "show": true
+          },
+          {
+            "name": "29-2",
+            "file": "/LC-IES/29-2",
+            "show": true
+          },
+          {
+            "name": "29-3",
+            "file": "/LC-IES/29-3",
+            "show": true
+          },
+          {
+            "name": "29-4",
+            "file": "/LC-IES/29-4",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/29.pdf",
+        "DLC": "/LC-DLC/29.pdf",
+        "Spec Sheet": "/products-spec-sheets/29，30.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "ULus & FCC listed; With LM79 & LM80.",
+      "220W MAX available.",
+      "High quality non-isolated driver; 1-10V dimming; Flicker free.",
+      "PF>0.90, cy>90%; THD<20%.",
+      "Installation: chain mounting.",
+      "Suitable for dry/damp location.",
+      "Designed for warehouses, gymnasiums, and industrial spaces.",
+      "DLC Premium listed."
+    ]
+  },
+  {
+    "Index": 30,
+    "Title": "Linear High Bay",
+    "Variant": "4FT,165/225/300W,2CCT",
+    "Description": "New design 5th Gen LED Linear High Bay fixtures are the first choice for lighting of exhibition hall, warehouses, indoor gymnasium, work areas, storefronts, shopping mall and so on. This Linear High Bay have great heat dissipation function.",
+    "Category": "Linear High Bay",
+    "mainImage": "/images/products/30/侧面-2.png",
+    "images": [
+      "/images/products/30/侧面-2.png",
+      "/images/products/30/安装面.png",
+      "/images/products/30/正面.png",
+      "/images/products/30/背面.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-51VT-011",
+        "CCT": "4000K-5000K",
+        "Wattage": "165W-225W-300W",
+        "Voltage": "AC120-277V",
+        "Lumens": "42000lm",
+        "IES Files": [
+          {
+            "name": "30-1",
+            "file": "/LC-IES/30-1",
+            "show": true
+          },
+          {
+            "name": "30-2",
+            "file": "/LC-IES/30-2",
+            "show": true
+          },
+          {
+            "name": "30-3",
+            "file": "/LC-IES/30-3",
+            "show": true
+          },
+          {
+            "name": "30-4",
+            "file": "/LC-IES/30-4",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/30.pdf",
+        "DLC": "/LC-DLC/30.pdf",
+        "Spec Sheet": "/products-spec-sheets/29，30.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "ULus & FCC listed; With LM79 & LM80.",
+      "300W MAX available.",
+      "High quality non-isolated driver; 1-10V dimming; Flicker free.",
+      "PF>0.90, cy>90%; THD<20%.",
+      "Installation: chain mounting.",
+      "Suitable for dry/damp location.",
+      "Designed for warehouses, gymnasiums, and industrial spaces.",
+      "DLC Premium listed."
+    ]
+  },
+  {
+    "Index": 31,
+    "Title": "Linear Strip",
+    "Variant": "4FT,12/20/30/35/40W,5CCT",
+    "Description": "Our 5th Gen LED Strip offers \"Press-to-Release\" button design on the fixture, provide an easy and tool-free way to open fixture for wiring and installing. Designed for long lifespan. it is not only available in multiple configurations and lengths, but also suitable for suspension or surface mounting, continuous linking. Ideal for walkways, indoor storage facilities, office, fitness center, warehouse etc. Features\n0-10v dimming, universal voltage: 120-277v.\nAvailable with suspending installation and surface-mounted installation.\nWide application for: school, hospital, supermarket, office and warehouse.\n4ft and 8ft dimensions for variety choices.\nDLC Listed ACCESSORIES",
+    "Category": "Linear Strip",
+    "mainImage": "/images/products/31/侧面.png",
+    "images": [
+      "/images/products/31/侧面.png",
+      "/images/products/31/安装面.png",
+      "/images/products/31/正面.png",
+      "/images/products/31/背面.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-41VT-003",
+        "CCT": "3500K-4000K-5000K-5700K-6500K",
+        "Wattage": "12/20/30/35/40W",
+        "Voltage": "AC120-277V",
+        "Lumens": "5600lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/31.pdf",
+        "Spec Sheet": "/products-spec-sheets/31，32.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "0-10v dimming, universal voltage: 120-277v.",
+      "Available with suspending installation and surface-mounted installation.",
+      "Wide application for: school, hospital, supermarket, office and warehouse.",
+      "4ft and 8ft dimensions for variety choices.",
+      "DLC Listed."
+    ]
+  },
+  {
+    "Index": 32,
+    "Title": "Linear Strip",
+    "Variant": "8FT,24/30/50/64/80W,5CCT",
+    "Description": "Our 5th Gen LED Strip offers \"Press-to-Release\" button design on the fixture, provide an easy and tool-free way to open fixture for wiring and installing. Designed for long lifespan. it is not only available in multiple configurations and lengths, but also suitable for suspension or surface mounting, continuous linking. Ideal for walkways, indoor storage facilities, office, fitness center, warehouse etc. Features\n0-10v dimming, universal voltage: 120-277v.\nAvailable with suspending installation and surface-mounted installation.\nWide application for: school, hospital, supermarket, office and warehouse.\n4ft and 8ft dimensions for variety choices.\nDLC Listed ACCESSORIES",
+    "Category": "Linear Strip",
+    "mainImage": "/images/products/32/侧面.png",
+    "images": [
+      "/images/products/32/侧面.png",
+      "/images/products/32/安装面.png",
+      "/images/products/32/正面.png",
+      "/images/products/32/背面.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-41VT-001",
+        "CCT": "3500K-4000K-5000K-5700K-6500K",
+        "Wattage": "24/30/50/64/80W",
+        "Voltage": "AC120-277V",
+        "Lumens": "11200lm",
+        "IES Files": [
+          {
+            "name": "32-1",
+            "file": "/LC-IES/32-1",
+            "show": true
+          },
+          {
+            "name": "32-2",
+            "file": "/LC-IES/32-2",
+            "show": true
+          },
+          {
+            "name": "32-3",
+            "file": "/LC-IES/32-3",
+            "show": true
+          },
+          {
+            "name": "32-4",
+            "file": "/LC-IES/32-4",
+            "show": true
+          },
+          {
+            "name": "32-5",
+            "file": "/LC-IES/32-5",
+            "show": true
+          }
+        ],
+        "LM79 File": "/LC-LM79/32.pdf",
+        "DLC": "/LC-DLC/32.pdf",
+        "Spec Sheet": "/products-spec-sheets/31，32.pdf",
+        "SIZE": null,
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "0-10v dimming, universal voltage: 120-277v.",
+      "Available with suspending installation and surface-mounted installation.",
+      "Wide application for: school, hospital, supermarket, office and warehouse.",
+      "4ft and 8ft dimensions for variety choices.",
+      "DLC Listed."
+    ]
+  },
+  {
+    "Index": 33,
+    "Title": "Up and down linear slot light",
+    "Variant": "4FT，25/30/35/40/50W，5CCT",
+    "Description": "Introducing our 4ft Up & Down LED Linear Light, the ultimate lighting solution designed to enhance your space. This innovative lighting fixture offers unparalleled versatility, including dimmability and color tunability, making it a perfect choice for various lighting applications. With its adaptability and customizable features, this LED linear light is perfect for a wide range of lighting needs. Whether you need to brighten up a living space, office, retail store, or any other area, this lighting fixture's versatility makes it a top choice for various lighting applications.",
+    "Category": "Up and down linear slot light",
+    "mainImage": "/images/products/33/DB77.1119.png",
+    "images": [
+      "/images/products/33/DB77.1119.png",
+      "/images/products/33/DB77.1120.png",
+      "/images/products/33/DB77.1125.png",
+      "/images/products/33/DB77.1126.png",
+      "/images/products/33/DB77.1824.png",
+      "/images/products/33/DB77.1828.png",
+      "/images/products/33/DB7701.2654.png",
+      "/images/products/33/DB7701.2659.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-48-001",
+        "SIZE": "4FT",
+        "Wattage": "25W-30W-35W-40W-50W",
+        "CCT": null,
+        "Voltage": "AC120-277V",
+        "Lumens": "6250lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/33-2.pdf",
+        "Spec Sheet": "/products-spec-sheets/33，34.pdf",
+        "TYPE": null,
+        "PC": null,
+        "DLC Files": [
+          {
+            "name": "33-1",
+            "file": "/LC-DLC/33-1.pdf",
+            "show": true
+          },
+          {
+            "name": "33-2",
+            "file": "/LC-DLC/33-2.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "4ft length for optimal coverage.",
+      "Dimmable for customizable lighting levels.",
+      "Color temperature tunable for adjustable lighting.",
+      "High efficiency with 125lm/w output.",
+      "Wattage options: 25W-50W selectable.",
+      "Energy-efficient design for reduced power consumption.",
+      "Versatile and adaptable for various lighting needs."
+    ]
+  },
+  {
+    "Index": 34,
+    "Title": "Up and down linear slot light",
+    "Variant": "8FT，30W-40W-50W-60W-72W，5CCT",
+    "Description": "Introducing our 8ft Up & Down LED Linear Light, the ultimate lighting solution designed to enhance your space. This innovative lighting fixture offers unparalleled versatility, including dimmability and color tunability, making it a perfect choice for various lighting applications. With its adaptability and customizable features, this LED linear light is perfect for a wide range of lighting needs. Whether you need to brighten up a living space, office, retail store, or any other area, this lighting fixture's versatility makes it a top choice for various lighting applications.",
+    "Category": "Up and down linear slot light",
+    "mainImage": "/images/products/34/DB77.1119.png",
+    "images": [
+      "/images/products/34/DB77.1119.png",
+      "/images/products/34/DB77.1120.png",
+      "/images/products/34/DB77.1125.png",
+      "/images/products/34/DB77.1126.png",
+      "/images/products/34/DB77.1824.png",
+      "/images/products/34/DB77.1828.png",
+      "/images/products/34/DB7701.2654.png",
+      "/images/products/34/DB7701.2659.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-48-002",
+        "SIZE": "8FT",
+        "Wattage": "30W-40W-50W-60W-72W",
+        "CCT": null,
+        "Voltage": "AC120-277",
+        "Lumens": "9000lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/34-1.pdf",
+        "Spec Sheet": "/products-spec-sheets/33，34.pdf",
+        "TYPE": null,
+        "PC": null,
+        "DLC Files": [
+          {
+            "name": "34-1",
+            "file": "/LC-DLC/34-1.pdf",
+            "show": true
+          },
+          {
+            "name": "34-2",
+            "file": "/LC-DLC/34-2.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "8ft length for optimal coverage.",
+      "Dimmable for customizable lighting levels.",
+      "Color temperature tunable for adjustable lighting.",
+      "High efficiency with 125lm/w output.",
+      "Wattage options: 30W-72W selectable.",
+      "Energy-efficient design for reduced power consumption.",
+      "Versatile and adaptable for various lighting needs."
+    ]
+  },
+  {
+    "Index": 35,
+    "Title": "Vapor Tight",
+    "Variant": "（4FT，20/30/35/40/50W，5CCT）",
+    "Description": "These fixtures have a durable housing that resists warping, fading, corrosion, and rust. The impact resistant lenses are able to withstand the weather, and are held in place by non-corrosive metal clips. LED vapor tight fixtures use half the energy of fluorescents, lowering energy cost. These fixtures also eliminate lamp replacement costs and compatibility issues by using integrated LEDs. Energy Star or DLC certified fixtures may qualify for state or local rebates for additional savings.",
+    "Category": "Vapor Tight",
+    "mainImage": "/images/products/35/35.png",
+    "images": [
+      "/images/products/35/35.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-4-02-001",
+        "SIZE": "4FT",
+        "Wattage": "20/30/35/40/50W",
+        "CCT": "5CCT",
+        "Voltage": "AC120-277",
+        "Lumens": "6500lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": null,
+        "Spec Sheet": "/products-spec-sheets/35.pdf",
+        "TYPE": null,
+        "PC": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Hanging and Pendant",
+    "Features": [
+      "Construction: Traditional design, narrow body, Vapor Tight fixture, suitable for rugged, demanding applications.",
+      "IP rating: Ingress Protection rating of IP65 for dust and water.",
+      "Mounting: Surface mounted and cable suspended available.",
+      "LEDs: LED system with a life rating of ≥50,000 hours at L70 @25°C. Luminaire efficacy >140lm/W.",
+      "Electrical: 120-277V/347V, 0-10V Dimming PF ≥0.9, THD≤20%.",
+      "CCT: 1CCT/3CCT/5CCT Options.",
+      "Lens: UV-stabilized, injection-molded, impact-resistant polycarbonate lens.",
+      "Certification: ETL Listed. DLC Premium.",
+      "Warranty: 5-year Limited warranty."
+    ]
+  },
+  {
+    "Index": 36,
+    "Title": "Tube Series",
+    "Variant": "Type B Wattage and Color Tunable",
+    "Description": "Super bright LED tube light is with 96pcs SMD2835, which has higher lumen efficiency and perfect lighting performance. With flicker free driver, instant start, no radiation, no noise, no mercury and other material that is harmful to human body and environment. Also with 5 different color temperatures, you're sure to find the lighting color to best match your room. This tube operates on single-ended or double-ended power which allows for flexible installation in either shunted or non-shunted sockets.",
+    "Category": "Tube Series",
+    "mainImage": "/images/products/36/1.jpg",
+    "images": [
+      "/images/products/36/1.jpg",
+      "/images/products/36/10.jpg",
+      "/images/products/36/2.jpg",
+      "/images/products/36/3.jpg",
+      "/images/products/36/4.jpg",
+      "/images/products/36/5.jpg",
+      "/images/products/36/6.jpg",
+      "/images/products/36/8.jpg",
+      "/images/products/36/9.1.jpg",
+      "/images/products/36/9.2.jpg",
+      "/images/products/36/9.jpg"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-152-032",
+        "SIZE": "4FT",
+        "Wattage": "10W-12W-15W-18W-24W",
+        "CCT": "2700K-3500K-4000K-5000K-5700K-6500K",
+        "TYPE": "B",
+        "PC": "MILKY\n&\nCLEAR",
+        "Lumens": "3120lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/36-5.pdf",
+        "Spec Sheet": "/products-spec-sheets/36.pdf",
+        "Voltage": null,
+        "DLC Files": [
+          {
+            "name": "36-1",
+            "file": "/LC-DLC/36-1.pdf",
+            "show": true
+          },
+          {
+            "name": "36-2",
+            "file": "/LC-DLC/36-2.pdf",
+            "show": true
+          },
+          {
+            "name": "36-3",
+            "file": "/LC-DLC/36-3.pdf",
+            "show": true
+          },
+          {
+            "name": "36-4",
+            "file": "/LC-DLC/36-4.pdf",
+            "show": true
+          },
+          {
+            "name": "36-5",
+            "file": "/LC-DLC/36-5.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Wattage/Color temperature CCT selectable.",
+      "Single or double ended availability.",
+      "Flicker free, eyesight protection.",
+      "Driver end-cap, easy replacing.",
+      "Certificated: ETL/DLC.",
+      "On/Off, noise/UV/shadow free."
+    ]
+  },
+  {
+    "Index": 37,
+    "Title": "Tube series Type B",
+    "Variant": "",
+    "Description": "Super bright LED tube light with double LED chips built in, which has higher lumen efficiency and perfect lighting performance. With flicker free driver, instant start, no radiation, no noise, no mercury and other material that is harmful to human body and environment. This tube operates on single-ended or double-ended power which allows for flexible installation in either shunted or non-shunted sockets.",
+    "Category": "Tube Series",
+    "mainImage": "/images/products/37/1.jpg",
+    "images": [
+      "/images/products/37/1.jpg",
+      "/images/products/37/2.jpg",
+      "/images/products/37/3.jpg",
+      "/images/products/37/4.jpg",
+      "/images/products/37/5.jpg",
+      "/images/products/37/6.jpg"
+    ],
+    "Specs": [
+      {
+        "SKU": "LC-00-152-024",
+        "SIZE": "2FT",
+        "Wattage": "15W",
+        "TYPE": "B",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "2025lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/37-4F.pdf",
+        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Voltage": null
+      },
+      {
+        "SKU": "LC-00-152-025",
+        "SIZE": "3FT",
+        "Wattage": "20W",
+        "TYPE": "B",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "2700lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/37-4F.pdf",
+        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Voltage": null
+      },
+      {
+        "SKU": "LC-00-152-008",
+        "SIZE": "4FT",
+        "Wattage": "22W",
+        "TYPE": "B",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "2970lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/37-4F.pdf",
+        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Voltage": null
+      },
+      {
+        "SKU": "LC-00-152-026",
+        "SIZE": "5FT",
+        "Wattage": "35W",
+        "TYPE": "B",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "4725lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/37-4F.pdf",
+        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Voltage": null
+      },
+      {
+        "SKU": "LC-00-152-027",
+        "SIZE": "6FT",
+        "Wattage": "40W",
+        "TYPE": "B",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "5400lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/37-4F.pdf",
+        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Voltage": null
+      },
+      {
+        "SKU": "LC-00-152-031",
+        "SIZE": "4FT",
+        "Wattage": "10W-12W-15W-18W-24W",
+        "CCT": "2700K-3500K-4000K-5000K-5700K-6500K",
+        "TYPE": "AB",
+        "PC": "MILKY\n&\nCLEAR",
+        "Lumens": "3120lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/37-4F.pdf",
+        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Voltage": null
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Doubled LED chips.",
+      "Single or double ended availability.",
+      "Flicker free, eyesight protection.",
+      "Driver end-cap, easy replacing.",
+      "Certificated: ETL/DLC.",
+      "On/Off, noise/UV/shadow free."
+    ]
+  },
+  {
+    "Index": 39,
+    "Title": "Tube Series",
+    "Variant": "FA8 Wattage and Color Tunable",
+    "Description": "Super bright LED tube light with 336pcs or 576pcs high quality LED chips, which has higher lumen efficiency and perfect lighting performance. With flicker free driver, instant start, no radiation, no noise, no mercury and other material that is harmful to human body and environment.",
+    "Category": "Tube Series",
+    "mainImage": "/images/products/39/5.jpg",
+    "Specs": [
+      {
+        "SKU": "LC-00-152-036",
+        "SIZE": "8FT",
+        "Wattage": "30/40/50W",
+        "CCT": "6CCT",
+        "TYPE": "FA8",
+        "PC": "MILKY",
+        "Lumens": "5800lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/39-Clear-3.pdf",
+        "Spec Sheet": "/products-spec-sheets/39.pdf",
+        "Voltage": null,
+        "DLC Files": [
+          {
+            "name": "39-Clear-1",
+            "file": "/LC-DLC/39-Clear-1.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Clear-2",
+            "file": "/LC-DLC/39-Clear-2.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Clear-3",
+            "file": "/LC-DLC/39-Clear-3.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Milky-1",
+            "file": "/LC-DLC/39-Milky-1.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Milky-2",
+            "file": "/LC-DLC/39-Milky-2.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Milky-3",
+            "file": "/LC-DLC/39-Milky-3.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-152-037",
+        "SIZE": "8FT",
+        "Wattage": "30/40/50W",
+        "CCT": "6CCT",
+        "TYPE": "FA8",
+        "PC": "CLEAR",
+        "Lumens": "5800lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/39-Clear-2.pdf",
+        "Spec Sheet": "/products-spec-sheets/39.pdf",
+        "Voltage": null,
+        "DLC Files": [
+          {
+            "name": "39-Clear-1",
+            "file": "/LC-DLC/39-Clear-1.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Clear-2",
+            "file": "/LC-DLC/39-Clear-2.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Clear-3",
+            "file": "/LC-DLC/39-Clear-3.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Milky-1",
+            "file": "/LC-DLC/39-Milky-1.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Milky-2",
+            "file": "/LC-DLC/39-Milky-2.pdf",
+            "show": true
+          },
+          {
+            "name": "39-Milky-3",
+            "file": "/LC-DLC/39-Milky-3.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Flicker free, eyesight protection.",
+      "Driver end-cap, easy replacing.",
+      "Certificated: ETL/DLC.",
+      "Instant on/off, no noise/UV/shadow."
+    ]
+  },
+  {
+    "Index": 40,
+    "Title": "Tube Series",
+    "Variant": "（R17D High Output）",
+    "Description": "Instant on, Non- dimmable; Dual-end powered. R17D HO base. Ballast bypass installation required. Bright, high output LED. 50,000+ hour lifetime. Durable, shatterproof construction. No UV or IR radiation. Does not contain mercury. With flicker free driver, instant start, noise free, other material that is harmful to human body and environment.",
+    "Category": "Tube Series",
+    "mainImage": "/images/products/40/微信图片_20240319154803.jpg",
+    "Specs": [
+      {
+        "SKU": "LC-00-152-020",
+        "SIZE": "8FT",
+        "Wattage": "40W",
+        "CCT": "5000K",
+        "TYPE": "R17D",
+        "PC": "MILKY&CLEAR",
+        "Lumens": "5800lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/40-40W-50K.pdf",
+        "Spec Sheet": "/products-spec-sheets/40.pdf",
+        "Voltage": null,
+        "DLC Files": [
+          {
+            "name": "40-40W-50K",
+            "file": "/LC-DLC/40-40W-50K.pdf",
+            "show": true
+          },
+          {
+            "name": "40-40W-65K",
+            "file": "/LC-DLC/40-40W-65K.pdf",
+            "show": true
+          },
+          {
+            "name": "40-50W-65K",
+            "file": "/LC-DLC/40-50W-65K.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-152-028",
+        "SIZE": "8FT",
+        "Wattage": "40W",
+        "CCT": "6500K",
+        "TYPE": "R17D",
+        "PC": "CLEAR",
+        "Lumens": "5800lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/40-40W-65K.pdf",
+        "Spec Sheet": "/products-spec-sheets/40.pdf",
+        "Voltage": null,
+        "DLC Files": [
+          {
+            "name": "40-40W-50K",
+            "file": "/LC-DLC/40-40W-50K.pdf",
+            "show": true
+          },
+          {
+            "name": "40-40W-65K",
+            "file": "/LC-DLC/40-40W-65K.pdf",
+            "show": true
+          },
+          {
+            "name": "40-50W-65K",
+            "file": "/LC-DLC/40-50W-65K.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-152-030",
+        "SIZE": "8FT",
+        "Wattage": "50W",
+        "CCT": "6500K",
+        "TYPE": "R17D",
+        "PC": "CLEAR",
+        "Lumens": "7250lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/40-50W-65K.pdf",
+        "Spec Sheet": "/products-spec-sheets/40.pdf",
+        "Voltage": null,
+        "DLC Files": [
+          {
+            "name": "40-40W-50K",
+            "file": "/LC-DLC/40-40W-50K.pdf",
+            "show": true
+          },
+          {
+            "name": "40-40W-65K",
+            "file": "/LC-DLC/40-40W-65K.pdf",
+            "show": true
+          },
+          {
+            "name": "40-50W-65K",
+            "file": "/LC-DLC/40-50W-65K.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Flicker free, eyesight protection.",
+      "R17D HO base with 180 degrees rotatable.",
+      "Driver endcap, easy replacing.",
+      "Certificated: ETL/DLC.",
+      "Instant on/off, no noise/UV/shadow."
+    ]
+  },
+  {
+    "Index": 41,
+    "Title": "Integrated TubeV shape Integrated",
+    "Variant": "V-shape Integrated Tube",
+    "Description": "Transform your indoor spaces with ALI LED Lighting's cutting-edge T8 LED shop lights. This high-output LED integrated light linkable fixture is engineered for exceptional indoor illumination. Ideal for retail shops, warehouses, offices, and garages. The crystal white 6500K color temperature creates a well-lit and vibrant environment, ensuring optimal visibility and productivity.",
+    "Category": "Integrated Tubes",
+    "mainImage": "/images/products/41/主图1.jpg",
+    "Specs": [
+      {
+        "SKU": "LC-00-162-001",
+        "SIZE": "2FT",
+        "Wattage": "18W",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "2520lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/41-8FT.pdf",
+        "Spec Sheet": "/products-spec-sheets/41.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "41-2FT",
+            "file": "/LC-DLC/41-2FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-3FT",
+            "file": "/LC-DLC/41-3FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-4FT",
+            "file": "/LC-DLC/41-4FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-5FT",
+            "file": "/LC-DLC/41-5FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-6FT",
+            "file": "/LC-DLC/41-6FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-8FT",
+            "file": "/LC-DLC/41-8FT.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-162-002",
+        "SIZE": "3FT",
+        "Wattage": "20W",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "2800lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/41-5FT.pdf",
+        "Spec Sheet": "/products-spec-sheets/41.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "41-2FT",
+            "file": "/LC-DLC/41-2FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-3FT",
+            "file": "/LC-DLC/41-3FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-4FT",
+            "file": "/LC-DLC/41-4FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-5FT",
+            "file": "/LC-DLC/41-5FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-6FT",
+            "file": "/LC-DLC/41-6FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-8FT",
+            "file": "/LC-DLC/41-8FT.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-162-003",
+        "SIZE": "4FT",
+        "Wattage": "36W",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "5040lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/41-3FT.pdf",
+        "Spec Sheet": "/products-spec-sheets/41.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "41-2FT",
+            "file": "/LC-DLC/41-2FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-3FT",
+            "file": "/LC-DLC/41-3FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-4FT",
+            "file": "/LC-DLC/41-4FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-5FT",
+            "file": "/LC-DLC/41-5FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-6FT",
+            "file": "/LC-DLC/41-6FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-8FT",
+            "file": "/LC-DLC/41-8FT.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-162-004",
+        "SIZE": "5FT",
+        "Wattage": "40W",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "5600lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/41-4FT.pdf",
+        "Spec Sheet": "/products-spec-sheets/41.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "41-2FT",
+            "file": "/LC-DLC/41-2FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-3FT",
+            "file": "/LC-DLC/41-3FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-4FT",
+            "file": "/LC-DLC/41-4FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-5FT",
+            "file": "/LC-DLC/41-5FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-6FT",
+            "file": "/LC-DLC/41-6FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-8FT",
+            "file": "/LC-DLC/41-8FT.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-162-005",
+        "SIZE": "6FT",
+        "Wattage": "48W",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "6720lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/41-6FT.pdf",
+        "Spec Sheet": "/products-spec-sheets/41.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "41-2FT",
+            "file": "/LC-DLC/41-2FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-3FT",
+            "file": "/LC-DLC/41-3FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-4FT",
+            "file": "/LC-DLC/41-4FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-5FT",
+            "file": "/LC-DLC/41-5FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-6FT",
+            "file": "/LC-DLC/41-6FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-8FT",
+            "file": "/LC-DLC/41-8FT.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-162-006",
+        "SIZE": "8FT",
+        "Wattage": "72W",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "10080lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/41-2FT.pdf",
+        "Spec Sheet": "/products-spec-sheets/41.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "41-2FT",
+            "file": "/LC-DLC/41-2FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-3FT",
+            "file": "/LC-DLC/41-3FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-4FT",
+            "file": "/LC-DLC/41-4FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-5FT",
+            "file": "/LC-DLC/41-5FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-6FT",
+            "file": "/LC-DLC/41-6FT.pdf",
+            "show": true
+          },
+          {
+            "name": "41-8FT",
+            "file": "/LC-DLC/41-8FT.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Surface Mount",
+    "Features": [
+      "Warranty: 5-year limited warranty.",
+      "Flicker free, eyesight protection.",
+      "Efficiency:140Lm/W.",
+      "Driver endcap, easy replacing.",
+      "Input voltage: 100-277V.",
+      "Certificated: ETL/DLC.",
+      "Instant on/off, no noise/UV/shadow.",
+      "Beam Angle (°)：120°.",
+      "IP Rating：IP20.",
+      "Protection Class：Class II.",
+      "Working Temp.(°C) ：-15°C ~+45°C.",
+      "Lifetime (hour)：>50000.",
+      "THD：<15%."
+    ]
+  },
+  {
+    "Index": 42,
+    "Title": "Integrated Tube",
+    "Variant": "LED Moisture Proof Tube （IP55）",
+    "Description": "Integrated Tube（LED Moisture Proof Tube （IP55）） LED Moisture Proof Tube （IP55） ALI LED integrated moisture proof Tubes work without a ballast and our self-sufficient fixtures which can be mounted on any flat surface. Simply plug in the 3 prong plug to the fixture and wire the fixture directly to AC 100-277; mount the fixture with the standard clips included, and the fixture will illuminate with ease. The crystal white 6500K color temperature creates a well-lit and vibrant environment, ensuring optimal visibility and productivity.",
+    "Category": "Integrated Tubes",
+    "mainImage": "/images/products/42/1.jpg",
+    "Specs": [
+      {
+        "SKU": "LC-00-172-001",
+        "SIZE": "4FT",
+        "Wattage": "40W",
+        "CCT": "6500K",
+        "PC": "CLEAR/MILKY",
+        "Lumens": "5600lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/42-4FT-5CCT-1.pdf",
+        "Spec Sheet": "/products-spec-sheets/42.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "42-4FT-5CCT-1",
+            "file": "/LC-DLC/42-4FT-5CCT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-5CCT-2",
+            "file": "/LC-DLC/42-4FT-5CCT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-5CCT-3",
+            "file": "/LC-DLC/42-4FT-5CCT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-65K-1",
+            "file": "/LC-DLC/42-4FT-65K-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-65K-2",
+            "file": "/LC-DLC/42-4FT-65K-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-1",
+            "file": "/LC-DLC/42-8FT-5CCT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-2",
+            "file": "/LC-DLC/42-8FT-5CCT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-3",
+            "file": "/LC-DLC/42-8FT-5CCT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-65K",
+            "file": "/LC-DLC/42-8FT-65K.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-172-002",
+        "SIZE": "8FT",
+        "Wattage": "80W",
+        "CCT": "6500K",
+        "PC": "CLEAR",
+        "Lumens": "11200lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/42-4FT-5CCT-3.pdf",
+        "Spec Sheet": "/products-spec-sheets/42.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "42-4FT-5CCT-1",
+            "file": "/LC-DLC/42-4FT-5CCT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-5CCT-2",
+            "file": "/LC-DLC/42-4FT-5CCT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-5CCT-3",
+            "file": "/LC-DLC/42-4FT-5CCT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-65K-1",
+            "file": "/LC-DLC/42-4FT-65K-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-65K-2",
+            "file": "/LC-DLC/42-4FT-65K-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-1",
+            "file": "/LC-DLC/42-8FT-5CCT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-2",
+            "file": "/LC-DLC/42-8FT-5CCT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-3",
+            "file": "/LC-DLC/42-8FT-5CCT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-65K",
+            "file": "/LC-DLC/42-8FT-65K.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-172-006",
+        "SIZE": "4FT",
+        "Wattage": "10/25/40W",
+        "CCT": "5CCT",
+        "PC": "Milky",
+        "Lumens": "5600lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/42-4FT-5CCT-2.pdf",
+        "Spec Sheet": "/products-spec-sheets/42.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "42-4FT-5CCT-1",
+            "file": "/LC-DLC/42-4FT-5CCT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-5CCT-2",
+            "file": "/LC-DLC/42-4FT-5CCT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-5CCT-3",
+            "file": "/LC-DLC/42-4FT-5CCT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-65K-1",
+            "file": "/LC-DLC/42-4FT-65K-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-65K-2",
+            "file": "/LC-DLC/42-4FT-65K-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-1",
+            "file": "/LC-DLC/42-8FT-5CCT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-2",
+            "file": "/LC-DLC/42-8FT-5CCT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-3",
+            "file": "/LC-DLC/42-8FT-5CCT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-65K",
+            "file": "/LC-DLC/42-8FT-65K.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-172-007",
+        "SIZE": "8FT",
+        "Wattage": "24/50/80W",
+        "CCT": "5CCT",
+        "PC": "Milky",
+        "Lumens": "11200lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/42-8FT-5CCT-3.pdf",
+        "Spec Sheet": "/products-spec-sheets/42.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "42-4FT-5CCT-1",
+            "file": "/LC-DLC/42-4FT-5CCT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-5CCT-2",
+            "file": "/LC-DLC/42-4FT-5CCT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-5CCT-3",
+            "file": "/LC-DLC/42-4FT-5CCT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-65K-1",
+            "file": "/LC-DLC/42-4FT-65K-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-4FT-65K-2",
+            "file": "/LC-DLC/42-4FT-65K-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-1",
+            "file": "/LC-DLC/42-8FT-5CCT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-2",
+            "file": "/LC-DLC/42-8FT-5CCT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-5CCT-3",
+            "file": "/LC-DLC/42-8FT-5CCT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "42-8FT-65K",
+            "file": "/LC-DLC/42-8FT-65K.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Surface Mount",
+    "Features": [
+      "Flicker free, eyesight protection.",
+      "Efficiency:140Lm/W.",
+      "Driver endcap, easy replacing.",
+      "Input voltage: 100-277V.",
+      "Instant on/off, no noise/UV/shadow.",
+      "Beam Angle：120°.",
+      "Protection Class：Class II.",
+      "IP Rating：IP55.",
+      "Working Temp：-15°C ~ +40°C.",
+      "Lifetime（hour）：>50000H.",
+      "THD：<15%."
+    ]
+  },
+  {
+    "Index": 43,
+    "Title": "Integrated TubeFlat Integrated Tube",
+    "Variant": "",
+    "Description": "ALI LED integrated moisture proof Tubes work without a ballast and our self-sufficient fixtures which can be mounted on any flat surface. Simply plug in the 3 prong plug to the fixture and wire the fixture directly to AC 100-277; mount the fixture with the standard clips included, and the fixture will illuminate with ease.",
+    "Category": "Integrated Tubes",
+    "mainImage": "/images/products/43/11.png",
+    "Specs": [
+      {
+        "SKU": "LC-00-162-009",
+        "SIZE": "4FT",
+        "Wattage": "10/25/30W",
+        "CCT": "5CCT",
+        "PC": "MILKY",
+        "Lumens": "4200lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/43-8FT-1.pdf",
+        "Spec Sheet": "/products-spec-sheets/43-1.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "43-4FT-1",
+            "file": "/LC-DLC/43-4FT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "43-4FT-2",
+            "file": "/LC-DLC/43-4FT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "43-4FT-3",
+            "file": "/LC-DLC/43-4FT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "43-8FT-1",
+            "file": "/LC-DLC/43-8FT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "43-8FT-2",
+            "file": "/LC-DLC/43-8FT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "43-8FT-3",
+            "file": "/LC-DLC/43-8FT-3.pdf",
+            "show": true
+          }
+        ]
+      },
+      {
+        "SKU": "LC-00-162-010",
+        "SIZE": "8FT",
+        "Wattage": "24/40/60W",
+        "CCT": "5CCT",
+        "PC": "MILKY",
+        "Lumens": "8400lm",
+        "IES File": null,
+        "LM79 File": null,
+        "DLC": "/LC-DLC/43-8FT-3.pdf",
+        "Spec Sheet": "/products-spec-sheets/43-1.pdf",
+        "Voltage": null,
+        "TYPE": null,
+        "DLC Files": [
+          {
+            "name": "43-4FT-1",
+            "file": "/LC-DLC/43-4FT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "43-4FT-2",
+            "file": "/LC-DLC/43-4FT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "43-4FT-3",
+            "file": "/LC-DLC/43-4FT-3.pdf",
+            "show": true
+          },
+          {
+            "name": "43-8FT-1",
+            "file": "/LC-DLC/43-8FT-1.pdf",
+            "show": true
+          },
+          {
+            "name": "43-8FT-2",
+            "file": "/LC-DLC/43-8FT-2.pdf",
+            "show": true
+          },
+          {
+            "name": "43-8FT-3",
+            "file": "/LC-DLC/43-8FT-3.pdf",
+            "show": true
+          }
+        ]
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Surface Mount",
+    "Features": [
+      "Flicker free, eyesight protection.",
+      "Efficiency:140Lm/W.",
+      "Driver end-cap, easy replacing.",
+      "Input voltage: 100-277V.",
+      "Certificated: ETL/DLC.",
+      "Instant on/off, no noise/UV/shadow.",
+      "Beam Angle (°)：120°.",
+      "IP Rating：IP20.",
+      "Protection Class：Class II.",
+      "Working Temp.(°C) ：-15°C ~+40°C.",
+      "Lifetime (hour)：>50000.",
+      "THD：<15%."
+    ]
+  },
+  {
+    "Index": 44,
+    "Title": "Bollards Light",
+    "Variant": "",
+    "Description": "Bollards are your first choice for garden lighting projects. 3-in-1 switch is selectable for CCT, wattage, and photocell ON/OFF control. D2D photocell automatically turns off at sunrise and turns on at sunset. Interchangeable bollard heads reduce SKUs and save volume while meeting different project demands.",
+    "Category": "Bollards",
+    "mainImage": "/images/products/44/BR06-1.1105.png",
+    "images": [
+      "/images/products/44/1861758562006_.pic.jpg",
+      "/images/products/44/1871758562006_.pic.jpg",
+      "/images/products/44/BR06-1.1105.png",
+      "/images/products/44/BR06-1.1117.png",
+      "/images/products/44/BR06-1.1159.png",
+      "/images/products/44/BR06-1.1271.png",
+      "/images/products/44/BR06-1.1273.png",
+      "/images/products/44/BR06-1.1292.png",
+      "/images/products/44/BR06-1.894.png",
+      "/images/products/44/BR06-1.909.png",
+      "/images/products/44/BR06-1.911.png",
+      "/images/products/44/BR06-1.918.png",
+      "/images/products/44/BR06-1.943.png",
+      "/images/products/44/BR06-1.946.png",
+      "/images/products/44/BR06-1.949.png"
+    ],
+    "Specs": [
+      {
+        "SKU": "BR06-Series",
+        "Voltage": "AC120-277V",
+        "Wattage": "Selectable",
+        "CCT": "Selectable",
+        "IP Rating": "IP65"
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Pole Mount",
+    "Features": [
+      "3-in-1 switch: CCT, wattage, photocell ON/OFF",
+      "Dusk-to-Dawn photocell auto on/off",
+      "Interchangeable heads reduce SKUs and volume",
+      "Rugged die-cast housing, IP65 rated",
+      "Multiple top styles available (dome/flat)"
+    ]
+  }
+]

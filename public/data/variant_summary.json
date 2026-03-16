@@ -1,0 +1,372 @@
+{
+  "products": [
+    {
+      "index": 1,
+      "title": "Area Light",
+      "variant": "70W/100W/150W ，5000K",
+      "category": "Area Light"
+    },
+    {
+      "index": 2,
+      "title": "Area Light",
+      "variant": "200/240/300W，3000/4000/5000K",
+      "category": "Area Light"
+    },
+    {
+      "index": 3,
+      "title": "Area Light",
+      "variant": "200/240/300W，3000/4000/5000K，480V",
+      "category": "Area Light"
+    },
+    {
+      "index": 4,
+      "title": "Area Light",
+      "variant": "200W/240W/300W，5000/5700/6500K",
+      "category": "Area Light"
+    },
+    {
+      "index": 5,
+      "title": "Traditional Wall Pack",
+      "variant": "60/90/100/120W,3CCT",
+      "category": "Wall Pack"
+    },
+    {
+      "index": 6,
+      "title": "Mini Wall Pack",
+      "variant": "15/20/30W,3CCT",
+      "category": "Wall Pack"
+    },
+    {
+      "index": 7,
+      "title": "Full-Cutoff Wall Pack",
+      "variant": "（45/60/75W,3CCT",
+      "category": "Wall Pack"
+    },
+    {
+      "index": 10,
+      "title": "FLOOD LIGHT",
+      "variant": "（40/50/60W，3CCT）",
+      "category": "FLOOD LIGHT"
+    },
+    {
+      "index": 11,
+      "title": "FLOOD LIGHT",
+      "variant": "（60/80/100W，3CCT）",
+      "category": "FLOOD LIGHT"
+    },
+    {
+      "index": 12,
+      "title": "Frame Light",
+      "variant": "（2X2，20/25/30/35/40W，5CCT）",
+      "category": "Frame Light"
+    },
+    {
+      "index": 13,
+      "title": "Frame Light",
+      "variant": "（2X4，20/30/40/50/55W，5CCT）",
+      "category": "Frame Light"
+    },
+    {
+      "index": 14,
+      "title": "Backlit Panel",
+      "variant": "1X4,15/20/30/40/50W,6CCT",
+      "category": "Backlit Panel"
+    },
+    {
+      "index": 15,
+      "title": "Backlit Panel",
+      "variant": "2X2,15/20/30/40/50W,6CCT",
+      "category": "Backlit Panel"
+    },
+    {
+      "index": 16,
+      "title": "Backlit Panel",
+      "variant": "2X4,20/30/40/50/75W,6CCT",
+      "category": "Backlit Panel"
+    },
+    {
+      "index": 17,
+      "title": "Troffer Light",
+      "variant": "2X2,15/20/30/35/40W,5CCT",
+      "category": "Troffer Light"
+    },
+    {
+      "index": 18,
+      "title": "Troffer Light",
+      "variant": "2X4,20/25/30/40/50W,5CCT",
+      "category": "Troffer Light"
+    },
+    {
+      "index": 19,
+      "title": "Ceiling Light",
+      "variant": "（24W,5CCT",
+      "category": "Ceiling Light"
+    },
+    {
+      "index": 25,
+      "title": "Retrofit Down Ligjt",
+      "variant": "（6'，15W，5CCT）",
+      "category": "Slim Down Light"
+    },
+    {
+      "index": 26,
+      "title": "UFO High Bay",
+      "variant": "（80/100/150W，2CCT）",
+      "category": "UFO High Bay"
+    },
+    {
+      "index": 27,
+      "title": "UFO High Bay",
+      "variant": "（150/200/240W,2CCT）",
+      "category": "UFO High Bay"
+    },
+    {
+      "index": 28,
+      "title": "UFO High Bay",
+      "variant": "（200/240/300W,3CCT）",
+      "category": "UFO High Bay"
+    },
+    {
+      "index": 30,
+      "title": "Linear High Bay(",
+      "variant": "4FT,165/225/300W,2CCT",
+      "category": "Linear High Bay"
+    },
+    {
+      "index": 31,
+      "title": "Linear Strip",
+      "variant": "4FT,12/20/30/35/40W,5CCT",
+      "category": "Linear Strip"
+    },
+    {
+      "index": 32,
+      "title": "Linear Strip",
+      "variant": "8FT,24/30/50/64/80W,5CCT",
+      "category": "Linear Strip"
+    },
+    {
+      "index": 33,
+      "title": "Up and down linear slot light",
+      "variant": "4FT，25/30/35/40/50W，5CCT",
+      "category": "Up and down linear slot light"
+    },
+    {
+      "index": 34,
+      "title": "Up and down linear slot light",
+      "variant": "8FT，30W-40W-50W-60W-72W，5CCT",
+      "category": "Up and down linear slot light"
+    },
+    {
+      "index": 35,
+      "title": "Vapor Tight",
+      "variant": "（4FT，20/30/35/40/50W，5CCT）",
+      "category": "Vapor Tight"
+    },
+    {
+      "index": 36,
+      "title": "Tube Series（Type B Wattage and Color Tunable）",
+      "variant": "Type B Wattage and Color Tunable",
+      "category": "Tube Series"
+    },
+    {
+      "index": 39,
+      "title": "Tube Series",
+      "variant": "FA8 Wattage and Color Tunable",
+      "category": "Tube Series"
+    },
+    {
+      "index": 40,
+      "title": "Tube Series",
+      "variant": "（R17D High Output）",
+      "category": "Tube Series"
+    },
+    {
+      "index": 41,
+      "title": "Integrated Tube(V-shape Integrated)",
+      "variant": "V-shape Integrated Tube",
+      "category": "Integrated Tubes"
+    },
+    {
+      "index": 42,
+      "title": "Integrated Tube（LED Moisture Proof Tube （IP55））",
+      "variant": "LED Moisture Proof Tube （IP55）",
+      "category": "Integrated Tubes"
+    },
+    {
+      "index": 44,
+      "title": "Bollaeds Light",
+      "variant": "LED bollards stand out as multifunctional installations, serving not only as sources of illumination but also as effective barriers for vehicle control, thus playing a pivotal role in ensuring public safety. Whether you're envisioning a park layout or elevating the aesthetics of a building's sidewalk, the PLT fixture stands out as an exemplary choice. Boasting energy-saving advantages and an appealing bronze finish for heightened aesthetics, this bollard goes beyond by significantly improving pedestrian visibility in diverse environments such as retail centers, schools, and medical facilities—all while prioritizing safety.",
+      "category": "Bollaeds"
+    }
+  ],
+  "accessories": [
+    {
+      "index": 1,
+      "title": "8W Emergency Driver",
+      "variant": "8W",
+      "category": "Emergency Driver"
+    },
+    {
+      "index": 2,
+      "title": "9W Emergency Driver",
+      "variant": "9W",
+      "category": "Emergency Driver"
+    },
+    {
+      "index": 3,
+      "title": "15W Emergency Driver",
+      "variant": "15W",
+      "category": "Emergency Driver"
+    },
+    {
+      "index": 4,
+      "title": "25W Emergency Driver",
+      "variant": "25W",
+      "category": "Emergency Driver"
+    },
+    {
+      "index": 5,
+      "title": "30W Emergency Driver",
+      "variant": "30W",
+      "category": "Emergency Driver"
+    },
+    {
+      "index": 6,
+      "title": "40W Emergency Driver",
+      "variant": "40W",
+      "category": "Emergency Driver"
+    },
+    {
+      "index": 7,
+      "title": "Day Light Sensor",
+      "variant": "Day Light Sensor",
+      "category": "Sensor"
+    },
+    {
+      "index": 8,
+      "title": "Infrared Sensor for High Bay",
+      "variant": "Infrared Sensor",
+      "category": "Sensor"
+    },
+    {
+      "index": 9,
+      "title": "Infrared Sensor for High Bay (Bluetooth)",
+      "variant": "Infrared Sensor",
+      "category": "Sensor"
+    },
+    {
+      "index": 14,
+      "title": "TYPEA Mount Bracket",
+      "variant": "Mount Bracket",
+      "category": "Mount Bracket"
+    },
+    {
+      "index": 15,
+      "title": "TYPEB Mount Bracket",
+      "variant": "Mount Bracket",
+      "category": "Mount Bracket"
+    },
+    {
+      "index": 16,
+      "title": "TYPEC Mount Bracket",
+      "variant": "Mount Bracket",
+      "category": "Mount Bracket"
+    },
+    {
+      "index": 17,
+      "title": "TYPED Mount Bracket",
+      "variant": "Mount Bracket",
+      "category": "Mount Bracket"
+    },
+    {
+      "index": 18,
+      "title": "TYPEH Mount Bracket",
+      "variant": "Mount Bracket",
+      "category": "Mount Bracket"
+    },
+    {
+      "index": 19,
+      "title": "Surface Mount Kit for 1X4 Panel",
+      "variant": "Surface Mount Kit",
+      "category": "Surface Mount Kit"
+    },
+    {
+      "index": 20,
+      "title": "Surface Mount Kit for 2X2 Panel",
+      "variant": "Surface Mount Kit",
+      "category": "Surface Mount Kit"
+    },
+    {
+      "index": 21,
+      "title": "Surface Mount Kit for 2X4 Panel",
+      "variant": "Surface Mount Kit",
+      "category": "Surface Mount Kit"
+    },
+    {
+      "index": 22,
+      "title": "PC Reflector for 150W UFO",
+      "variant": "150W",
+      "category": "UFO Reflector"
+    },
+    {
+      "index": 23,
+      "title": "PC Reflector for 240W UFO",
+      "variant": "240W",
+      "category": "UFO Reflector"
+    },
+    {
+      "index": 24,
+      "title": "PC Reflector-cover for 150W UFO",
+      "variant": "150W",
+      "category": "UFO Reflector"
+    },
+    {
+      "index": 25,
+      "title": "PC Reflector-cover for 240W UFO",
+      "variant": "240W",
+      "category": "UFO Reflector"
+    },
+    {
+      "index": 26,
+      "title": "Remote Control for Emergency Driver",
+      "variant": "Remote Control",
+      "category": "Remote Control"
+    },
+    {
+      "index": 27,
+      "title": "Remote Control for Sensor",
+      "variant": "Remote Control",
+      "category": "Remote Control"
+    },
+    {
+      "index": 29,
+      "title": "Suspending Rope for Strip",
+      "variant": "Suspending Rope",
+      "category": "Suspending Rope"
+    },
+    {
+      "index": 30,
+      "title": "Junction Box",
+      "variant": "Junction Box",
+      "category": "Junction Box"
+    },
+    {
+      "index": 31,
+      "title": "Adapter",
+      "variant": "Adapter",
+      "category": "Adapter"
+    },
+    {
+      "index": 32,
+      "title": "Linear Light Connector",
+      "variant": "Linear Light Connector",
+      "category": "Connector"
+    }
+  ],
+  "summary": {
+    "totalProducts": 43,
+    "totalAccessories": 32,
+    "productsWithVariants": 33,
+    "accessoriesWithVariants": 27
+  }
+}

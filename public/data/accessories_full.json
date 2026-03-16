@@ -1,0 +1,666 @@
+[
+  {
+    "Index": 1,
+    "Title": "8W Emergency Driver",
+    "Description": "ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+    "Features": [
+      "UL listed for field or factory installation title 20 compliant",
+      "Compliance with American NFPA 101 life Safety Code",
+      "Constant output power",
+      "2-in-1 LED test switch and indicator light included",
+      "Manual testing via remote control (optional)",
+      "Monthly/annual self-testing",
+      "Multi-protection: Battery overcharge/discharge, overload, short-circuit, open load",
+      "5 years limited warranty"
+    ],
+    "Category": "Emergency Driver",
+    "mainImage": "/images/accessories/1/8W EM-1.png",
+    "images": [
+      "/images/accessories/1/8W EM-1.png",
+      "/images/accessories/1/8W EM-2.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/1/8W EM-1.png",
+      "/images/accessories/1/8W EM-2.png"
+    ],
+    "mainThumbnail": "/images/accessories/1/8W EM-1.png",
+    "Spec Sheet": "/accessories-spec-sheets/1.pdf",
+    "DLC": "/LC-DLC/1.pdf",
+    "LM79 File": "/LC-LM79/1.pdf",
+    "IES Files": [
+      { "name": "1-1", "file": "/LC-IES/1-1", "show": true }
+    ]
+  },
+  {
+    "Index": 2,
+    "Title": "9W Emergency Driver",
+    "Description": "ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+    "Features": [
+      "UL listed for field or factory installation title 20 compliant",
+      "Compliance with American NFPA 101 life Safety Code",
+      "Constant output power",
+      "2-in-1 LED test switch and indicator light included",
+      "Manual testing via remote control (optional)",
+      "Monthly/annual self-testing",
+      "Multi-protection: Battery overcharge/discharge, overload, short-circuit, open load",
+      "5 years limited warranty"
+    ],
+    "Category": "Emergency Driver",
+    "mainImage": "/images/accessories/2/9W EM-1.png",
+    "images": [
+      "/images/accessories/2/9W EM-1.png",
+      "/images/accessories/2/9W EM-2.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/2/9W EM-1.png",
+      "/images/accessories/2/9W EM-2.png"
+    ],
+    "mainThumbnail": "/images/accessories/2/9W EM-1.png",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/2.pdf",
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 3,
+    "Title": "15W Emergency Driver",
+    "Description": "AC solution EM for most 9~350W LED luminaire.",
+    "Features": [
+      "UL listed for field or factory installation title 20 compliant",
+      "Compliance with American NFPA 101 life Safety Code",
+      "Constant output power",
+      "2-in-1 LED test switch and indicator light included",
+      "Manual testing via remote control (optional)",
+      "Monthly/annual self-testing",
+      "Multi-protection: Battery overcharge/discharge, overload, short-circuit, open load",
+      "5 years limited warranty"
+    ],
+    "Category": "Emergency Driver",
+    "mainImage": "/images/accessories/3/15W EM-1.png",
+    "images": [
+      "/images/accessories/3/15W EM-1.png",
+      "/images/accessories/3/15W EM-2.png",
+      "/images/accessories/3/15W EM-3.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/3/15W EM-1.png",
+      "/images/accessories/3/15W EM-2.png",
+      "/images/accessories/3/15W EM-3.png"
+    ],
+    "mainThumbnail": "/images/accessories/3/15W EM-1.png",
+    "Spec Sheet": "/accessories-spec-sheets/3.pdf",
+    "DLC": null,
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 4,
+    "Title": "25W Emergency Driver",
+    "Description": "AC solution EM for most 9~350W LED luminaire.",
+    "Features": [
+      "UL listed for field or factory installation title 20 compliant",
+      "Compliance with American NFPA 101 life Safety Code",
+      "Constant output power",
+      "2-in-1 LED test switch and indicator light included",
+      "Manual testing via remote control (optional)",
+      "Monthly/annual self-testing",
+      "Multi-protection: Battery overcharge/discharge, overload, short-circuit, open load",
+      "5 years limited warranty"
+    ],
+    "Category": "Emergency Driver",
+    "mainImage": "/images/accessories/4/25W EM-1.png",
+    "images": [
+      "/images/accessories/4/25W EM-1.png",
+      "/images/accessories/4/25W EM-2.png",
+      "/images/accessories/4/25W EM-3.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/4/25W EM-1.png",
+      "/images/accessories/4/25W EM-2.png",
+      "/images/accessories/4/25W EM-3.png"
+    ],
+    "mainThumbnail": "/images/accessories/4/25W EM-1.png",
+    "Spec Sheet": "/accessories-spec-sheets/4.pdf",
+    "DLC": "/LC-DLC/4.pdf",
+    "LM79 File": "/LC-LM79/4.pdf",
+    "IES Files": [
+      { "name": "4-4", "file": "/LC-IES/4-4", "show": true }
+    ]
+  },
+  {
+    "Index": 5,
+    "Title": "30W Emergency Driver",
+    "Description": "",
+    "Features": [
+      "UL listed for field or factory installation title 20 compliant",
+      "Compliance with American NFPA 101 life Safety Code",
+      "Easy installation, no need to open luminaire",
+      "Built-in junction box",
+      "2-in-1 LED test switch and indicator light included",
+      "Manual testing via remote control (optional)",
+      "Monthly/annual self-testing",
+      "Multi-protection: Battery overcharge/discharge, overload, short-circuit, open load",
+      "5 years limited warranty"
+    ],
+    "Category": "Emergency Driver",
+    "mainImage": "/images/accessories/5/30W EM-1.png",
+    "images": [
+      "/images/accessories/5/30W EM-1.png",
+      "/images/accessories/5/30W EM-2.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/5/30W EM-1.png",
+      "/images/accessories/5/30W EM-2.png"
+    ],
+    "mainThumbnail": "/images/accessories/5/30W EM-1.png",
+    "Spec Sheet": "/accessories-spec-sheets/5.pdf",
+    "DLC": "/LC-DLC/5.pdf",
+    "LM79 File": "/LC-LM79/5.pdf",
+    "IES Files": []
+  },
+  {
+    "Index": 6,
+    "Title": "40W Emergency Driver",
+    "Description": "",
+    "Features": [
+      "UL listed for field or factory installation title 20 compliant",
+      "Compliance with American NFPA 101 life Safety Code",
+      "Easy installation, no need to open luminaire",
+      "Built-in junction box",
+      "2-in-1 LED test switch and indicator light included",
+      "Manual testing via remote control (optional)",
+      "Monthly/annual self-testing",
+      "Multi-protection: Battery overcharge/discharge, overload, short-circuit, open load",
+      "5 years limited warranty"
+    ],
+    "Category": "Emergency Driver",
+    "mainImage": "/images/accessories/6/40W EM.png",
+    "images": [
+      "/images/accessories/6/40W EM.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/6/40W EM.png"
+    ],
+    "mainThumbnail": "/images/accessories/6/40W EM.png",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/6.pdf",
+    "LM79 File": "/LC-LM79/6.pdf",
+    "IES Files": []
+  },
+  {
+    "Index": 7,
+    "Title": "Day Light Sensor",
+    "Description": "Photocell Sensor, no Motion Detection.",
+    "Features": [
+      "With Audio Jack, suitable for UFO high bay application",
+      "With UL certificate",
+      "ON <20lux, OFF >150lux",
+      "5 years warranty",
+      "IP65"
+    ],
+    "Category": "Sensor",
+    "mainImage": "/images/accessories/7/Day Light Sensor.png",
+    "images": [
+      "/images/accessories/7/Day Light Sensor.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/7/Day Light Sensor.png"
+    ],
+    "mainThumbnail": "/images/accessories/7/Day Light Sensor.png",
+    "Spec Sheet": "/accessories-spec-sheets/7.pdf",
+    "DLC": "/LC-DLC/7.pdf",
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 8,
+    "Title": "Infrared Sensor for High Bay",
+    "Description": "PIR sensor head, 12VDC powered, remote control.",
+    "Features": [
+      "Bi-level dimming, daylight threshold, dusk/dawn function",
+      "With Audio Jack, suitable for UFO high bay application",
+      "With UL certificate",
+      "3 Years Warranty",
+      "IP65"
+    ],
+    "Category": "Sensor",
+    "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png",
+    "images": [
+      "/images/accessories/8/infrared Sensor for High Bay.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/8/infrared Sensor for High Bay.png"
+    ],
+    "mainThumbnail": "/images/accessories/8/infrared Sensor for High Bay.png",
+    "Spec Sheet": "/accessories-spec-sheets/8.pdf",
+    "DLC": "/LC-DLC/8-1.pdf",
+    "LM79 File": "/LC-LM79/8.pdf",
+    "IES Files": []
+  },
+  {
+    "Index": 9,
+    "Title": "Infrared Sensor for High Bay (Bluetooth)",
+    "Description": "Rotator & Remote control, app control for BLE version.",
+    "Features": [
+      "12VDC Input, 0-10V Dimming",
+      "Daylight Harvesting and Photocell Function",
+      "Universal installation compatibility"
+    ],
+    "Category": "Sensor",
+    "mainImage": "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png",
+    "images": [
+      "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png"
+    ],
+    "mainThumbnail": "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png",
+    "Spec Sheet": "/accessories-spec-sheets/9.pdf",
+    "DLC": "/LC-DLC/9.pdf",
+    "LM79 File": "/LC-LM79/9.pdf",
+    "IES Files": []
+  },
+  {
+    "Index": 10,
+    "Title": "Microwave Sensor for Panel",
+    "Description": "",
+    "Features": [],
+    "Category": "Sensor",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": "/accessories-spec-sheets/10.pdf",
+    "DLC": null,
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 11,
+    "Title": "Microwave Sensor for Panel (Bluetooth)",
+    "Description": "",
+    "Features": [],
+    "Category": "Sensor",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": "/accessories-spec-sheets/11.pdf",
+    "DLC": null,
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 12,
+    "Title": "Microwave Sensor for Strip/Troffer",
+    "Description": "",
+    "Features": [
+      "NLC/DLC Qualified",
+      "Tiny Microwave Sensor with/out Bluetooth-Mesh",
+      "PIR Version Interchangeable",
+      "0-10V Dimming with Daylight Harvesting",
+      "Suitable for Indoor Lighting: Panel, Troffer"
+    ],
+    "Category": "Sensor",
+    "mainImage": "/images/accessories/12/Microwave Sensor for Strip$Troffer.png",
+    "images": [
+      "/images/accessories/12/Microwave Sensor for Strip$Troffer.png",
+      "/images/accessories/12/12Microwave Sensor for Strip$Troffer-1.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/12/Microwave Sensor for Strip$Troffer.png",
+      "/images/accessories/12/12Microwave Sensor for Strip$Troffer-1.png"
+    ],
+    "mainThumbnail": "/images/accessories/12/Microwave Sensor for Strip$Troffer.png",
+    "Spec Sheet": "/accessories-spec-sheets/12.pdf",
+    "DLC": null,
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 13,
+    "Title": "Microwave Sensor for Strip/Troffer (Bluetooth)",
+    "Description": "",
+    "Features": [],
+    "Category": "Sensor",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": null,
+    "LM79 File": null,
+    "IES File": null
+  },
+  {
+    "Index": 14,
+    "Title": "TYPEA Mount Bracket",
+    "Description": "",
+    "Features": [],
+    "Category": "Mount Bracket",
+    "mainImage": "/images/accessories/14/TYPE A.png",
+    "images": [
+      "/images/accessories/14/TYPE A.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/14/TYPE A.png"
+    ],
+    "mainThumbnail": "/images/accessories/14/TYPE A.png",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/14-2.pdf",
+    "LM79 File": "/LC-LM79/14-2.pdf",
+    "IES Files": [
+      { "name": "14-1", "file": "/LC-IES/14-1", "show": true }
+    ]
+  },
+  {
+    "Index": 15,
+    "Title": "TYPEB Mount Bracket",
+    "Description": "",
+    "Features": [],
+    "Category": "Mount Bracket",
+    "mainImage": "/images/accessories/15/TYPE B.png",
+    "images": [
+      "/images/accessories/15/TYPE B.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/15/TYPE B.png"
+    ],
+    "mainThumbnail": "/images/accessories/15/TYPE B.png",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/15-1.pdf",
+    "LM79 File": "/LC-LM79/15-1.pdf",
+    "IES Files": [
+      { "name": "15-2", "file": "/LC-IES/15-2", "show": true }
+    ]
+  },
+  {
+    "Index": 16,
+    "Title": "TYPEC Mount Bracket",
+    "Description": "",
+    "Features": [],
+    "Category": "Mount Bracket",
+    "mainImage": "/images/accessories/16/TYPE C.png",
+    "images": [
+      "/images/accessories/16/TYPE C.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/16/TYPE C.png"
+    ],
+    "mainThumbnail": "/images/accessories/16/TYPE C.png",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/16-1.pdf",
+    "LM79 File": "/LC-LM79/16-1.pdf",
+    "IES Files": [
+      { "name": "16-2", "file": "/LC-IES/16-2", "show": true }
+    ]
+  },
+  {
+    "Index": 17,
+    "Title": "TYPED Mount Bracket",
+    "Description": "",
+    "Features": [],
+    "Category": "Mount Bracket",
+    "mainImage": "/images/accessories/17/TYPE D.png",
+    "images": [
+      "/images/accessories/17/TYPE D.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/17/TYPE D.png"
+    ],
+    "mainThumbnail": "/images/accessories/17/TYPE D.png",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/17.pdf",
+    "LM79 File": "/LC-LM79/17.pdf",
+    "IES Files": [
+      { "name": "17-1", "file": "/LC-IES/17-1", "show": true }
+    ]
+  },
+  {
+    "Index": 18,
+    "Title": "TYPEH Mount Bracket",
+    "Description": "",
+    "Features": [],
+    "Category": "Mount Bracket",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/18.pdf",
+    "LM79 File": "/LC-LM79/18.pdf",
+    "IES Files": [
+      { "name": "18-3", "file": "/LC-IES/18-3", "show": true }
+    ]
+  },
+  {
+    "Index": 19,
+    "Title": "Surface Mount Kit for 1X4 Panel",
+    "Description": "",
+    "Features": [],
+    "Category": "Surface Mount Kit",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": null,
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 20,
+    "Title": "Surface Mount Kit for 2X2 Panel",
+    "Description": "",
+    "Features": [],
+    "Category": "Surface Mount Kit",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": null,
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 21,
+    "Title": "Surface Mount Kit for 2X4 Panel",
+    "Description": "",
+    "Features": [],
+    "Category": "Surface Mount Kit",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": null,
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 22,
+    "Title": "PC Reflector for 150W UFO",
+    "Description": "",
+    "Features": [],
+    "Category": "UFO Reflector",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": null,
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 23,
+    "Title": "PC Reflector for 240W UFO",
+    "Description": "",
+    "Features": [],
+    "Category": "UFO Reflector",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": null,
+    "LM79 File": null,
+    "IES File": null
+  },
+  {
+    "Index": 24,
+    "Title": "PC Reflector-cover for 150W UFO",
+    "Description": "",
+    "Features": [],
+    "Category": "UFO Reflector",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": null,
+    "LM79 File": null,
+    "IES File": null
+  },
+  {
+    "Index": 25,
+    "Title": "PC Reflector-cover for 240W UFO",
+    "Description": "",
+    "Features": [],
+    "Category": "UFO Reflector",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": null,
+    "LM79 File": null,
+    "IES File": null
+  },
+  {
+    "Index": 26,
+    "Title": "Remote Control for Emergency Driver",
+    "Description": "",
+    "Features": [],
+    "Category": "Remote Control",
+    "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png",
+    "images": [
+      "/images/accessories/26/26Remote control for Emergency Driver.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/26/26Remote control for Emergency Driver.png"
+    ],
+    "mainThumbnail": "/images/accessories/26/26Remote control for Emergency Driver.png",
+    "Spec Sheet": "/accessories-spec-sheets/26.pdf",
+    "DLC": "/LC-DLC/26.pdf",
+    "LM79 File": null,
+    "IES File": null
+  },
+  {
+    "Index": 27,
+    "Title": "Remote Control for Sensor",
+    "Description": "",
+    "Features": [],
+    "Category": "Remote Control",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": "/accessories-spec-sheets/27.pdf",
+    "DLC": "/LC-DLC/27.pdf",
+    "LM79 File": null,
+    "IES File": null
+  },
+  {
+    "Index": 28,
+    "Title": "Stepdown Transformer",
+    "Description": "",
+    "Features": [
+      "INPUT VOLTAGE: 480Vac \u00b110% / 347Vac \u00b110% / 277Vac \u00b110%",
+      "Safety standardly 5085-3 listed",
+      "Warranty: 5 years"
+    ],
+    "Category": "Transformer",
+    "mainImage": "/images/accessories/28/28Stepdown transformers-1.png",
+    "images": [
+      "/images/accessories/28/28Stepdown transformers-1.png"
+    ],
+    "thumbnails": [
+      "/images/accessories/28/28Stepdown transformers-1.png"
+    ],
+    "mainThumbnail": "/images/accessories/28/28Stepdown transformers-1.png",
+    "Spec Sheet": "/accessories-spec-sheets/28.pdf",
+    "DLC": null,
+    "LM79 File": "/LC-LM79/28.pdf",
+    "IES Files": [
+      { "name": "28", "file": "/LC-IES/28", "show": true }
+    ]
+  },
+  {
+    "Index": 29,
+    "Title": "Suspending Rope for Strip",
+    "Description": "",
+    "Features": [],
+    "Category": "Suspending Rope",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/29.pdf",
+    "LM79 File": "/LC-LM79/29.pdf",
+    "IES Files": [
+      { "name": "29-4", "file": "/LC-IES/29-4", "show": true }
+    ]
+  },
+  {
+    "Index": 30,
+    "Title": "Junction Box",
+    "Description": "",
+    "Features": [],
+    "Category": "Junction Box",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/30.pdf",
+    "LM79 File": "/LC-LM79/30.pdf",
+    "IES Files": [
+      { "name": "30-2", "file": "/LC-IES/30-2", "show": true }
+    ]
+  },
+  {
+    "Index": 31,
+    "Title": "Adapter",
+    "Description": "",
+    "Features": [],
+    "Category": "Adapter",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/31.pdf",
+    "LM79 File": null,
+    "IES Files": []
+  },
+  {
+    "Index": 32,
+    "Title": "Linear Light Connector",
+    "Description": "",
+    "Features": [],
+    "Category": "Connector",
+    "mainImage": "",
+    "images": [],
+    "thumbnails": [],
+    "mainThumbnail": "",
+    "Spec Sheet": null,
+    "DLC": "/LC-DLC/32.pdf",
+    "LM79 File": "/LC-LM79/32.pdf",
+    "IES Files": [
+      { "name": "32-1", "file": "/LC-IES/32-1", "show": true }
+    ]
+  }
+]

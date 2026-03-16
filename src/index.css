@@ -1,0 +1,402 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Multi-Theme Design System */
+
+@layer base {
+  /* Default/Premium Theme */
+  :root, .theme-premium {
+    --background: 0 0% 100%;
+    --foreground: 220 15% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 12%;
+
+    --primary: 220 85% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 220 75% 35%;
+
+    --secondary: 210 100% 12%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 15% 97%;
+    --muted-foreground: 220 15% 45%;
+
+    --accent: 45 100% 60%;
+    --accent-foreground: 220 15% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 95%;
+    --ring: 220 85% 25%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-accent: linear-gradient(45deg, hsl(var(--accent)), hsl(45 90% 50%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 16px hsl(var(--primary) / 0.08);
+    --shadow-medium: 0 8px 32px hsl(var(--primary) / 0.12);
+    --shadow-strong: 0 16px 48px hsl(var(--primary) / 0.15);
+    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.3);
+
+    --radius: 0.5rem;
+  }
+
+  /* Warm Earth Theme */
+  .theme-warm {
+    --background: 35 25% 98%;
+    --foreground: 25 15% 15%;
+
+    --card: 35 20% 96%;
+    --card-foreground: 25 15% 15%;
+
+    --popover: 35 20% 96%;
+    --popover-foreground: 25 15% 15%;
+
+    --primary: 25 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 35 75% 55%;
+
+    --secondary: 15 60% 25%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 35 15% 94%;
+    --muted-foreground: 25 15% 45%;
+
+    --accent: 15 90% 60%;
+    --accent-foreground: 35 25% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 15% 88%;
+    --input: 35 15% 92%;
+    --ring: 25 85% 45%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-accent: linear-gradient(45deg, hsl(var(--accent)), hsl(15 80% 55%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 16px hsl(var(--primary) / 0.1);
+    --shadow-medium: 0 8px 32px hsl(var(--primary) / 0.15);
+    --shadow-strong: 0 16px 48px hsl(var(--primary) / 0.2);
+    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.4);
+  }
+
+  /* Futuristic Cyber Theme */
+  .theme-futuristic {
+    --background: 240 15% 8%;
+    --foreground: 180 100% 90%;
+
+    --card: 240 15% 12%;
+    --card-foreground: 180 100% 90%;
+
+    --popover: 240 15% 12%;
+    --popover-foreground: 180 100% 90%;
+
+    --primary: 180 100% 50%;
+    --primary-foreground: 240 15% 8%;
+    --primary-glow: 300 100% 70%;
+
+    --secondary: 260 100% 40%;
+    --secondary-foreground: 180 100% 90%;
+
+    --muted: 240 15% 15%;
+    --muted-foreground: 180 50% 65%;
+
+    --accent: 300 100% 60%;
+    --accent-foreground: 240 15% 8%;
+
+    --destructive: 0 100% 60%;
+    --destructive-foreground: 240 15% 8%;
+
+    --border: 240 15% 20%;
+    --input: 240 15% 18%;
+    --ring: 180 100% 50%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-accent: linear-gradient(45deg, hsl(var(--accent)), hsl(320 100% 70%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 16px hsl(var(--primary) / 0.2);
+    --shadow-medium: 0 8px 32px hsl(var(--primary) / 0.3);
+    --shadow-strong: 0 16px 48px hsl(var(--primary) / 0.4);
+    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.6);
+  }
+
+  /* Minimalist Theme */
+  .theme-minimalist {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 98%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 0 0% 20%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 0 0% 40%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 50%;
+
+    --accent: 0 0% 30%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 94%;
+    --ring: 0 0% 20%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-accent: linear-gradient(45deg, hsl(var(--accent)), hsl(0 0% 50%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 16px hsl(0 0% 0% / 0.05);
+    --shadow-medium: 0 8px 32px hsl(0 0% 0% / 0.08);
+    --shadow-strong: 0 16px 48px hsl(0 0% 0% / 0.12);
+    --shadow-glow: 0 0 40px hsl(0 0% 0% / 0.15);
+  }
+
+  /* Vibrant Energy Theme */
+  .theme-vibrant {
+    --background: 50 100% 98%;
+    --foreground: 300 15% 15%;
+
+    --card: 50 50% 96%;
+    --card-foreground: 300 15% 15%;
+
+    --popover: 50 50% 96%;
+    --popover-foreground: 300 15% 15%;
+
+    --primary: 320 85% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 280 100% 70%;
+
+    --secondary: 200 100% 45%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 50 30% 94%;
+    --muted-foreground: 300 15% 45%;
+
+    --accent: 60 100% 50%;
+    --accent-foreground: 300 15% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 50 30% 85%;
+    --input: 50 30% 90%;
+    --ring: 320 85% 55%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-accent: linear-gradient(45deg, hsl(var(--accent)), hsl(40 100% 60%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 16px hsl(var(--primary) / 0.12);
+    --shadow-medium: 0 8px 32px hsl(var(--primary) / 0.18);
+    --shadow-strong: 0 16px 48px hsl(var(--primary) / 0.25);
+    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.5);
+  }
+
+  /* Sidebar variables for all themes */
+  :root {
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 25% 6%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 25% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 25% 8%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 220 75% 55%;
+    --primary-foreground: 220 25% 6%;
+    --primary-glow: 220 65% 65%;
+
+    --secondary: 210 100% 18%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 220 25% 12%;
+    --muted-foreground: 220 15% 65%;
+
+    --accent: 45 100% 65%;
+    --accent-foreground: 220 25% 6%;
+
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 220 25% 15%;
+    --input: 220 25% 12%;
+    --ring: 220 75% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-all duration-500;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Disable smooth scroll on About page to jump instantly to anchors */
+.about-no-smooth {
+  scroll-behavior: auto !important;
+}
+
+/* Theme-specific creative enhancements */
+@layer components {
+  /* Futuristic theme effects */
+  .theme-futuristic {
+    background-attachment: fixed;
+  }
+  
+  .theme-futuristic::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 20% 50%, hsl(180 100% 50% / 0.03) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, hsl(300 100% 60% / 0.03) 0%, transparent 50%),
+      radial-gradient(circle at 40% 80%, hsl(260 100% 40% / 0.03) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* Warm theme texture */
+  .theme-warm::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 70% 30%, hsl(25 85% 45% / 0.02) 0%, transparent 50%),
+      radial-gradient(circle at 30% 70%, hsl(35 75% 55% / 0.02) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* Vibrant theme particles */
+  .theme-vibrant::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 25% 25%, hsl(320 85% 55% / 0.03) 0%, transparent 40%),
+      radial-gradient(circle at 75% 75%, hsl(60 100% 50% / 0.03) 0%, transparent 40%),
+      radial-gradient(circle at 50% 50%, hsl(200 100% 45% / 0.02) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* Enhanced button variants for each theme */
+  .theme-futuristic .btn-futuristic {
+    background: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--accent)));
+    border: 1px solid hsl(var(--primary) / 0.5);
+    box-shadow: 
+      0 0 20px hsl(var(--primary) / 0.3),
+      inset 0 1px 0 hsl(var(--primary-glow) / 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .theme-futuristic .btn-futuristic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, hsl(var(--primary-glow) / 0.4), transparent);
+    transition: left 0.5s;
+  }
+
+  .theme-futuristic .btn-futuristic:hover::before {
+    left: 100%;
+  }
+
+  /* Warm theme glow effects */
+  .theme-warm .text-accent {
+    text-shadow: 0 0 10px hsl(var(--accent) / 0.3);
+  }
+
+  /* Vibrant theme pulse animations */
+  .theme-vibrant .animate-pulse-vibrant {
+    animation: pulse-vibrant 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-vibrant {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.8;
+    }
+  }
+
+  /* Minimalist clean lines */
+  .theme-minimalist .border {
+    border-color: hsl(var(--border));
+    transition: border-color 0.3s ease;
+  }
+
+  .theme-minimalist .hover\:border-primary:hover {
+    border-color: hsl(var(--primary));
+  }
+}

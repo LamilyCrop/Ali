@@ -1,0 +1,1421 @@
+{
+  "1": {
+    "productIndex": 1,
+    "productTitle": "Area Light",
+    "productCategory": "Area Light",
+    "productVariant": "70W/100W/150W ，5000K",
+    "matchingAccessories": [
+      {
+        "index": 14,
+        "title": "TYPEA Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/14/TYPE A.png"
+      },
+      {
+        "index": 15,
+        "title": "TYPEB Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/15/TYPE B.png"
+      },
+      {
+        "index": 16,
+        "title": "TYPEC Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/16/TYPE C.png"
+      },
+      {
+        "index": 17,
+        "title": "TYPED Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/17/TYPE D.png"
+      },
+      {
+        "index": 18,
+        "title": "TYPEH Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 7,
+        "title": "Day Light Sensor",
+        "category": "Sensor",
+        "variant": "Day Light Sensor",
+        "description": "Day Light Sensor - Photocell Sensor, no Motion Detection.",
+        "mainImage": "/images/accessories/7/Day Light Sensor.png"
+      },
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 28,
+        "title": "Stepdown Transformer",
+        "category": "Transformer",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/28/28Stepdown transformers-1.png"
+      },
+      {
+        "index": 31,
+        "title": "Adapter",
+        "category": "Adapter",
+        "variant": "Adapter",
+        "description": "Adapter - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 10
+  },
+  "2": {
+    "productIndex": 2,
+    "productTitle": "Area Light",
+    "productCategory": "Area Light",
+    "productVariant": "200/240/300W，3000/4000/5000K",
+    "matchingAccessories": [
+      {
+        "index": 14,
+        "title": "TYPEA Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/14/TYPE A.png"
+      },
+      {
+        "index": 15,
+        "title": "TYPEB Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/15/TYPE B.png"
+      },
+      {
+        "index": 16,
+        "title": "TYPEC Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/16/TYPE C.png"
+      },
+      {
+        "index": 17,
+        "title": "TYPED Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/17/TYPE D.png"
+      },
+      {
+        "index": 18,
+        "title": "TYPEH Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 7,
+        "title": "Day Light Sensor",
+        "category": "Sensor",
+        "variant": "Day Light Sensor",
+        "description": "Day Light Sensor - Photocell Sensor, no Motion Detection.",
+        "mainImage": "/images/accessories/7/Day Light Sensor.png"
+      },
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 28,
+        "title": "Stepdown Transformer",
+        "category": "Transformer",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/28/28Stepdown transformers-1.png"
+      },
+      {
+        "index": 31,
+        "title": "Adapter",
+        "category": "Adapter",
+        "variant": "Adapter",
+        "description": "Adapter - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 10
+  },
+  "3": {
+    "productIndex": 3,
+    "productTitle": "Area Light",
+    "productCategory": "Area Light",
+    "productVariant": "200/240/300W，3000/4000/5000K，480V",
+    "matchingAccessories": [
+      {
+        "index": 14,
+        "title": "TYPEA Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/14/TYPE A.png"
+      },
+      {
+        "index": 15,
+        "title": "TYPEB Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/15/TYPE B.png"
+      },
+      {
+        "index": 16,
+        "title": "TYPEC Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/16/TYPE C.png"
+      },
+      {
+        "index": 17,
+        "title": "TYPED Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/17/TYPE D.png"
+      },
+      {
+        "index": 18,
+        "title": "TYPEH Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 7,
+        "title": "Day Light Sensor",
+        "category": "Sensor",
+        "variant": "Day Light Sensor",
+        "description": "Day Light Sensor - Photocell Sensor, no Motion Detection.",
+        "mainImage": "/images/accessories/7/Day Light Sensor.png"
+      },
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 28,
+        "title": "Stepdown Transformer",
+        "category": "Transformer",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/28/28Stepdown transformers-1.png"
+      },
+      {
+        "index": 31,
+        "title": "Adapter",
+        "category": "Adapter",
+        "variant": "Adapter",
+        "description": "Adapter - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 10
+  },
+  "4": {
+    "productIndex": 4,
+    "productTitle": "Area Light",
+    "productCategory": "Area Light",
+    "productVariant": "200W/240W/300W，5000/5700/6500K",
+    "matchingAccessories": [
+      {
+        "index": 14,
+        "title": "TYPEA Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/14/TYPE A.png"
+      },
+      {
+        "index": 15,
+        "title": "TYPEB Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/15/TYPE B.png"
+      },
+      {
+        "index": 16,
+        "title": "TYPEC Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/16/TYPE C.png"
+      },
+      {
+        "index": 17,
+        "title": "TYPED Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/images/accessories/17/TYPE D.png"
+      },
+      {
+        "index": 18,
+        "title": "TYPEH Mount Bracket",
+        "category": "Mount Bracket",
+        "variant": "Mount Bracket",
+        "description": "Mount Bracket - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 7,
+        "title": "Day Light Sensor",
+        "category": "Sensor",
+        "variant": "Day Light Sensor",
+        "description": "Day Light Sensor - Photocell Sensor, no Motion Detection.",
+        "mainImage": "/images/accessories/7/Day Light Sensor.png"
+      },
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 28,
+        "title": "Stepdown Transformer",
+        "category": "Transformer",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/28/28Stepdown transformers-1.png"
+      },
+      {
+        "index": 31,
+        "title": "Adapter",
+        "category": "Adapter",
+        "variant": "Adapter",
+        "description": "Adapter - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 10
+  },
+  "5": {
+    "productIndex": 5,
+    "productTitle": "Traditional Wall Pack",
+    "productCategory": "Wall Pack",
+    "productVariant": "60/90/100/120W,3CCT",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "6": {
+    "productIndex": 6,
+    "productTitle": "Mini Wall Pack",
+    "productCategory": "Wall Pack",
+    "productVariant": "15/20/30W,3CCT",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "7": {
+    "productIndex": 7,
+    "productTitle": "Full Cutoff Wall Pack",
+    "productCategory": "Wall Pack",
+    "productVariant": "（45/60/75W,3CCT",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "8": {
+    "productIndex": 8,
+    "productTitle": "Garage Canopy",
+    "productCategory": "Canopy",
+    "productVariant": "",
+    "matchingAccessories": [
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 9,
+        "title": "Infrared Sensor for High Bay Bluetooth",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - Rotator & Remote control, app control for BLE version.",
+        "mainImage": "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 3
+  },
+  "9": {
+    "productIndex": 9,
+    "productTitle": "Gas Station Canopy",
+    "productCategory": "Canopy",
+    "productVariant": "",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "10": {
+    "productIndex": 10,
+    "productTitle": "FLOOD LIGHT",
+    "productCategory": "FLOOD LIGHT",
+    "productVariant": "（40/50/60W，3CCT）",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "11": {
+    "productIndex": 11,
+    "productTitle": "FLOOD LIGHT",
+    "productCategory": "FLOOD LIGHT",
+    "productVariant": "（60/80/100W，3CCT）",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "12": {
+    "productIndex": 12,
+    "productTitle": "Frame Light",
+    "productCategory": "Frame Light",
+    "productVariant": "（2X2，20/25/30/35/40W，5CCT）",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "13": {
+    "productIndex": 13,
+    "productTitle": "Frame Light",
+    "productCategory": "Frame Light",
+    "productVariant": "（2X4，20/30/40/50/55W，5CCT）",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "14": {
+    "productIndex": 14,
+    "productTitle": "Backlit Panel",
+    "productCategory": "Backlit Panel",
+    "productVariant": "1X4,15/20/30/40/50W,6CCT",
+    "matchingAccessories": [
+      {
+        "index": 2,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "9W",
+        "description": "9W - ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+        "mainImage": "/images/accessories/2/9W EM-1.png"
+      },
+      {
+        "index": 3,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "15W",
+        "description": "15W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/3/15W EM-1.png"
+      },
+      {
+        "index": 4,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "25W",
+        "description": "25W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/4/25W EM-1.png"
+      },
+      {
+        "index": 10,
+        "title": "Microwave Sensor for Panel",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 11,
+        "title": "Microwave Sensor for Panel Bluetooth",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 19,
+        "title": "Surface Mount Kit for Panel",
+        "category": "Surface Mount Kit",
+        "variant": "Surface Mount Kit",
+        "description": "Surface Mount Kit - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 30,
+        "title": "Junction Box",
+        "category": "Junction Box",
+        "variant": "Junction Box",
+        "description": "Junction Box - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 9
+  },
+  "15": {
+    "productIndex": 15,
+    "productTitle": "Backlit Panel",
+    "productCategory": "Backlit Panel",
+    "productVariant": "2X2,15/20/30/40/50W,6CCT",
+    "matchingAccessories": [
+      {
+        "index": 2,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "9W",
+        "description": "9W - ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+        "mainImage": "/images/accessories/2/9W EM-1.png"
+      },
+      {
+        "index": 3,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "15W",
+        "description": "15W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/3/15W EM-1.png"
+      },
+      {
+        "index": 4,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "25W",
+        "description": "25W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/4/25W EM-1.png"
+      },
+      {
+        "index": 10,
+        "title": "Microwave Sensor for Panel",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 11,
+        "title": "Microwave Sensor for Panel Bluetooth",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 20,
+        "title": "Surface Mount Kit for Panel",
+        "category": "Surface Mount Kit",
+        "variant": "Surface Mount Kit",
+        "description": "Surface Mount Kit - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 30,
+        "title": "Junction Box",
+        "category": "Junction Box",
+        "variant": "Junction Box",
+        "description": "Junction Box - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 9
+  },
+  "16": {
+    "productIndex": 16,
+    "productTitle": "Backlit Panel",
+    "productCategory": "Backlit Panel",
+    "productVariant": "2X4,20/30/40/50/75W,6CCT",
+    "matchingAccessories": [
+      {
+        "index": 2,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "9W",
+        "description": "9W - ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+        "mainImage": "/images/accessories/2/9W EM-1.png"
+      },
+      {
+        "index": 3,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "15W",
+        "description": "15W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/3/15W EM-1.png"
+      },
+      {
+        "index": 4,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "25W",
+        "description": "25W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/4/25W EM-1.png"
+      },
+      {
+        "index": 10,
+        "title": "Microwave Sensor for Panel",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 11,
+        "title": "Microwave Sensor for Panel Bluetooth",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 21,
+        "title": "Surface Mount Kit for Panel",
+        "category": "Surface Mount Kit",
+        "variant": "Surface Mount Kit",
+        "description": "Surface Mount Kit - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 30,
+        "title": "Junction Box",
+        "category": "Junction Box",
+        "variant": "Junction Box",
+        "description": "Junction Box - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 9
+  },
+  "17": {
+    "productIndex": 17,
+    "productTitle": "Troffer Light",
+    "productCategory": "Troffer Light",
+    "productVariant": "2X2,15/20/30/35/40W,5CCT",
+    "matchingAccessories": [
+      {
+        "index": 2,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "9W",
+        "description": "9W - ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+        "mainImage": "/images/accessories/2/9W EM-1.png"
+      },
+      {
+        "index": 3,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "15W",
+        "description": "15W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/3/15W EM-1.png"
+      },
+      {
+        "index": 4,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "25W",
+        "description": "25W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/4/25W EM-1.png"
+      },
+      {
+        "index": 12,
+        "title": "Microwave Sensor for Strip/Troffer",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/12/Microwave Sensor for Strip$Troffer.png"
+      },
+      {
+        "index": 13,
+        "title": "Microwave Sensor for Strip/Troffer Bluetooth",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 7
+  },
+  "18": {
+    "productIndex": 18,
+    "productTitle": "Troffer Light",
+    "productCategory": "Troffer Light",
+    "productVariant": "2X4,20/25/30/40/50W,5CCT",
+    "matchingAccessories": [
+      {
+        "index": 2,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "9W",
+        "description": "9W - ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+        "mainImage": "/images/accessories/2/9W EM-1.png"
+      },
+      {
+        "index": 3,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "15W",
+        "description": "15W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/3/15W EM-1.png"
+      },
+      {
+        "index": 4,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "25W",
+        "description": "25W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/4/25W EM-1.png"
+      },
+      {
+        "index": 12,
+        "title": "Microwave Sensor for Strip/Troffer",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/12/Microwave Sensor for Strip$Troffer.png"
+      },
+      {
+        "index": 13,
+        "title": "Microwave Sensor for Strip/Troffer Bluetooth",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 7
+  },
+  "19": {
+    "productIndex": 19,
+    "productTitle": "Ceiling Light",
+    "productCategory": "Ceiling Light",
+    "productVariant": "（24W,5CCT",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "20": {
+    "productIndex": 20,
+    "productTitle": "Slim Down Light",
+    "productCategory": "Slim Down Light",
+    "productVariant": "",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "21": {
+    "productIndex": 21,
+    "productTitle": "Slim Down Light",
+    "productCategory": "Slim Down Light",
+    "productVariant": "",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "22": {
+    "productIndex": 22,
+    "productTitle": "Slim Down Light Square",
+    "productCategory": "Slim Down Light",
+    "productVariant": "",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "23": {
+    "productIndex": 23,
+    "productTitle": "Slim Down Light Square",
+    "productCategory": "Slim Down Light",
+    "productVariant": "",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "24": {
+    "productIndex": 24,
+    "productTitle": "Recessed Down Light",
+    "productCategory": "Slim Down Light",
+    "productVariant": "",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "25": {
+    "productIndex": 25,
+    "productTitle": "Retrofit Down Ligjt",
+    "productCategory": "Slim Down Light",
+    "productVariant": "（6'，15W，5CCT）",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "26": {
+    "productIndex": 26,
+    "productTitle": "UFO High Bay",
+    "productCategory": "UFO High Bay",
+    "productVariant": "（80/100/150W，2CCT）",
+    "matchingAccessories": [
+      {
+        "index": 5,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "30W",
+        "description": "30W - ",
+        "mainImage": "/images/accessories/5/30W EM-1.png"
+      },
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 9,
+        "title": "Infrared Sensor for High Bay Bluetooth",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - Rotator & Remote control, app control for BLE version.",
+        "mainImage": "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 28,
+        "title": "Stepdown Transformer",
+        "category": "Transformer",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/28/28Stepdown transformers-1.png"
+      },
+      {
+        "index": 22,
+        "title": "PC Reflector for UFO",
+        "category": "UFO Reflector",
+        "variant": "150W",
+        "description": "150W - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 24,
+        "title": "PC Reflector cover for UFO",
+        "category": "UFO Reflector",
+        "variant": "150W",
+        "description": "150W - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 8
+  },
+  "27": {
+    "productIndex": 27,
+    "productTitle": "UFO High Bay",
+    "productCategory": "UFO High Bay",
+    "productVariant": "（150/200/240W,2CCT）",
+    "matchingAccessories": [
+      {
+        "index": 5,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "30W",
+        "description": "30W - ",
+        "mainImage": "/images/accessories/5/30W EM-1.png"
+      },
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 9,
+        "title": "Infrared Sensor for High Bay Bluetooth",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - Rotator & Remote control, app control for BLE version.",
+        "mainImage": "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 28,
+        "title": "Stepdown Transformer",
+        "category": "Transformer",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/28/28Stepdown transformers-1.png"
+      },
+      {
+        "index": 23,
+        "title": "PC Reflector for UFO",
+        "category": "UFO Reflector",
+        "variant": "150W",
+        "description": "150W - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 25,
+        "title": "PC Reflector cover for UFO",
+        "category": "UFO Reflector",
+        "variant": "150W",
+        "description": "150W - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 8
+  },
+  "28": {
+    "productIndex": 28,
+    "productTitle": "UFO High Bay",
+    "productCategory": "UFO High Bay",
+    "productVariant": "（200/240/300W,3CCT）",
+    "matchingAccessories": [
+      {
+        "index": 5,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "30W",
+        "description": "30W - ",
+        "mainImage": "/images/accessories/5/30W EM-1.png"
+      },
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 9,
+        "title": "Infrared Sensor for High Bay Bluetooth",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - Rotator & Remote control, app control for BLE version.",
+        "mainImage": "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 28,
+        "title": "Stepdown Transformer",
+        "category": "Transformer",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/28/28Stepdown transformers-1.png"
+      }
+    ],
+    "totalAccessories": 6
+  },
+  "29": {
+    "productIndex": 29,
+    "productTitle": "Linear High Bay",
+    "productCategory": "Linear High Bay",
+    "productVariant": "",
+    "matchingAccessories": [
+      {
+        "index": 4,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "25W",
+        "description": "25W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/4/25W EM-1.png"
+      },
+      {
+        "index": 6,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "30W",
+        "description": "30W - ",
+        "mainImage": "/images/accessories/6/40W EM.png"
+      },
+      {
+        "index": 8,
+        "title": "Infrared Sensor for High Bay",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - PIR sensor head, 12VDC powered, remote control.",
+        "mainImage": "/images/accessories/8/infrared Sensor for High Bay.png"
+      },
+      {
+        "index": 9,
+        "title": "Infrared Sensor for High Bay Bluetooth",
+        "category": "Sensor",
+        "variant": "Infrared Sensor",
+        "description": "Infrared Sensor - Rotator & Remote control, app control for BLE version.",
+        "mainImage": "/images/accessories/9/infrared Sensor for High Bay（Bluetooth）.png"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 28,
+        "title": "Stepdown Transformer",
+        "category": "Transformer",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/28/28Stepdown transformers-1.png"
+      }
+    ],
+    "totalAccessories": 7
+  },
+  "30": {
+    "productIndex": 30,
+    "productTitle": "Linear High Bay",
+    "productCategory": "Linear High Bay",
+    "productVariant": "4FT,165/225/300W,2CCT",
+    "matchingAccessories": [
+      {
+        "index": 6,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "30W",
+        "description": "30W - ",
+        "mainImage": "/images/accessories/6/40W EM.png"
+      },
+      {
+        "index": 32,
+        "title": "Suspending Rope for Strip",
+        "category": "Suspending Rope",
+        "variant": "Suspending Rope",
+        "description": "Suspending Rope - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 2
+  },
+  "31": {
+    "productIndex": 31,
+    "productTitle": "Linear Strip",
+    "productCategory": "Linear Strip",
+    "productVariant": "4FT,12/20/30/35/40W,5CCT",
+    "matchingAccessories": [
+      {
+        "index": 1,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "8W",
+        "description": "8W - ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+        "mainImage": "/images/accessories/1/8W EM-1.png"
+      },
+      {
+        "index": 12,
+        "title": "Microwave Sensor for Strip/Troffer",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/12/Microwave Sensor for Strip$Troffer.png"
+      },
+      {
+        "index": 13,
+        "title": "Microwave Sensor for Strip/Troffer Bluetooth",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 29,
+        "title": "Suspending Rope for Strip",
+        "category": "Suspending Rope",
+        "variant": "Suspending Rope",
+        "description": "Suspending Rope - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 6
+  },
+  "32": {
+    "productIndex": 32,
+    "productTitle": "Linear Strip",
+    "productCategory": "Linear Strip",
+    "productVariant": "8FT,24/30/50/64/80W,5CCT",
+    "matchingAccessories": [
+      {
+        "index": 1,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "8W",
+        "description": "8W - ES-EOC series are 2-Piece Design, DC solution EM for 2~360W LED luminaire with external LED driver.",
+        "mainImage": "/images/accessories/1/8W EM-1.png"
+      },
+      {
+        "index": 12,
+        "title": "Microwave Sensor for Strip/Troffer",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/images/accessories/12/Microwave Sensor for Strip$Troffer.png"
+      },
+      {
+        "index": 13,
+        "title": "Microwave Sensor for Strip/Troffer Bluetooth",
+        "category": "Sensor",
+        "variant": "",
+        "description": "",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 26,
+        "title": "Remote Control for Emergency Driver",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/images/accessories/26/26Remote control for Emergency Driver.png"
+      },
+      {
+        "index": 27,
+        "title": "Remote Control for Sensor",
+        "category": "Remote Control",
+        "variant": "Remote Control",
+        "description": "Remote Control - ",
+        "mainImage": "/placeholder.svg"
+      },
+      {
+        "index": 29,
+        "title": "Suspending Rope for Strip",
+        "category": "Suspending Rope",
+        "variant": "Suspending Rope",
+        "description": "Suspending Rope - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 6
+  },
+  "33": {
+    "productIndex": 33,
+    "productTitle": "Up and down linear slot light",
+    "productCategory": "Up and down linear slot light",
+    "productVariant": "4FT，25/30/35/40/50W，5CCT",
+    "matchingAccessories": [
+      {
+        "index": 4,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "25W",
+        "description": "25W - AC solution EM for most 9~350W LED luminaire.",
+        "mainImage": "/images/accessories/4/25W EM-1.png"
+      },
+      {
+        "index": 6,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "30W",
+        "description": "30W - ",
+        "mainImage": "/images/accessories/6/40W EM.png"
+      },
+      {
+        "index": 32,
+        "title": "Suspending Rope for Strip",
+        "category": "Suspending Rope",
+        "variant": "Suspending Rope",
+        "description": "Suspending Rope - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 3
+  },
+  "34": {
+    "productIndex": 34,
+    "productTitle": "Up and down linear slot light",
+    "productCategory": "Up and down linear slot light",
+    "productVariant": "8FT，30W-40W-50W-60W-72W，5CCT",
+    "matchingAccessories": [
+      {
+        "index": 6,
+        "title": "Emergency Driver",
+        "category": "Emergency Driver",
+        "variant": "30W",
+        "description": "30W - ",
+        "mainImage": "/images/accessories/6/40W EM.png"
+      },
+      {
+        "index": 32,
+        "title": "Suspending Rope for Strip",
+        "category": "Suspending Rope",
+        "variant": "Suspending Rope",
+        "description": "Suspending Rope - ",
+        "mainImage": "/placeholder.svg"
+      }
+    ],
+    "totalAccessories": 2
+  },
+  "35": {
+    "productIndex": 35,
+    "productTitle": "Vapor Tight",
+    "productCategory": "Vapor Tight",
+    "productVariant": "（4FT，20/30/35/40/50W，5CCT）",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "36": {
+    "productIndex": 36,
+    "productTitle": "Tube Series",
+    "productCategory": "Tube Series",
+    "productVariant": "Type B Wattage and Color Tunable",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "37": {
+    "productIndex": 37,
+    "productTitle": "Tube series Type B",
+    "productCategory": "Tube Series",
+    "productVariant": "",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "39": {
+    "productIndex": 39,
+    "productTitle": "Tube Series",
+    "productCategory": "Tube Series",
+    "productVariant": "FA8 Wattage and Color Tunable",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "40": {
+    "productIndex": 40,
+    "productTitle": "Tube Series",
+    "productCategory": "Tube Series",
+    "productVariant": "（R17D High Output）",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "41": {
+    "productIndex": 41,
+    "productTitle": "Integrated TubeV shape Integrated",
+    "productCategory": "Integrated Tubes",
+    "productVariant": "V-shape Integrated Tube",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "42": {
+    "productIndex": 42,
+    "productTitle": "Integrated Tube",
+    "productCategory": "Integrated Tubes",
+    "productVariant": "LED Moisture Proof Tube （IP55）",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "43": {
+    "productIndex": 43,
+    "productTitle": "Integrated TubeFlat Integrated Tube",
+    "productCategory": "Integrated Tubes",
+    "productVariant": "",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "44": {
+    "productIndex": 44,
+    "productTitle": "Bollaeds Light",
+    "productCategory": "Bollaeds",
+    "productVariant": "LED bollards stand out as multifunctional installations, serving not only as sources of illumination but also as effective barriers for vehicle control, thus playing a pivotal role in ensuring public safety. Whether you're envisioning a park layout or elevating the aesthetics of a building's sidewalk, the PLT fixture stands out as an exemplary choice. Boasting energy-saving advantages and an appealing bronze finish for heightened aesthetics, this bollard goes beyond by significantly improving pedestrian visibility in diverse environments such as retail centers, schools, and medical facilities—all while prioritizing safety.",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  }
+}

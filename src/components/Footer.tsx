@@ -14,10 +14,10 @@ const Footer = () => {
                 className="h-14 w-14 shrink-0 rounded-full border border-border/80 bg-card p-1.5 object-contain"
               />
               <div>
-                <div className="text-[0.68rem] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
+                <div className="text-lg font-bold tracking-tight text-foreground">
                   American Lighting
                 </div>
-                <div className="text-lg font-semibold tracking-tight text-foreground">
+                <div className="text-lg font-bold tracking-tight text-foreground">
                   Industry Corp
                 </div>
               </div>

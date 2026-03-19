@@ -96,10 +96,10 @@ const Header = () => {
               className="h-11 w-11 shrink-0 rounded-full border border-border/80 bg-card p-1.5 object-contain"
             />
             <span className="hidden lg:block">
-              <span className="block text-[0.68rem] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
+              <span className="block text-sm font-bold tracking-[0.01em] text-foreground">
                 American Lighting
               </span>
-              <span className="block text-sm font-semibold tracking-[0.01em] text-foreground">
+              <span className="block text-sm font-bold tracking-[0.01em] text-foreground">
                 Industry Corp
               </span>
             </span>

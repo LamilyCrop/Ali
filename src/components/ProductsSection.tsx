@@ -3,7 +3,6 @@
 import { useEffect, useState, useMemo } from "react";
 import ProductCard from "./ProductCard";
 import { useScrollAnimation, useStaggeredAnimation } from "@/hooks/use-scroll-animation";
-import { useImagePreload } from "@/hooks/use-image-preload";
 
 type DatasetSpec = Record<string, unknown>;
 interface ProductData {
@@ -42,8 +41,8 @@ const ProductsSection = () => {
           const products = await productsRes.json() as ProductData[];
           setProductsData(products);
         }
-      } catch (error) {
-        console.error('Failed to load products:', error);
+      } catch {
+        setProductsData([]);
       } finally {
         setIsLoading(false);
       }
@@ -64,40 +63,47 @@ const ProductsSection = () => {
   }, [productsData]);
 
   return (
-    <section id="products" className="py-20 bg-muted/30">
+    <section id="products" className="border-y border-border/70 bg-background py-20 sm:py-28">
       <div className="container mx-auto px-6">
         <div
           ref={titleRef}
-          className={`text-center mb-16 transition-all duration-1000 ease-out ${titleVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-12'
-            }`}
+          className={`mb-14 transition-all duration-1000 ease-out ${
+            titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+          }`}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Our Best Offer for You
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Discover our comprehensive range of premium LED lighting solutions,
-            designed to meet the demanding requirements of commercial and industrial applications.
-          </p>
+          <div className="flex flex-col gap-6 border-b border-border/70 pb-10 text-left md:flex-row md:items-end md:justify-between">
+            <div className="max-w-2xl">
+              <p className="text-[0.72rem] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
+                Featured selection
+              </p>
+              <h2 className="mt-4 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl md:text-5xl">
+                Lighting made for commercial use.
+              </h2>
+            </div>
+            <p className="max-w-xl text-base leading-7 text-muted-foreground">
+              A focused sample of fixtures and accessories, presented with quieter hierarchy and
+              less visual clutter.
+            </p>
+          </div>
         </div>
 
-        <div ref={gridRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div ref={gridRef} className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4">
           {isLoading ? (
-            // Loading skeleton
             Array.from({ length: 10 }).map((_, index) => (
               <div
                 key={index}
-                className={`transition-all duration-700 ease-out ${visibleItems.has(index)
-                    ? 'opacity-100 translate-y-0 scale-100'
-                    : 'opacity-0 translate-y-8 scale-95'
-                  }`}
+                className={`transition-all duration-700 ease-out ${
+                  visibleItems.has(index)
+                    ? "opacity-100 translate-y-0 scale-100"
+                    : "opacity-0 translate-y-8 scale-95"
+                }`}
               >
-                <div className="rounded-lg border border-border overflow-hidden">
-                  <div className="aspect-square bg-muted animate-pulse" />
-                  <div className="p-4 space-y-2">
-                    <div className="h-4 bg-muted rounded w-3/4 animate-pulse" />
-                    <div className="h-3 bg-muted rounded w-full animate-pulse" />
+                <div className="overflow-hidden rounded-lg border border-border/80 bg-card shadow-soft">
+                  <div className="aspect-[4/3] bg-muted/70 animate-pulse" />
+                  <div className="space-y-3 p-5">
+                    <div className="h-3 w-24 rounded-full bg-muted animate-pulse" />
+                    <div className="h-5 w-3/4 rounded-full bg-muted animate-pulse" />
+                    <div className="h-4 w-full rounded-full bg-muted animate-pulse" />
                   </div>
                 </div>
               </div>
@@ -106,10 +112,11 @@ const ProductsSection = () => {
             featuredProducts.map((product, index) => (
               <div
                 key={`${product.title}-${index}`}
-                className={`transition-all duration-700 ease-out ${visibleItems.has(index)
-                    ? 'opacity-100 translate-y-0 scale-100'
-                    : 'opacity-0 translate-y-8 scale-95'
-                  }`}
+                className={`transition-all duration-700 ease-out ${
+                  visibleItems.has(index)
+                    ? "opacity-100 translate-y-0 scale-100"
+                    : "opacity-0 translate-y-8 scale-95"
+                }`}
               >
                 <ProductCard {...product} />
               </div>

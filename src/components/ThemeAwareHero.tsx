@@ -1,104 +1,94 @@
 "use client";
+
 import { Button } from "@/components/ui/button";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+
+const backgroundImages = [
+  "/uploads/da7aaf3e-0725-48b9-86a0-942a0dc0b020.png",
+  "/uploads/57cca84a-bc3d-46e5-89f5-804bf4d84ad1.png",
+  "/uploads/50b9a2a8-ac03-4990-9a91-658d2438adc7.png",
+  "/uploads/5ebfc81b-4d98-4097-858c-5fc2abd62d58.png",
+  "/uploads/c998f171-aa26-4d1d-b912-ffa640e65a3b.png",
+  "/uploads/8754703d-7cae-41f2-9681-091308d895f8.png",
+];
+
+const heroFacts = ["TAA-compliant options", "Nationwide delivery", "Warranty-backed support"];
 
 const ThemeAwareHero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const timeoutRef = useRef<number | null>(null);
 
-  // Array of background images
-  const backgroundImages = [
-    '/uploads/da7aaf3e-0725-48b9-86a0-942a0dc0b020.png',
-    '/uploads/57cca84a-bc3d-46e5-89f5-804bf4d84ad1.png',
-    '/uploads/50b9a2a8-ac03-4990-9a91-658d2438adc7.png',
-    '/uploads/5ebfc81b-4d98-4097-858c-5fc2abd62d58.png',
-    '/uploads/c998f171-aa26-4d1d-b912-ffa640e65a3b.png',
-    '/uploads/8754703d-7cae-41f2-9681-091308d895f8.png'
-  ];
-
-  // Removed scroll listener to eliminate parallax/scrolling effect
-
-  // Cycle through background images every 10 seconds with fade effect
   useEffect(() => {
-    const interval = setInterval(() => {
+    const interval = window.setInterval(() => {
       setIsTransitioning(true);
-      
-      setTimeout(() => {
-        setCurrentImageIndex((prevIndex) => 
-          (prevIndex + 1) % backgroundImages.length
-        );
+
+      timeoutRef.current = window.setTimeout(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
         setIsTransitioning(false);
-      }, 500); // Half second fade out, then change image and fade in
+      }, 450);
     }, 10000);
 
-    return () => clearInterval(interval);
-  }, [backgroundImages.length]);
-
-  // Fixed content for the single theme
-  const content = {
-    title: "Lamily Corp",
-    subtitle:
-      "Leading provider of premium LED lighting solutions. Competitive prices, superior quality, and innovative designs for commercial and industrial applications.",
-    button1: "Explore Products",
-    button2: "Our Story",
-  } as const;
-
-  // Fixed styling classes for the single theme (based on previous "premium")
-  const classes = {
-    container:
-      "relative min-h-screen flex items-center justify-center overflow-hidden",
-    background:
-      "absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ease-in-out",
-    title:
-      "text-5xl md:text-7xl font-sans font-bold text-yellow-300 drop-shadow-[0_0_16px_rgba(250,204,21,0.75)] mb-6 leading-tight",
-    subtitle:
-      "text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed",
-    button1:
-      "bg-white text-primary hover:bg-white/90 px-8 py-6 text-lg font-semibold shadow-glow transition-all hover:scale-105",
-    button2:
-      "bg-accent text-white hover:bg-accent/90 px-8 py-6 text-lg font-semibold transition-all hover:scale-105 shadow-glow",
-  } as const;
+    return () => {
+      window.clearInterval(interval);
+      if (timeoutRef.current !== null) {
+        window.clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   return (
-    <section className={classes.container}>
-      {/* Background Image */}
-      <div 
-        className={classes.background}
-        style={{
-          backgroundImage:
-            `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${backgroundImages[currentImageIndex]}')`,
-          opacity: isTransitioning ? 0.3 : 1
-        }}
-      />
-      
-      {/* Overlay pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,_hsl(var(--accent)/0.1)_0%,_transparent_50%)] pointer-events-none" />
-      
-      <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="animate-fade-in opacity-0 translate-y-8" style={{ animation: 'fade-in 1s ease-out 0.3s both' }}>
-          <h1 className={classes.title}>{content.title}</h1>
-          
-          <p className={classes.subtitle}>
-            {content.subtitle}
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center opacity-0 translate-y-8" style={{ animation: 'fade-in 1s ease-out 0.8s both' }}>
-            <a href="/products-and-accessories/all">
-              <Button size="lg" className={classes.button1}>
-                {content.button1}
+    <section className="relative isolate overflow-hidden border-b border-border/70 bg-background">
+      <div className="absolute inset-0">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat grayscale contrast-125 transition-opacity duration-700 ease-out"
+          aria-hidden="true"
+          style={{
+            backgroundImage: `url('${backgroundImages[currentImageIndex]}')`,
+            opacity: isTransitioning ? 0.12 : 0.22,
+          }}
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,hsl(var(--background))_0%,hsl(var(--background)/0.78)_40%,hsl(var(--background))_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 h-40 bg-[linear-gradient(180deg,transparent,hsl(var(--background)))]" />
+      </div>
+
+      <div className="container relative z-10 mx-auto px-6">
+        <div className="flex min-h-[calc(100vh-5rem)] items-end pb-14 pt-32 sm:pb-20">
+          <div className="max-w-4xl border-t border-border/80 pt-8">
+            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
+              Specification-first catalog
+            </p>
+
+            <h1 className="mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-foreground sm:text-6xl md:text-[5.4rem] md:leading-[0.95]">
+              American Lighting Industry Corp
+            </h1>
+
+            <p className="mt-6 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
+              ALI supplies commercial and industrial LED systems for distributors, contractors,
+              and buyers who need dependable products, clear documentation, and restrained
+              presentation.
+            </p>
+
+            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+              <Button asChild size="lg" className="min-w-[12rem]">
+                <a href="/products-and-accessories/all">Explore products</a>
               </Button>
-            </a>
-            <a href="/about#top">
-              <Button size="lg" className={classes.button2}>
-                {content.button2}
+              <Button asChild variant="outline" size="lg" className="min-w-[12rem]">
+                <a href="/about#top">Company overview</a>
               </Button>
-            </a>
+            </div>
+
+            <div className="mt-12 grid gap-3 border-t border-border/70 pt-6 text-sm text-muted-foreground sm:grid-cols-3">
+              {heroFacts.map((fact) => (
+                <div key={fact} className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 rounded-full bg-foreground/70" />
+                  <span>{fact}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-
-      {/* Decorative elements removed */
-      }
     </section>
   );
 };

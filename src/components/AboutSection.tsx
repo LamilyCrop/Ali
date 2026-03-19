@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { CheckCircle, Star, Award, Users } from "lucide-react";
+import { Award, Star, Users } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const AboutSection = () => {
@@ -8,17 +8,17 @@ const AboutSection = () => {
 
   const values = [
     {
-      icon: <Star className="w-8 h-8 text-accent" />,
+      icon: Star,
       title: "Best Quality",
       description: "Premium materials and rigorous testing ensure superior performance"
     },
     {
-      icon: <Award className="w-8 h-8 text-accent" />,
+      icon: Award,
       title: "Competitive Price",
       description: "Industry-leading prices without compromising on quality"
     },
     {
-      icon: <Users className="w-8 h-8 text-accent" />,
+      icon: Users,
       title: "Customer Focus",
       description: "Dedicated to building mutually successful relationships"
     }
@@ -34,10 +34,9 @@ const AboutSection = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="bg-muted/35 py-20 sm:py-28">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Content */}
+        <div className="grid items-start gap-14 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.9fr)]">
           <div 
             ref={titleRef}
             className={`transition-all duration-1000 ease-out ${
@@ -46,36 +45,38 @@ const AboutSection = () => {
                 : 'opacity-0 translate-y-12'
             }`}
           >
-            <h2 className="text-4xl md:text-5xl font-sans font-bold text-foreground mb-8">
-              OUR STORY IS 
-              <span className="block bg-gradient-accent bg-clip-text text-transparent">
-                YOUR STORY
-              </span>
-            </h2>
-            
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              We promise our customers that they can get the most competitive price with the best quality. 
-              We are committed to our customers and partners and we work to ensure that our strong 
-              relationships are mutually successful.
-            </p>
-            
-            <p className="text-lg text-muted-foreground mb-8">
-              It is our legacy, our reputation and our future.
+            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
+              Why ALI
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            <h2 className="mt-4 max-w-xl text-3xl font-semibold tracking-tight text-foreground sm:text-4xl md:text-5xl">
+              Built for dependable commercial lighting.
+            </h2>
+
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
+              American Lighting Industry Corp keeps pricing competitive without leaning on noisy
+              presentation. The focus stays on reliability, documentation, and long-term customer
+              relationships.
+            </p>
+
+            <p className="mt-4 max-w-2xl text-base leading-7 text-muted-foreground">
+              From TAA-compliant products to nationwide delivery support, the experience should feel
+              clear, direct, and specification-ready.
+            </p>
+
+            <div className="mt-10 grid gap-3 sm:grid-cols-2">
               {features.map((feature, index) => (
-                <div key={index} className="flex items-center space-x-3">
-                  <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground">{feature}</span>
+                <div
+                  key={index}
+                  className="flex items-center gap-3 rounded-full border border-border/70 bg-background/70 px-4 py-3"
+                >
+                  <span className="h-1.5 w-1.5 rounded-full bg-foreground/70" />
+                  <span className="text-sm font-medium text-foreground">{feature}</span>
                 </div>
               ))}
             </div>
-
-            {/* Button removed per request */}
           </div>
 
-          {/* Value Cards */}
           <div 
             ref={cardsRef}
             className={`space-y-6 transition-all duration-1000 ease-out ${
@@ -85,9 +86,9 @@ const AboutSection = () => {
             }`}
           >
             {values.map((value, index) => (
-              <Card 
-                key={index} 
-                className={`p-6 shadow-soft hover:shadow-medium transition-all duration-500 hover:scale-105 ${
+              <Card
+                key={index}
+                className={`border-border/70 bg-background/85 p-6 transition-all duration-500 ${
                   cardsVisible 
                     ? 'opacity-100 translate-y-0' 
                     : 'opacity-0 translate-y-8'
@@ -96,15 +97,15 @@ const AboutSection = () => {
                   transitionDelay: cardsVisible ? `${index * 0.2}s` : '0s'
                 }}
               >
-                <div className="flex items-start space-x-4">
-                  <div className="p-3 bg-accent/10 rounded-lg">
-                    {value.icon}
+                <div className="flex items-start gap-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full border border-border/70 bg-muted">
+                    <value.icon className="h-5 w-5 text-foreground" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-foreground mb-2">
+                    <h3 className="text-xl font-semibold tracking-tight text-foreground">
                       {value.title}
                     </h3>
-                    <p className="text-muted-foreground leading-relaxed">
+                    <p className="mt-2 text-sm leading-6 text-muted-foreground">
                       {value.description}
                     </p>
                   </div>
@@ -113,7 +114,6 @@ const AboutSection = () => {
             ))}
           </div>
         </div>
-
       </div>
     </section>
   );

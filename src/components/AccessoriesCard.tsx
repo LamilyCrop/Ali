@@ -58,7 +58,7 @@ const AccessoriesCard = ({
   };
 
   return (
-    <Card className="border border-border shadow-soft overflow-hidden">
+    <Card className="border border-border overflow-hidden">
       {/* Header */}
       <div className="bg-primary/5 p-4 pb-5 border-b border-border">
         <div className="flex items-center justify-between">
@@ -108,7 +108,7 @@ const AccessoriesCard = ({
                 <a
                   key={accessory.index}
                   href={`/accessories/details/${accessory.index}`}
-                  className="group flex-shrink-0 w-48 border border-border rounded-lg overflow-hidden hover:shadow-medium transition-all duration-300 hover:scale-105 cursor-pointer bg-background block no-underline"
+                  className="group flex-shrink-0 w-48 border border-border rounded-lg overflow-hidden transition-all duration-300 hover:scale-105 cursor-pointer bg-background block no-underline"
                 >
                   {/* Accessory Image */}
                   <div className="aspect-square overflow-hidden bg-white border-2 border-white">

@@ -1,46 +1,73 @@
-import { Mail, MapPin } from "lucide-react";
+import { Clock3, Mail, MapPin } from "lucide-react";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  return <footer className="bg-primary text-white">
-      <div className="container mx-auto px-6 py-16">
-        <div className="flex flex-col gap-8">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:gap-12 gap-6">
-            <div className="flex items-center space-x-3">
-              <img src="/uploads/8fbd59a6-728d-4cbd-9232-f8ae5cbe72ca.png" alt="Lamily Corp Logo" className="w-12 h-12" />
-              <div className="text-lg font-bold font-sans">Lamily Corp</div>
-            </div>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-6">
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-accent" />
-                <span className="text-white/80">info@lamily-corp.com</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-accent mt-1" />
-                <div className="text-white/80">356 Market St. Kenilworth NJ</div>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-5 h-5 text-accent flex items-center justify-center">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <polyline points="12,6 12,12 16,14"></polyline>
-                  </svg>
+  return (
+    <footer className="border-t border-border/70 bg-background text-foreground">
+      <div className="container mx-auto px-6 py-14 sm:py-16">
+        <div className="grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+          <div className="max-w-md">
+            <a href="/" className="flex items-center gap-3">
+              <img
+                src="/uploads/Logo.jpg"
+                alt="American Lighting Industry Corp Logo"
+                className="h-14 w-14 shrink-0 rounded-full border border-border/80 bg-card p-1.5 object-contain"
+              />
+              <div>
+                <div className="text-[0.68rem] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
+                  American Lighting
                 </div>
-                <div className="text-white/80">Monday - Friday: 9:00am - 5:00pm EST</div>
+                <div className="text-lg font-semibold tracking-tight text-foreground">
+                  Industry Corp
+                </div>
+              </div>
+            </a>
+            <p className="mt-5 text-sm leading-6 text-muted-foreground">
+              Commercial and industrial LED fixtures, accessories, and support information presented
+              with a quieter, specification-first layout.
+            </p>
+          </div>
+
+          <div className="grid gap-4 sm:grid-cols-3">
+            <a
+              href="mailto:info.ali@ali-corp.com"
+              className="rounded-2xl border border-border/70 bg-muted/40 p-4"
+            >
+              <Mail className="h-5 w-5 text-foreground" />
+              <div className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-muted-foreground">
+                Email
+              </div>
+              <div className="mt-2 text-sm leading-6 text-foreground">info.ali@ali-corp.com</div>
+            </a>
+
+            <div className="rounded-2xl border border-border/70 bg-muted/40 p-4">
+              <MapPin className="h-5 w-5 text-foreground" />
+              <div className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-muted-foreground">
+                Address
+              </div>
+              <div className="mt-2 text-sm leading-6 text-foreground">
+                7 Scouting Blvd Medford NY 11763 USA
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-border/70 bg-muted/40 p-4">
+              <Clock3 className="h-5 w-5 text-foreground" />
+              <div className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-muted-foreground">
+                Hours
+              </div>
+              <div className="mt-2 text-sm leading-6 text-foreground">
+                Monday - Friday: 9:00am - 5:00pm EST
               </div>
             </div>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-white/10 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-white/60 text-sm">
-              © {currentYear} Lamily Corp. All rights reserved.
-            </div>
-            
-          </div>
+        <div className="mt-10 border-t border-border/70 pt-6 text-sm text-muted-foreground">
+          © {currentYear} American Lighting Industry Corp. All rights reserved.
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
+
 export default Footer;

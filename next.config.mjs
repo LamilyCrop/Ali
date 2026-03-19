@@ -15,7 +15,7 @@ const nextConfig = {
         ],
       },
       {
-        source: '/data/:path*\.json',
+        source: '/data/:path*.json',
         headers: [
           { key: 'Cache-Control', value: 'public, s-maxage=300, stale-while-revalidate=86400' },
         ],
@@ -25,5 +25,4 @@ const nextConfig = {
 };
 
 export default nextConfig;
-
 

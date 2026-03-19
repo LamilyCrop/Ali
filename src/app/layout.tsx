@@ -8,14 +8,14 @@ export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export const metadata: Metadata = {
-  title: "Lamily Corp",
+  title: "American Lighting Industry Corp",
   description: "Premium LED lighting manufacturer",
   icons: {
     icon: [
-      { url: "/uploads/8fbd59a6-728d-4cbd-9232-f8ae5cbe72ca.png", type: "image/png" },
+      { url: "/uploads/Logo.jpg", type: "image/jpeg" },
     ],
-    shortcut: "/uploads/8fbd59a6-728d-4cbd-9232-f8ae5cbe72ca.png",
-    apple: "/uploads/8fbd59a6-728d-4cbd-9232-f8ae5cbe72ca.png",
+    shortcut: "/uploads/Logo.jpg",
+    apple: "/uploads/Logo.jpg",
   },
 };
 
@@ -26,11 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen bg-background text-foreground">
+      <body className="min-h-screen bg-background font-sans text-foreground">
         <Providers>{children}</Providers>
       </body>
     </html>
   );
 }
-
-

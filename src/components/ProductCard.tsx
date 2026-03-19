@@ -71,132 +71,126 @@ const ProductCard = ({ image, title, description, variant, href, priority = fals
     return src;
   };
 
+  const getVariantLabel = () => {
+    if (variant && variant.trim()) {
+      return variant.replace(/[()]/g, "").replace(/\s+/g, " ").trim();
+    }
+
+    let variantInfo = "";
+    const wattageMatch = title.match(/(\d+W(?:\/\d+W)*)/) || description.match(/(\d+W(?:\/\d+W)*)/);
+    if (wattageMatch) variantInfo += wattageMatch[0];
+
+    const cctMatch = description.match(/(\d+\/\d+\/\d+K)/) || description.match(/(\d+K)/);
+    if (cctMatch) {
+      if (variantInfo) variantInfo += ", ";
+      variantInfo += cctMatch[0];
+    }
+
+    const voltageMatch = description.match(/(\d+V)/);
+    if (voltageMatch) {
+      if (variantInfo) variantInfo += ", ";
+      variantInfo += voltageMatch[0];
+    }
+
+    return variantInfo || "Standard";
+  };
+
+  const getSummary = () => {
+    if (title.toLowerCase().includes("area light") || title.toLowerCase().includes("flood light")) {
+      return "Versatile outdoor lighting solution";
+    }
+    if (title.toLowerCase().includes("wall pack")) {
+      return "Reliable wall-mounted lighting solution";
+    }
+    if (title.toLowerCase().includes("ceiling")) {
+      return "Modern ceiling lighting fixture";
+    }
+    if (title.toLowerCase().includes("down light")) {
+      return "Elegant recessed lighting option";
+    }
+    if (title.toLowerCase().includes("high bay")) {
+      return "High-performance industrial lighting";
+    }
+    if (title.toLowerCase().includes("emergency")) {
+      return "Emergency backup lighting system";
+    }
+    if (title.toLowerCase().includes("sensor")) {
+      return "Smart motion detection sensor";
+    }
+    if (title.toLowerCase().includes("driver")) {
+      return "LED power management solution";
+    }
+    if (title.toLowerCase().includes("mount")) {
+      return "Flexible mounting hardware";
+    }
+    if (title.toLowerCase().includes("reflector")) {
+      return "Optical enhancement accessory";
+    }
+
+    const keyWords = ["modern", "versatile", "reliable", "efficient", "durable", "smart"];
+    for (const word of keyWords) {
+      if (description.toLowerCase().includes(word)) {
+        return `${word.charAt(0).toUpperCase() + word.slice(1)} lighting solution`;
+      }
+    }
+
+    return "Professional lighting solution";
+  };
+
   const content = (
-    <Card className="group overflow-hidden border-0 shadow-soft hover:shadow-medium transition-all duration-300 hover:scale-105 cursor-pointer">
+    <Card className="group h-full overflow-hidden border-border/80 bg-card transition-[transform,border-color] duration-300 hover:-translate-y-1 hover:border-foreground/20">
       <div 
         ref={containerRef}
-        className="aspect-square overflow-hidden bg-white relative border-2 border-white"
+        className="relative aspect-[4/3] overflow-hidden border-b border-border/70 bg-muted/50 p-8"
       >
-        {/* Loading skeleton */}
         {!isLoaded && (
-          <div className="absolute inset-0 bg-white animate-pulse" />
+          <div className="absolute inset-0 bg-muted/80 animate-pulse" />
         )}
-        
-        {/* Image */}
+
         {isInView && (
           <img
             ref={imgRef}
             src={hasError ? "/placeholder.svg" : getValidImageSrc(image)}
             alt={title}
-            className={`w-full h-full object-contain group-hover:scale-110 transition-all duration-500 ${
+            className={`h-full w-full object-contain transition duration-500 group-hover:scale-[1.02] ${
               isLoaded ? 'opacity-100' : 'opacity-0'
             }`}
             loading={priority ? "eager" : "lazy"}
             decoding="async"
             onLoad={handleImageLoad}
             onError={handleImageError}
-            // Optimize image loading
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
           />
         )}
       </div>
-      <div className="p-6">
-        <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+      <div className="flex min-h-[11rem] flex-col gap-3 p-5">
+        <p className="text-[0.68rem] font-semibold uppercase tracking-[0.26em] text-muted-foreground">
+          {getVariantLabel()}
+        </p>
+        <h3 className="text-lg font-semibold leading-snug tracking-tight text-foreground">
           {title}
         </h3>
-        <div className="text-muted-foreground text-sm leading-relaxed space-y-1">
-          {/* Line 1: Variant information */}
-          <p className="font-medium text-primary">
-            {(() => {
-              // Use the variant prop if available, otherwise extract from title/description
-              if (variant && variant.trim()) {
-                // Clean up the variant string - remove parentheses and extra spaces
-                return variant.replace(/[()]/g, '').replace(/\s+/g, ' ').trim();
-              }
-              
-              // Fallback: extract variant info from title and description
-              let variantInfo = '';
-              
-              // Extract wattage variants (e.g., "70W/100W/150W")
-              const wattageMatch = title.match(/(\d+W(?:\/\d+W)*)/) || description.match(/(\d+W(?:\/\d+W)*)/);
-              if (wattageMatch) variantInfo += wattageMatch[0];
-              
-              // Extract CCT variants (e.g., "3000/4000/5000K")
-              const cctMatch = description.match(/(\d+\/\d+\/\d+K)/) || description.match(/(\d+K)/);
-              if (cctMatch) {
-                if (variantInfo) variantInfo += ', ';
-                variantInfo += cctMatch[0];
-              }
-              
-              // Extract voltage if present
-              const voltageMatch = description.match(/(\d+V)/);
-              if (voltageMatch) {
-                if (variantInfo) variantInfo += ', ';
-                variantInfo += voltageMatch[0];
-              }
-              
-              return variantInfo || 'Standard';
-            })()}
-          </p>
-          
-          {/* Line 2: Brief descriptive summary */}
-          <p>
-            {(() => {
-              // Create a concise summary based on the product type and key features
-              let summary = '';
-              
-              if (title.toLowerCase().includes('area light') || title.toLowerCase().includes('flood light')) {
-                summary = 'Versatile outdoor lighting solution';
-              } else if (title.toLowerCase().includes('wall pack')) {
-                summary = 'Reliable wall-mounted lighting solution';
-              } else if (title.toLowerCase().includes('ceiling')) {
-                summary = 'Modern ceiling lighting fixture';
-              } else if (title.toLowerCase().includes('down light')) {
-                summary = 'Elegant recessed lighting option';
-              } else if (title.toLowerCase().includes('high bay')) {
-                summary = 'High-performance industrial lighting';
-              } else if (title.toLowerCase().includes('emergency')) {
-                summary = 'Emergency backup lighting system';
-              } else if (title.toLowerCase().includes('sensor')) {
-                summary = 'Smart motion detection sensor';
-              } else if (title.toLowerCase().includes('driver')) {
-                summary = 'LED power management solution';
-              } else if (title.toLowerCase().includes('mount')) {
-                summary = 'Flexible mounting hardware';
-              } else if (title.toLowerCase().includes('reflector')) {
-                summary = 'Optical enhancement accessory';
-              } else {
-                // Fallback: extract key benefit from description
-                const keyWords = ['modern', 'versatile', 'reliable', 'efficient', 'durable', 'smart'];
-                for (const word of keyWords) {
-                  if (description.toLowerCase().includes(word)) {
-                    summary = `${word.charAt(0).toUpperCase() + word.slice(1)} lighting solution`;
-                    break;
-                  }
-                }
-                if (!summary) {
-                  summary = 'Professional lighting solution';
-                }
-              }
-              
-              return summary;
-            })()}
-          </p>
-        </div>
+        <p className="text-sm leading-6 text-muted-foreground">{getSummary()}</p>
       </div>
     </Card>
   );
 
   if (href) {
     return (
-      <a href={href} className="block">
+      <a
+        href={href}
+        className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+      >
         {content}
       </a>
     );
   }
 
   return (
-    <a href={`/products-and-accessories/details/al-001`} className="block">
+    <a
+      href={`/products-and-accessories/details/al-001`}
+      className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+    >
       {content}
     </a>
   );

@@ -164,9 +164,11 @@ const ProductCard = ({ image, title, description, variant, href, priority = fals
         )}
       </div>
       <div className="flex min-h-[11rem] flex-col gap-3 p-5">
-        <p className="flex items-center gap-2 text-[0.68rem] font-semibold uppercase tracking-[0.26em] text-primary/80">
-          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-          {getVariantLabel()}
+        <p className="flex items-start gap-2 text-[0.68rem] font-semibold uppercase leading-5 tracking-[0.18em] text-primary/80">
+          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+          <span className="min-w-0 break-words">
+            {getVariantLabel()}
+          </span>
         </p>
         <h3 className="text-lg font-semibold leading-snug tracking-tight text-foreground">
           {title}

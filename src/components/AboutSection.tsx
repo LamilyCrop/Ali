@@ -1,91 +1,74 @@
-import { Card } from "@/components/ui/card";
-import { Award, Star, Users } from "lucide-react";
+const operatingPrinciples = [
+  {
+    label: "Quality",
+    description: "Commercial fixtures and accessories built around tested materials, clear specifications, and established compliance listings.",
+  },
+  {
+    label: "Pricing",
+    description: "Competitive programs designed for distributors, contractors, and repeat purchasing without unnecessary presentation layers.",
+  },
+  {
+    label: "Support",
+    description: "Direct help with submittals, product matching, warranty questions, and delivery coordination when projects are moving quickly.",
+  },
+];
+
+const capabilities = [
+  "TAA-compliant product options",
+  "Commercial and industrial LED fixtures",
+  "Warranty and technical support",
+  "Nationwide delivery coordination",
+];
 
 const AboutSection = () => {
-  const values = [
-    {
-      icon: Star,
-      title: "Best Quality",
-      description: "Premium materials and rigorous testing ensure superior performance"
-    },
-    {
-      icon: Award,
-      title: "Competitive Price",
-      description: "Industry-leading prices without compromising on quality"
-    },
-    {
-      icon: Users,
-      title: "Customer Focus",
-      description: "Dedicated to building mutually successful relationships"
-    }
-  ];
-
-  const features = [
-    "TAA Compliant Products",
-    "Energy Efficient LED Technology", 
-    "Industrial Grade Quality",
-    "Comprehensive Warranty",
-    "Expert Technical Support",
-    "Fast Delivery Nationwide"
-  ];
-
   return (
-    <section id="about" className="bg-background py-20 sm:py-28">
+    <section id="about" className="bg-muted/25 py-20 sm:py-24">
       <div className="container mx-auto px-6">
-        <div className="grid items-start gap-14 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.9fr)]">
-          <div>
-            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.3em] text-primary/75">
+        <div className="grid gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:items-start">
+          <div className="max-w-3xl">
+            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.32em] text-primary/70">
               Why ALI
             </p>
 
-            <h2 className="mt-4 max-w-xl text-3xl font-semibold tracking-tight text-foreground sm:text-4xl md:text-5xl">
-              Built for dependable <span className="text-primary">commercial lighting.</span>
+            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl md:text-6xl">
+              Dependable lighting for commercial work.
             </h2>
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
-              American Lighting Industry Corp keeps pricing competitive without leaning on noisy
-              presentation. The focus stays on reliability, documentation, and long-term customer
-              relationships.
+            <p className="mt-6 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
+              American Lighting Industry Corp supports distributors, contractors, OEM partners, and
+              specifiers with fixtures and accessories selected for reliable day-to-day use.
             </p>
 
-            <p className="mt-4 max-w-2xl text-base leading-7 text-muted-foreground">
-              From TAA-compliant products to nationwide delivery support, the experience should feel
-              clear, direct, and specification-ready.
+            <p className="mt-4 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
+              The experience stays focused on documentation, practical lead times, and responsive
+              support so procurement and installation teams can move with less friction.
             </p>
 
-            <div className="mt-10 grid gap-3 sm:grid-cols-2">
-              {features.map((feature, index) => (
-                <div
-                  key={index}
-                  className="flex items-center gap-3 rounded-full border border-primary/10 bg-background px-4 py-3"
-                >
-                  <span className="h-2 w-2 rounded-full bg-accent" />
-                  <span className="text-sm font-medium text-foreground">{feature}</span>
-                </div>
+            <ul className="mt-10 grid gap-4 sm:grid-cols-2">
+              {capabilities.map((capability) => (
+                <li key={capability} className="flex items-start gap-3 border-t border-border/70 pt-4">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/55" />
+                  <span className="text-sm leading-6 text-foreground/88 sm:text-[0.95rem]">
+                    {capability}
+                  </span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
 
-          <div className="space-y-6">
-            {values.map((value, index) => (
-              <Card
-                key={index}
-                className="border-primary/10 bg-background p-6"
+          <div className="grid gap-8 lg:pt-16">
+            {operatingPrinciples.map((principle) => (
+              <div
+                key={principle.label}
+                className="border-t border-border/70 pt-6 first:border-t-0 first:pt-0"
               >
-                <div className="flex items-start gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full border border-primary/10 bg-primary/10">
-                    <value.icon className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold tracking-tight text-foreground">
-                      {value.title}
-                    </h3>
-                    <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                      {value.description}
-                    </p>
-                  </div>
-                </div>
-              </Card>
+                <p className="text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-primary/65">
+                  {principle.label}
+                </p>
+                <p className="mt-3 max-w-md text-base leading-7 text-muted-foreground">
+                  {principle.description}
+                </p>
+              </div>
             ))}
           </div>
         </div>

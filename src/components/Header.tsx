@@ -9,9 +9,10 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { usePathname } from "next/navigation";
 import { normalizeCategorySlug } from "@/lib/categories";
 import { cn } from "@/lib/utils";
-import { Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const desktopMenuHeadingClass =
@@ -22,9 +23,13 @@ const mobileGroupHeadingClass =
   "text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-primary/70";
 const mobileLinkClass =
   "block rounded-full px-3 py-2 text-sm text-foreground transition-colors hover:bg-primary/5 hover:text-primary";
+const mobileSectionButtonClass =
+  "flex w-full items-center justify-between rounded-2xl border border-primary/10 bg-white px-4 py-3 text-left text-sm font-medium text-foreground transition-colors hover:bg-primary/5";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openMobileSection, setOpenMobileSection] = useState<string | null>("products");
+  const pathname = usePathname();
 
   useEffect(() => {
     if (!isMenuOpen) return;
@@ -37,9 +42,40 @@ const Header = () => {
     };
   }, [isMenuOpen]);
 
-  const toSlug = (value: string): string => {
-    return value.toLowerCase().replace(/\s+/g, "-");
-  };
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (!isMenuOpen) {
+      setOpenMobileSection(null);
+      return;
+    }
+
+    setOpenMobileSection((current) => current ?? "products");
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setIsMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
 
   const productCategories = [
     "Area Light",
@@ -87,13 +123,13 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 z-50 w-full border-b border-primary/10 bg-background/95 backdrop-blur-xl">
-      <div className="container mx-auto px-6">
-        <div className="flex h-20 items-center justify-between gap-6">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="flex h-16 items-center justify-between gap-4 sm:h-20 sm:gap-6">
           <a href="/" aria-label="Go to homepage" className="flex items-center gap-3">
             <img
               src="/uploads/Logo.jpg"
               alt="American Lighting Industry Corp Logo"
-              className="h-11 w-11 shrink-0 rounded-full border border-primary/10 bg-card p-1.5 object-contain"
+              className="h-9 w-9 shrink-0 rounded-full border border-primary/10 bg-card p-1 object-contain sm:h-11 sm:w-11 sm:p-1.5"
             />
             <span className="hidden lg:block">
               <span className="block text-sm font-bold tracking-[0.01em] text-foreground">
@@ -141,7 +177,7 @@ const Header = () => {
                             {areaCategories.map((item) => (
                               <NavigationMenuLink
                                 key={item}
-                                href={`/products-and-accessories/${toSlug(item)}`}
+                                href={`/products-and-accessories/${normalizeCategorySlug(item)}`}
                                 className={desktopMenuLinkClass}
                               >
                                 {item}
@@ -156,7 +192,7 @@ const Header = () => {
                             {mountingCategories.map((item) => (
                               <NavigationMenuLink
                                 key={item}
-                                href={`/products-and-accessories/${toSlug(item)}`}
+                                href={`/products-and-accessories/${normalizeCategorySlug(item)}`}
                                 className={desktopMenuLinkClass}
                               >
                                 {item}
@@ -188,7 +224,7 @@ const Header = () => {
                         {accessoriesItems.map((item) => (
                           <NavigationMenuLink
                             key={item}
-                            href={`/products-and-accessories/${toSlug(item)}`}
+                            href={`/products-and-accessories/${normalizeCategorySlug(item)}`}
                             className={desktopMenuLinkClass}
                           >
                             {item}
@@ -287,132 +323,236 @@ const Header = () => {
           </div>
 
           <button
+            type="button"
             className="rounded-full border border-primary/10 bg-card p-2.5 text-foreground md:hidden"
             onClick={() => setIsMenuOpen((open) => !open)}
             aria-label="Toggle menu"
             aria-expanded={isMenuOpen}
+            aria-controls="mobile-site-menu"
           >
             {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
 
         {isMenuOpen && (
-          <nav className="fixed inset-x-0 bottom-0 top-20 z-50 overflow-y-auto border-t border-primary/10 bg-background/95 backdrop-blur md:hidden">
-            <div className="flex flex-col gap-6 px-6 pb-10 pt-6">
-              <a
-                href="/products-and-accessories/all"
-                className="rounded-full border border-primary/10 bg-primary px-4 py-3 text-sm font-medium text-primary-foreground shadow-soft"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                View full catalog
-              </a>
+          <>
+            <button
+              type="button"
+              className="fixed inset-0 top-16 z-40 bg-black/10 md:hidden sm:top-20"
+              aria-label="Close menu"
+              onClick={() => setIsMenuOpen(false)}
+            />
 
-              <div className="space-y-3">
-                <div className={mobileGroupHeadingClass}>Products</div>
-                <div className="grid gap-1">
-                  {productCategories.map((item) => (
+            <nav
+              id="mobile-site-menu"
+              className="absolute inset-x-0 top-full z-50 bg-white shadow-lg md:hidden"
+            >
+              <div className="container mx-auto max-h-[min(32rem,calc(100dvh-4rem))] overflow-y-auto overscroll-contain px-4 sm:max-h-[min(36rem,calc(100dvh-5rem))] sm:px-6">
+                <div className="flex flex-col gap-6 py-5 sm:py-6">
+                  <a
+                    href="/products-and-accessories/all"
+                    className="rounded-full border border-primary/10 bg-primary px-4 py-3 text-sm font-medium text-primary-foreground shadow-soft"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    View full catalog
+                  </a>
+
+                  <div className="space-y-3">
+                    <button
+                      type="button"
+                      className={mobileSectionButtonClass}
+                      onClick={() =>
+                        setOpenMobileSection((current) => (current === "products" ? null : "products"))
+                      }
+                    >
+                      <span>
+                        <span className={mobileGroupHeadingClass}>Products</span>
+                        <span className="mt-1 block text-xs text-muted-foreground">
+                          Main fixture categories
+                        </span>
+                      </span>
+                      <ChevronDown
+                        className={cn(
+                          "h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                          openMobileSection === "products" && "rotate-180"
+                        )}
+                      />
+                    </button>
+
+                    {openMobileSection === "products" && (
+                      <div className="grid gap-1 pl-1">
+                        {productCategories.map((item) => (
+                          <a
+                            key={item}
+                            href={`/products-and-accessories/${normalizeCategorySlug(item)}`}
+                            className={mobileLinkClass}
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {item}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="space-y-3">
+                    <button
+                      type="button"
+                      className={mobileSectionButtonClass}
+                      onClick={() =>
+                        setOpenMobileSection((current) => (current === "area" ? null : "area"))
+                      }
+                    >
+                      <span>
+                        <span className={mobileGroupHeadingClass}>Area</span>
+                        <span className="mt-1 block text-xs text-muted-foreground">
+                          Filter by installation environment
+                        </span>
+                      </span>
+                      <ChevronDown
+                        className={cn(
+                          "h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                          openMobileSection === "area" && "rotate-180"
+                        )}
+                      />
+                    </button>
+
+                    {openMobileSection === "area" && (
+                      <div className="grid gap-1 pl-1">
+                        {areaCategories.map((item) => (
+                          <a
+                            key={item}
+                            href={`/products-and-accessories/${normalizeCategorySlug(item)}`}
+                            className={mobileLinkClass}
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {item}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="space-y-3">
+                    <button
+                      type="button"
+                      className={mobileSectionButtonClass}
+                      onClick={() =>
+                        setOpenMobileSection((current) => (current === "mounting" ? null : "mounting"))
+                      }
+                    >
+                      <span>
+                        <span className={mobileGroupHeadingClass}>Mounting</span>
+                        <span className="mt-1 block text-xs text-muted-foreground">
+                          Browse by mounting method
+                        </span>
+                      </span>
+                      <ChevronDown
+                        className={cn(
+                          "h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                          openMobileSection === "mounting" && "rotate-180"
+                        )}
+                      />
+                    </button>
+
+                    {openMobileSection === "mounting" && (
+                      <div className="grid gap-1 pl-1">
+                        {mountingCategories.map((item) => (
+                          <a
+                            key={item}
+                            href={`/products-and-accessories/${normalizeCategorySlug(item)}`}
+                            className={mobileLinkClass}
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {item}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="space-y-3">
+                    <button
+                      type="button"
+                      className={mobileSectionButtonClass}
+                      onClick={() =>
+                        setOpenMobileSection((current) => (current === "accessories" ? null : "accessories"))
+                      }
+                    >
+                      <span>
+                        <span className={mobileGroupHeadingClass}>Accessories</span>
+                        <span className="mt-1 block text-xs text-muted-foreground">
+                          Drivers, controls, and mounting parts
+                        </span>
+                      </span>
+                      <ChevronDown
+                        className={cn(
+                          "h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                          openMobileSection === "accessories" && "rotate-180"
+                        )}
+                      />
+                    </button>
+
+                    {openMobileSection === "accessories" && (
+                      <div className="grid gap-1 pl-1">
+                        {accessoriesItems.map((item) => (
+                          <a
+                            key={item}
+                            href={`/products-and-accessories/${normalizeCategorySlug(item)}`}
+                            className={mobileLinkClass}
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {item}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="space-y-1 border-t border-primary/10 pt-4">
+                    <a href="/about" className={mobileLinkClass} onClick={() => setIsMenuOpen(false)}>
+                      About
+                    </a>
                     <a
-                      key={item}
-                      href={`/products-and-accessories/${normalizeCategorySlug(item)}`}
+                      href="/about?section=about-us"
                       className={mobileLinkClass}
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      {item}
+                      About Us
                     </a>
-                  ))}
-                </div>
-              </div>
-
-              <div className="space-y-3">
-                <div className={mobileGroupHeadingClass}>Area</div>
-                <div className="grid gap-1">
-                  {areaCategories.map((item) => (
                     <a
-                      key={item}
-                      href={`/products-and-accessories/${toSlug(item)}`}
+                      href="/about?section=warranty"
                       className={mobileLinkClass}
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      {item}
+                      Product Warranty
                     </a>
-                  ))}
-                </div>
-              </div>
-
-              <div className="space-y-3">
-                <div className={mobileGroupHeadingClass}>Mounting</div>
-                <div className="grid gap-1">
-                  {mountingCategories.map((item) => (
                     <a
-                      key={item}
-                      href={`/products-and-accessories/${toSlug(item)}`}
+                      href="/about?section=return-authorizations"
                       className={mobileLinkClass}
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      {item}
+                      Return Authorizations
                     </a>
-                  ))}
-                </div>
-              </div>
-
-              <div className="space-y-3">
-                <div className={mobileGroupHeadingClass}>Accessories</div>
-                <div className="grid gap-1">
-                  {accessoriesItems.map((item) => (
                     <a
-                      key={item}
-                      href={`/products-and-accessories/${toSlug(item)}`}
+                      href="/about?section=contact"
                       className={mobileLinkClass}
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      {item}
+                      Contact Us
                     </a>
-                  ))}
+                    <a
+                      href="https://books.zohosecure.com/portal/lamilycorp"
+                      className={mobileLinkClass}
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      Client Login
+                    </a>
+                  </div>
                 </div>
               </div>
-
-              <div className="space-y-1 border-t border-primary/10 pt-4">
-                <a href="/about" className={mobileLinkClass} onClick={() => setIsMenuOpen(false)}>
-                  About
-                </a>
-                <a
-                  href="/about?section=about-us"
-                  className={mobileLinkClass}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  About Us
-                </a>
-                <a
-                  href="/about?section=warranty"
-                  className={mobileLinkClass}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Product Warranty
-                </a>
-                <a
-                  href="/about?section=return-authorizations"
-                  className={mobileLinkClass}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Return Authorizations
-                </a>
-                <a
-                  href="/about?section=contact"
-                  className={mobileLinkClass}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Contact Us
-                </a>
-                <a
-                  href="https://books.zohosecure.com/portal/lamilycorp"
-                  className={mobileLinkClass}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Client Login
-                </a>
-              </div>
-            </div>
-          </nav>
+            </nav>
+          </>
         )}
       </div>
     </header>

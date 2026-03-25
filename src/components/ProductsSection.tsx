@@ -62,7 +62,7 @@ const ProductsSection = () => {
   return (
     <section
       id="products"
-      className="border-y border-primary/10 bg-background py-20 sm:py-28"
+      className="bg-background py-20 sm:py-28"
     >
       <div className="container mx-auto px-6">
         <div className="mb-14">

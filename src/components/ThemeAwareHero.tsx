@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { useEffect, useRef, useState } from "react";
 
 const backgroundImages = [
   "/uploads/da7aaf3e-0725-48b9-86a0-942a0dc0b020.png",
@@ -12,26 +13,46 @@ const backgroundImages = [
 ];
 
 const ThemeAwareHero = () => {
-  const backgroundImage = backgroundImages[0];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+  const timeoutRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      setIsTransitioning(true);
+
+      timeoutRef.current = window.setTimeout(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
+        setIsTransitioning(false);
+      }, 450);
+    }, 10000);
+
+    return () => {
+      window.clearInterval(interval);
+      if (timeoutRef.current !== null) {
+        window.clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   return (
-    <section className="relative isolate overflow-hidden border-b border-primary/10 bg-background">
+    <section className="relative isolate overflow-hidden bg-background">
       <div className="absolute inset-0">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-700 ease-out"
           aria-hidden="true"
           style={{
-            backgroundImage: `url('${backgroundImage}')`,
-            opacity: 0.12,
+            backgroundImage: `url('${backgroundImages[currentImageIndex]}')`,
+            opacity: isTransitioning ? 0.22 : 1,
           }}
         />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,hsl(var(--background))_0%,hsl(var(--background)/0.78)_40%,hsl(var(--background))_100%)]" />
-        <div className="absolute inset-x-0 bottom-0 h-40 bg-[linear-gradient(180deg,transparent,hsl(var(--background)))]" />
+        <div className="absolute inset-0 bg-[linear-gradient(100deg,hsl(var(--background)/0.96)_0%,hsl(var(--background)/0.88)_34%,hsl(var(--background)/0.56)_68%,hsl(var(--background)/0.3)_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 h-48 bg-[linear-gradient(180deg,transparent,hsl(var(--background))_95%)]" />
       </div>
 
-      <div className="container relative z-10 mx-auto px-6">
-        <div className="flex min-h-[calc(100vh-5rem)] items-end pb-14 pt-32 sm:pb-20">
-          <div className="max-w-4xl pt-8">
+      <div className="container relative z-10 mx-auto px-4 sm:px-6">
+        <div className="flex min-h-[clamp(28rem,calc(100dvh-4rem),44rem)] items-center py-16 sm:min-h-[clamp(34rem,calc(100dvh-5rem),52rem)] sm:items-end sm:pb-20 sm:pt-32">
+          <div className="max-w-4xl pt-4 sm:pt-8">
             <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-foreground sm:text-6xl md:text-[5.4rem] md:leading-[0.95]">
               American Lighting Industry Corp
             </h1>

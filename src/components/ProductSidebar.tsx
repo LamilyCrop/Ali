@@ -222,7 +222,7 @@ export default function ProductSidebar() {
               aria-label="Search products"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-10 bg-white/50 border-border focus:bg-white transition-colors"
+              className="pl-10 border-primary/10 bg-background/80 focus:bg-card transition-colors"
             />
           </div>
         </div>
@@ -276,8 +276,8 @@ export default function ProductSidebar() {
                             className={cn(
                               "flex items-center justify-between rounded-md px-3 py-2 text-sm transition-colors no-underline group ml-2",
                               isActive
-                                ? "bg-muted text-foreground"
-                                : "text-muted-foreground hover:text-primary hover:bg-muted"
+                                ? "bg-primary/10 text-primary"
+                                : "text-muted-foreground hover:text-primary hover:bg-primary/5"
                             )}
                           >
                             <span>{category}</span>
@@ -313,8 +313,8 @@ export default function ProductSidebar() {
                             className={cn(
                               "flex items-center justify-between rounded-md px-3 py-2 text-sm transition-colors no-underline group ml-2",
                               isActive
-                                ? "bg-muted text-foreground"
-                                : "text-muted-foreground hover:text-primary hover:bg-muted"
+                                ? "bg-primary/10 text-primary"
+                                : "text-muted-foreground hover:text-primary hover:bg-primary/5"
                             )}
                           >
                             <span>{category}</span>
@@ -350,8 +350,8 @@ export default function ProductSidebar() {
                             className={cn(
                               "flex items-center justify-between rounded-md px-3 py-2 text-sm transition-colors no-underline group ml-2",
                               isActive
-                                ? "bg-muted text-foreground"
-                                : "text-muted-foreground hover:text-primary hover:bg-muted"
+                                ? "bg-primary/10 text-primary"
+                                : "text-muted-foreground hover:text-primary hover:bg-primary/5"
                             )}
                           >
                             <span>{category}</span>
@@ -387,8 +387,8 @@ export default function ProductSidebar() {
                             className={cn(
                               "flex items-center justify-between rounded-md px-3 py-2 text-sm transition-colors no-underline group ml-2",
                               isActive
-                                ? "bg-muted text-foreground"
-                                : "text-muted-foreground hover:text-primary hover:bg-muted"
+                                ? "bg-primary/10 text-primary"
+                                : "text-muted-foreground hover:text-primary hover:bg-primary/5"
                             )}
                           >
                             <span>{category}</span>
@@ -446,8 +446,8 @@ export default function ProductSidebar() {
                       className={cn(
                         "block rounded-md px-3 py-2 text-sm transition-colors no-underline",
                         isActive
-                          ? "bg-muted text-foreground"
-                          : "text-muted-foreground hover:text-primary hover:bg-muted"
+                          ? "bg-primary/10 text-primary"
+                          : "text-muted-foreground hover:text-primary hover:bg-primary/5"
                       )}
                     >
                       {item}
@@ -491,8 +491,8 @@ export default function ProductSidebar() {
                       className={cn(
                         "block rounded-md px-3 py-2 text-sm transition-colors no-underline",
                         isActive
-                          ? "bg-muted text-foreground"
-                          : "text-muted-foreground hover:text-primary hover:bg-muted"
+                          ? "bg-primary/10 text-primary"
+                          : "text-muted-foreground hover:text-primary hover:bg-primary/5"
                       )}
                     >
                       {item}
@@ -539,7 +539,7 @@ export default function ProductSidebar() {
                   <a
                     key={`${item}-${index}`}
                     href={item}
-                    className="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-muted-foreground hover:text-primary hover:bg-muted transition-colors no-underline"
+                    className="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-primary/5 hover:text-primary transition-colors no-underline"
                   >
                     <Zap className="w-3 h-3" />
                     <span className="truncate">
@@ -555,5 +555,4 @@ export default function ProductSidebar() {
     </aside>
   );
 }
-
 

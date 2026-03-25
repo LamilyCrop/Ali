@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { useEffect, useRef, useState } from "react";
 
 const backgroundImages = [
   "/uploads/da7aaf3e-0725-48b9-86a0-942a0dc0b020.png",
@@ -12,40 +11,18 @@ const backgroundImages = [
   "/uploads/8754703d-7cae-41f2-9681-091308d895f8.png",
 ];
 
-const heroFacts = ["TAA-compliant options", "Nationwide delivery", "Warranty-backed support"];
-
 const ThemeAwareHero = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isTransitioning, setIsTransitioning] = useState(false);
-  const timeoutRef = useRef<number | null>(null);
-
-  useEffect(() => {
-    const interval = window.setInterval(() => {
-      setIsTransitioning(true);
-
-      timeoutRef.current = window.setTimeout(() => {
-        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
-        setIsTransitioning(false);
-      }, 450);
-    }, 10000);
-
-    return () => {
-      window.clearInterval(interval);
-      if (timeoutRef.current !== null) {
-        window.clearTimeout(timeoutRef.current);
-      }
-    };
-  }, []);
+  const backgroundImage = backgroundImages[0];
 
   return (
-    <section className="relative isolate overflow-hidden border-b border-border/70 bg-background">
+    <section className="relative isolate overflow-hidden border-b border-primary/10 bg-background">
       <div className="absolute inset-0">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat grayscale contrast-125 transition-opacity duration-700 ease-out"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           aria-hidden="true"
           style={{
-            backgroundImage: `url('${backgroundImages[currentImageIndex]}')`,
-            opacity: isTransitioning ? 0.12 : 0.22,
+            backgroundImage: `url('${backgroundImage}')`,
+            opacity: 0.12,
           }}
         />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,hsl(var(--background))_0%,hsl(var(--background)/0.78)_40%,hsl(var(--background))_100%)]" />
@@ -54,12 +31,8 @@ const ThemeAwareHero = () => {
 
       <div className="container relative z-10 mx-auto px-6">
         <div className="flex min-h-[calc(100vh-5rem)] items-end pb-14 pt-32 sm:pb-20">
-          <div className="max-w-4xl border-t border-border/80 pt-8">
-            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
-              Specification-first catalog
-            </p>
-
-            <h1 className="mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-foreground sm:text-6xl md:text-[5.4rem] md:leading-[0.95]">
+          <div className="max-w-4xl pt-8">
+            <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-foreground sm:text-6xl md:text-[5.4rem] md:leading-[0.95]">
               American Lighting Industry Corp
             </h1>
 
@@ -76,15 +49,6 @@ const ThemeAwareHero = () => {
               <Button asChild variant="outline" size="lg" className="min-w-[12rem]">
                 <a href="/about#top">Company overview</a>
               </Button>
-            </div>
-
-            <div className="mt-12 grid gap-3 border-t border-border/70 pt-6 text-sm text-muted-foreground sm:grid-cols-3">
-              {heroFacts.map((fact) => (
-                <div key={fact} className="flex items-center gap-3">
-                  <span className="h-1.5 w-1.5 rounded-full bg-foreground/70" />
-                  <span>{fact}</span>
-                </div>
-              ))}
             </div>
           </div>
         </div>

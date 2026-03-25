@@ -15,13 +15,13 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const desktopMenuHeadingClass =
-  "mb-3 text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-muted-foreground";
+  "mb-3 text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-primary/70";
 const desktopMenuLinkClass =
-  "block rounded-xl px-3 py-2 text-xs leading-5 text-muted-foreground no-underline transition-colors hover:bg-muted hover:text-foreground";
+  "block rounded-xl border border-transparent px-3 py-2 text-xs leading-5 text-muted-foreground no-underline transition-colors hover:border-primary/10 hover:bg-primary/5 hover:text-primary";
 const mobileGroupHeadingClass =
-  "text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-muted-foreground";
+  "text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-primary/70";
 const mobileLinkClass =
-  "block rounded-full px-3 py-2 text-sm text-foreground transition-colors hover:bg-muted";
+  "block rounded-full px-3 py-2 text-sm text-foreground transition-colors hover:bg-primary/5 hover:text-primary";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -86,14 +86,14 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 z-50 w-full border-b border-border/70 bg-background/90 backdrop-blur-xl">
+    <header className="fixed top-0 z-50 w-full border-b border-primary/10 bg-background/95 backdrop-blur-xl">
       <div className="container mx-auto px-6">
         <div className="flex h-20 items-center justify-between gap-6">
           <a href="/" aria-label="Go to homepage" className="flex items-center gap-3">
             <img
               src="/uploads/Logo.jpg"
               alt="American Lighting Industry Corp Logo"
-              className="h-11 w-11 shrink-0 rounded-full border border-border/80 bg-card p-1.5 object-contain"
+              className="h-11 w-11 shrink-0 rounded-full border border-primary/10 bg-card p-1.5 object-contain"
             />
             <span className="hidden lg:block">
               <span className="block text-sm font-bold tracking-[0.01em] text-foreground">
@@ -287,7 +287,7 @@ const Header = () => {
           </div>
 
           <button
-            className="rounded-full border border-border/80 bg-card p-2.5 text-foreground md:hidden"
+            className="rounded-full border border-primary/10 bg-card p-2.5 text-foreground md:hidden"
             onClick={() => setIsMenuOpen((open) => !open)}
             aria-label="Toggle menu"
             aria-expanded={isMenuOpen}
@@ -297,11 +297,11 @@ const Header = () => {
         </div>
 
         {isMenuOpen && (
-          <nav className="fixed inset-x-0 bottom-0 top-20 z-50 overflow-y-auto border-t border-border/70 bg-background/95 backdrop-blur md:hidden">
+          <nav className="fixed inset-x-0 bottom-0 top-20 z-50 overflow-y-auto border-t border-primary/10 bg-background/95 backdrop-blur md:hidden">
             <div className="flex flex-col gap-6 px-6 pb-10 pt-6">
               <a
                 href="/products-and-accessories/all"
-                className="rounded-full border border-border/80 bg-card px-4 py-3 text-sm font-medium text-foreground"
+                className="rounded-full border border-primary/10 bg-primary px-4 py-3 text-sm font-medium text-primary-foreground shadow-soft"
                 onClick={() => setIsMenuOpen(false)}
               >
                 View full catalog
@@ -371,7 +371,7 @@ const Header = () => {
                 </div>
               </div>
 
-              <div className="space-y-1 border-t border-border/70 pt-4">
+              <div className="space-y-1 border-t border-primary/10 pt-4">
                 <a href="/about" className={mobileLinkClass} onClick={() => setIsMenuOpen(false)}>
                   About
                 </a>

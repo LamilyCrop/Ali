@@ -278,7 +278,7 @@ const ProductDetails = () => {
   // While loading, show skeleton instead of flashing Not Found
   if (isLoading) {
     return (
-      <div className="min-h-screen font-poppins flex flex-col">
+      <div className="min-h-screen flex flex-col">
         <Header />
         <main className="container mx-auto px-4 py-6 mt-16 flex-1">
           {/* Breadcrumb skeleton */}
@@ -369,10 +369,10 @@ const ProductDetails = () => {
 
   if (!product && !matchedDatasetEntry) {
     return (
-      <div className="min-h-screen font-poppins flex flex-col">
+      <div className="min-h-screen flex flex-col">
         <Header />
         <main className="container mx-auto px-4 py-20 text-center flex-1">
-          <h1 className="text-2xl font-bold text-foreground mb-4">Product Not Found</h1>
+          <h1 className="mb-4 text-2xl font-semibold tracking-tight text-foreground">Product Not Found</h1>
           <p className="text-muted-foreground mb-6">The product you're looking for doesn't exist.</p>
           <Button onClick={() => (window.location.href = '/')} variant="outline">
             <ArrowLeft className="mr-2 h-4 w-4" />
@@ -385,7 +385,7 @@ const ProductDetails = () => {
   }
 
   return (
-    <div className="min-h-screen font-poppins flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Header />
 
       <main className="container mx-auto px-4 py-6 mt-16 flex-1">
@@ -419,7 +419,7 @@ const ProductDetails = () => {
           {/* Product Image Gallery */}
           <div className="space-y-4">
             {/* Main Image */}
-            <div className="aspect-square bg-white rounded-lg overflow-hidden border-2 border-white p-6 md:p-8 lg:p-12 shadow-sm">
+            <div className="aspect-square overflow-hidden rounded-lg border border-primary/10 bg-card p-6 md:p-8 lg:p-12">
               <img
                 src={
                   matchedDatasetEntry?.images && matchedDatasetEntry.images.length > 0
@@ -454,16 +454,16 @@ const ProductDetails = () => {
                   <button
                     key={index}
                     onClick={() => setSelectedImageIndex(index)}
-                    className={`flex-shrink-0 w-20 h-20 rounded-md overflow-hidden border-2 bg-white transition-colors ${
+                    className={`flex-shrink-0 w-20 h-20 rounded-md overflow-hidden border-2 bg-card transition-colors ${
                       selectedImageIndex === index 
                         ? 'border-primary' 
-                        : 'border-white'
+                        : 'border-border hover:border-primary/20'
                     }`}
                   >
                     <img
                       src={image}
                       alt={`${matchedDatasetEntry.Title} - Image ${index + 1}`}
-                      className="w-full h-full object-contain bg-white"
+                      className="w-full h-full object-contain bg-card"
                       loading="lazy"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
@@ -489,24 +489,26 @@ const ProductDetails = () => {
           {/* Product Information */}
           <div className="space-y-6">
             <div>
-              <h1 className="text-3xl font-bold text-foreground mb-2">{matchedDatasetEntry?.Title || product?.name || ''}</h1>
+              <h1 className="mb-2 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+                {matchedDatasetEntry?.Title || product?.name || ''}
+              </h1>
               {matchedDatasetEntry?.Variant && (
                 <p className="text-sm text-muted-foreground mb-4">Variant: {matchedDatasetEntry.Variant}</p>
               )}
 
               {product?.price && (
-                <div className="text-2xl font-bold text-primary mb-4">
+                <div className="mb-4 text-2xl font-semibold tracking-tight text-primary">
                   ${product.price.toFixed(2)}
                 </div>
               )}
 
               <div className="flex items-center gap-2 mb-4">
-                <Badge variant="secondary" className="bg-green-100 text-green-800">
+                <Badge variant="secondary">
                   <Check className="w-3 h-3 mr-1" />
                   {product ? product.availability : 'In Stock'}
                 </Badge>
                 {product?.warranty && (
-                  <Badge variant="outline">
+                  <Badge variant="outline" className="border-accent/20 bg-accent/10 text-accent-foreground">
                     <Shield className="w-3 h-3 mr-1" />
                     {product.warranty} Warranty
                   </Badge>
@@ -518,11 +520,11 @@ const ProductDetails = () => {
 
             {/* Key Features and Description (from dataset if available, fallback to product) */}
             <div>
-              <h3 className="text-lg font-semibold text-foreground mb-3">Key Features</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-3">Key Features</h3>
               <ul className="space-y-2">
                 {(matchedDatasetEntry?.Features?.length ? matchedDatasetEntry.Features : (product?.features || [])).map((feature, index) => (
                   <li key={index} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">{feature}</span>
                   </li>
                 ))}
@@ -642,7 +644,7 @@ const ProductDetails = () => {
                                     href={value} 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 underline"
+                                    className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                                   >
                                     View Spec Sheet
                                   </a>
@@ -655,7 +657,7 @@ const ProductDetails = () => {
                                           href={dlcFile.file} 
                                           target="_blank" 
                                           rel="noopener noreferrer"
-                                          className="block text-green-600 hover:text-green-800 underline text-sm"
+                                          className="block text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80 text-sm"
                                         >
                                           {dlcFile.name}
                                         </a>
@@ -667,7 +669,7 @@ const ProductDetails = () => {
                                     href={value} 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="text-green-600 hover:text-green-800 underline"
+                                    className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                                   >
                                     View DLC Certificate
                                   </a>
@@ -682,7 +684,7 @@ const ProductDetails = () => {
                                           href={lm79File.file} 
                                           target="_blank" 
                                           rel="noopener noreferrer"
-                                          className="block text-purple-600 hover:text-purple-800 underline text-sm"
+                                          className="block text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80 text-sm"
                                         >
                                           {lm79File.name}
                                         </a>
@@ -694,7 +696,7 @@ const ProductDetails = () => {
                                     href={value} 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="text-purple-600 hover:text-purple-800 underline"
+                                    className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                                   >
                                     View LM79 Report
                                   </a>
@@ -707,7 +709,7 @@ const ProductDetails = () => {
                                           href={iesFile.file} 
                                           target="_blank" 
                                           rel="noopener noreferrer"
-                                          className="block text-orange-600 hover:text-orange-800 underline text-sm"
+                                          className="block text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80 text-sm"
                                         >
                                           {iesFile.name}
                                         </a>
@@ -770,7 +772,7 @@ const ProductDetails = () => {
                               href={matchedDatasetEntry['Spec Sheet']} 
                               target="_blank" 
                               rel="noopener noreferrer"
-                              className="text-blue-600 hover:text-blue-800 underline"
+                              className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                             >
                               View Spec Sheet
                             </a>
@@ -784,7 +786,7 @@ const ProductDetails = () => {
                                 href={matchedDatasetEntry.DLC} 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className="text-green-600 hover:text-green-800 underline"
+                                className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                               >
                                 View DLC Certificate
                               </a>

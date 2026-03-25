@@ -8,7 +8,7 @@ import ProductCard from "@/components/ProductCard";
 import ProductSidebar from "@/components/ProductSidebar";
 import AccessoriesCard from "@/components/AccessoriesCard";
 import { products as legacyProducts } from "@/data/products";
-import { findCategoryByTitle, normalizeCategorySlug } from "@/lib/categories";
+import { CATEGORY_DEFS, findCategoryByTitle, normalizeCategorySlug } from "@/lib/categories";
 import { useImagePreload } from "@/hooks/use-image-preload";
 
 type DatasetSpec = Record<string, string | null>;
@@ -55,6 +55,29 @@ function toTitleCaseFromSlug(slug: string): string {
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
 }
+
+const accessoryCategorySlugs = new Set([
+  "emergency-driver",
+  "sensor",
+  "mount-bracket",
+  "surface-mount-kit",
+  "ufo-reflector",
+  "remote-control",
+  "transformer",
+  "suspending-rope",
+  "junction-box",
+  "adapter",
+  "connector",
+]);
+
+const areaCategorySlugs = new Set(["covered", "damp-location", "dry-location", "indoor"]);
+const mountingCategorySlugs = new Set([
+  "hanging-and-pendant",
+  "inlay-and-recessed",
+  "pole-mount",
+  "surface-mount",
+  "wall-mount",
+]);
 
 export default function UnifiedProductsPage() {
   const params = useParams<{ category: string }>();
@@ -305,6 +328,53 @@ export default function UnifiedProductsPage() {
     return filtered;
   }, [dataset, searchParams, category]);
 
+  const pageHeader = useMemo(() => {
+    const categorySlug = category.toLowerCase();
+
+    if (!categorySlug || categorySlug === "all") {
+      return {
+        eyebrow: "Product Catalog",
+        title: "Products and Accessories",
+        description: "Browse the full catalog of commercial fixtures, controls, and accessories.",
+      };
+    }
+
+    if (areaCategorySlugs.has(categorySlug)) {
+      return {
+        eyebrow: "Application",
+        title: toTitleCaseFromSlug(categorySlug),
+        description: "Products filtered by installation environment.",
+      };
+    }
+
+    if (mountingCategorySlugs.has(categorySlug)) {
+      return {
+        eyebrow: "Mounting",
+        title: toTitleCaseFromSlug(categorySlug),
+        description: "Products filtered by mounting method.",
+      };
+    }
+
+    const normalizedSlug = normalizeCategorySlug(categorySlug);
+    const categoryDef = CATEGORY_DEFS.find((entry) => entry.slug === normalizedSlug);
+
+    if (categoryDef) {
+      return {
+        eyebrow: accessoryCategorySlugs.has(normalizedSlug) ? "Accessory Category" : "Product Category",
+        title: categoryDef.label,
+        description: accessoryCategorySlugs.has(normalizedSlug)
+          ? "Support accessories and controls in this category."
+          : "Commercial and industrial fixtures in this category.",
+      };
+    }
+
+    return {
+      eyebrow: "Catalog",
+      title: toTitleCaseFromSlug(categorySlug),
+      description: "Browse available products and accessories.",
+    };
+  }, [category]);
+
   // Preload first few images for faster loading
   const preloadImages = useMemo(() => {
     return items.slice(0, 8).map(item => {
@@ -345,88 +415,90 @@ export default function UnifiedProductsPage() {
   }, [isLoading]);
 
   return (
-    <div className="min-h-screen font-poppins flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="container mx-auto px-4 py-6 mt-16 flex-1">
-        {/* Hero */}
-        <section className="relative py-32 bg-primary mb-10 rounded-lg">
+      <main className="flex-1 pt-20">
+        <section className="bg-muted/25 py-20 sm:py-24">
           <div className="container mx-auto px-6">
-            <div className="space-y-4">
-              <div className="flex items-center gap-2 text-sm text-white/80">
-                <a href="/" className="hover:text-white transition-colors">Home</a>
-                <span>/</span>
-                <span className="text-white">Products and Accessories</span>
-              </div>
-              <h1 className="text-5xl md:text-6xl font-sans font-bold text-yellow-400">Product and Accessories</h1>
-              <p className="text-xl font-sans text-white max-w-3xl">Browse our full catalog of premium LED lighting solutions and accessories.</p>
+            <div className="max-w-3xl">
+              <p className="text-[0.72rem] font-semibold uppercase tracking-[0.32em] text-primary/70">
+                {pageHeader.eyebrow}
+              </p>
+              <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl md:text-6xl">
+                {pageHeader.title}
+              </h1>
+              <p className="mt-6 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
+                {pageHeader.description}
+              </p>
             </div>
           </div>
         </section>
 
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="hidden md:block md:w-64 lg:w-72 shrink-0">
-            <ProductSidebar />
-          </div>
-          <div className="flex-1">
-            {/* Products Grid */}
-            {items.length === 0 && !isLoading ? (
-              <div className="text-center py-20">
-                <p className="text-muted-foreground">No products found.</p>
+        <section className="py-10 sm:py-12 md:py-14">
+          <div className="container mx-auto px-6">
+            <div className="flex flex-col gap-8 md:flex-row">
+              <div className="hidden shrink-0 md:block md:w-64 lg:w-72">
+                <ProductSidebar />
               </div>
-            ) : (
-              <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
-                {isLoading
-                  ? Array.from({ length: 12 }).map((_, index) => (
-                      <div
-                        key={index}
-                        className={`transition-all duration-700 ease-out ${
-                          visibleItems.has(index)
-                            ? 'opacity-100 translate-y-0 scale-100'
-                            : 'opacity-0 translate-y-8 scale-95'
-                        }`}
-                      >
-                        <div className="rounded-lg border border-border overflow-hidden">
-                          <div className="aspect-square bg-muted animate-pulse" />
-                          <div className="p-4 space-y-2">
-                            <div className="h-4 bg-muted rounded w-3/4 animate-pulse" />
-                            <div className="h-3 bg-muted rounded w-full animate-pulse" />
+              <div className="flex-1">
+                {/* Products Grid */}
+                {items.length === 0 && !isLoading ? (
+                  <div className="py-20 text-center">
+                    <p className="text-muted-foreground">No products found.</p>
+                  </div>
+                ) : (
+                  <div ref={gridRef} className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8">
+                    {isLoading
+                      ? Array.from({ length: 12 }).map((_, index) => (
+                          <div
+                            key={index}
+                            className={`transition-all duration-700 ease-out ${
+                              visibleItems.has(index)
+                                ? "opacity-100 translate-y-0 scale-100"
+                                : "opacity-0 translate-y-8 scale-95"
+                            }`}
+                          >
+                            <div className="overflow-hidden rounded-lg border border-border bg-background">
+                              <div className="aspect-square animate-pulse bg-muted" />
+                              <div className="space-y-2 p-4">
+                                <div className="h-4 w-3/4 animate-pulse rounded bg-muted" />
+                                <div className="h-3 w-full animate-pulse rounded bg-muted" />
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                    ))
-                  : items.map((item, index) => {
-                      const catSlug = item.Category
-                        ? normalizeCategorySlug(item.Category)
-                        : findCategoryByTitle(item.Title, item.Description)?.slug ?? "other";
-                      const image = item.mainThumbnail || item.mainImage || legacyProducts.find((p) => p.subcategory === catSlug)?.image || "/placeholder.svg";
-                      return (
-                        <div
-                          key={`${toSlug(item.Title)}-${item.Index}`}
-                          className={`transition-all duration-700 ease-out ${
-                            visibleItems.has(index)
-                              ? 'opacity-100 translate-y-0 scale-100'
-                              : 'opacity-0 translate-y-8 scale-95'
-                          }`}
-                        >
-                          <ProductCard
-                            image={image}
-                            title={item.Title}
-                            description={item.Description ?? ""}
-                            variant={item.Variant ?? ""}
-                            href={`/products-and-accessories/details/${toSlug(item.Title)}-${item.Index}`}
-                            priority={index < 8} // Mark first 8 items as priority for faster loading
-                          />
-                        </div>
-                      );
-                    })
-                }
+                        ))
+                      : items.map((item, index) => {
+                          const catSlug = item.Category
+                            ? normalizeCategorySlug(item.Category)
+                            : findCategoryByTitle(item.Title, item.Description)?.slug ?? "other";
+                          const image = item.mainThumbnail || item.mainImage || legacyProducts.find((p) => p.subcategory === catSlug)?.image || "/placeholder.svg";
+                          return (
+                            <div
+                              key={`${toSlug(item.Title)}-${item.Index}`}
+                              className={`transition-all duration-700 ease-out ${
+                                visibleItems.has(index)
+                                  ? "opacity-100 translate-y-0 scale-100"
+                                  : "opacity-0 translate-y-8 scale-95"
+                              }`}
+                            >
+                              <ProductCard
+                                image={image}
+                                title={item.Title}
+                                description={item.Description ?? ""}
+                                variant={item.Variant ?? ""}
+                                href={`/products-and-accessories/details/${toSlug(item.Title)}-${item.Index}`}
+                                priority={index < 8}
+                              />
+                            </div>
+                          );
+                        })}
+                  </div>
+                )}
               </div>
-            )}
-
-
+            </div>
           </div>
-        </div>
+        </section>
       </main>
 
       <Footer />

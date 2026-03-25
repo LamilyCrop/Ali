@@ -58,9 +58,9 @@ const AccessoriesCard = ({
   };
 
   return (
-    <Card className="border border-border overflow-hidden">
+    <Card className="overflow-hidden border border-primary/10">
       {/* Header */}
-      <div className="bg-primary/5 p-4 pb-5 border-b border-border">
+      <div className="border-b border-primary/10 bg-background p-4 pb-5">
         <div className="flex items-center justify-between">
           <div>
             <h3 className="font-bold text-lg text-foreground">
@@ -108,14 +108,14 @@ const AccessoriesCard = ({
                 <a
                   key={accessory.index}
                   href={`/accessories/details/${accessory.index}`}
-                  className="group flex-shrink-0 w-48 border border-border rounded-lg overflow-hidden transition-all duration-300 hover:scale-105 cursor-pointer bg-background block no-underline"
+                  className="block w-48 flex-shrink-0 overflow-hidden rounded-lg border border-primary/10 bg-background no-underline transition-colors duration-200 hover:border-primary/20"
                 >
                   {/* Accessory Image */}
-                  <div className="aspect-square overflow-hidden bg-white border-2 border-white">
+                  <div className="aspect-square overflow-hidden border-b border-primary/10 bg-background">
                     <img
                       src={accessory.mainImage}
                       alt={accessory.title}
-                      className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                      className="w-full h-full object-contain"
                       loading="lazy"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
@@ -130,7 +130,7 @@ const AccessoriesCard = ({
 
                   {/* Accessory Info */}
                   <div className="p-3">
-                    <h4 className="font-semibold text-sm text-foreground mb-1 group-hover:text-primary transition-colors line-clamp-1">
+                    <h4 className="font-semibold text-sm text-foreground mb-1 line-clamp-1">
                       {accessory.title}
                     </h4>
                     {accessory.variant && (

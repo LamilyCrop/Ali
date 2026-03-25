@@ -138,10 +138,10 @@ const ProductCard = ({ image, title, description, variant, href, priority = fals
   };
 
   const content = (
-    <Card className="group h-full overflow-hidden border-border/80 bg-card transition-[transform,border-color] duration-300 hover:-translate-y-1 hover:border-foreground/20">
+    <Card className="h-full overflow-hidden border-border/80 bg-card transition-colors duration-200 hover:border-primary/20">
       <div 
         ref={containerRef}
-        className="relative aspect-[4/3] overflow-hidden border-b border-border/70 bg-muted/50 p-8"
+        className="relative aspect-[4/3] overflow-hidden border-b border-border/80 bg-background p-8"
       >
         {!isLoaded && (
           <div className="absolute inset-0 bg-muted/80 animate-pulse" />
@@ -152,7 +152,7 @@ const ProductCard = ({ image, title, description, variant, href, priority = fals
             ref={imgRef}
             src={hasError ? "/placeholder.svg" : getValidImageSrc(image)}
             alt={title}
-            className={`h-full w-full object-contain transition duration-500 group-hover:scale-[1.02] ${
+            className={`h-full w-full object-contain ${
               isLoaded ? 'opacity-100' : 'opacity-0'
             }`}
             loading={priority ? "eager" : "lazy"}
@@ -164,7 +164,8 @@ const ProductCard = ({ image, title, description, variant, href, priority = fals
         )}
       </div>
       <div className="flex min-h-[11rem] flex-col gap-3 p-5">
-        <p className="text-[0.68rem] font-semibold uppercase tracking-[0.26em] text-muted-foreground">
+        <p className="flex items-center gap-2 text-[0.68rem] font-semibold uppercase tracking-[0.26em] text-primary/80">
+          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
           {getVariantLabel()}
         </p>
         <h3 className="text-lg font-semibold leading-snug tracking-tight text-foreground">

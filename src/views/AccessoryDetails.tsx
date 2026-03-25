@@ -89,7 +89,7 @@ const AccessoryDetails = () => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen font-poppins flex flex-col">
+      <div className="min-h-screen flex flex-col">
         <Header />
         <main className="container mx-auto px-4 py-6 mt-16 flex-1">
           <div className="animate-pulse">
@@ -109,11 +109,11 @@ const AccessoryDetails = () => {
 
   if (!accessory) {
     return (
-      <div className="min-h-screen font-poppins flex flex-col">
+      <div className="min-h-screen flex flex-col">
         <Header />
         <main className="container mx-auto px-4 py-6 mt-16 flex-1">
           <div className="text-center py-12">
-            <h1 className="text-2xl font-bold text-muted-foreground mb-4">Accessory Not Found</h1>
+            <h1 className="mb-4 text-2xl font-semibold tracking-tight text-muted-foreground">Accessory Not Found</h1>
             <p className="text-muted-foreground mb-6">The accessory you're looking for doesn't exist.</p>
             <Button asChild>
               <a href="/products-and-accessories/all">Back to Products</a>
@@ -129,7 +129,7 @@ const AccessoryDetails = () => {
   const hasImages = images.length > 0;
 
   return (
-    <div className="min-h-screen font-poppins flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Header />
 
       <main className="container mx-auto px-4 py-6 mt-16 flex-1">
@@ -158,7 +158,7 @@ const AccessoryDetails = () => {
           {/* Accessory Image Gallery */}
           <div className="space-y-4">
             {/* Main Image */}
-            <div className="aspect-square bg-white rounded-lg overflow-hidden border-2 border-white">
+            <div className="aspect-square overflow-hidden rounded-lg border border-primary/10 bg-card">
               <img
                 src={hasImages ? images[selectedImageIndex] : accessory.mainImage || '/placeholder.svg'}
                 alt={accessory.Title}
@@ -208,10 +208,12 @@ const AccessoryDetails = () => {
           {/* Accessory Information */}
           <div className="space-y-6">
             <div>
-              <h1 className="text-3xl font-bold text-foreground mb-2">{accessory.Title}</h1>
+              <h1 className="mb-2 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+                {accessory.Title}
+              </h1>
               
               <div className="flex items-center gap-2 mb-4">
-                <Badge variant="secondary" className="bg-green-100 text-green-800">
+                <Badge variant="secondary">
                   <Check className="w-3 h-3 mr-1" />
                   In Stock
                 </Badge>
@@ -230,13 +232,13 @@ const AccessoryDetails = () => {
                 {accessory.Features && accessory.Features.length > 0 ? (
                   accessory.Features.map((feature, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+                      <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
                       <span className="text-muted-foreground">{feature}</span>
                     </li>
                   ))
                 ) : (
                   <li className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <Check className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">High-quality accessory for LED lighting systems</span>
                   </li>
                 )}
@@ -278,7 +280,7 @@ const AccessoryDetails = () => {
                       href={accessory['Spec Sheet']} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:text-blue-800 underline"
+                      className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                     >
                       View Spec Sheet
                     </a>
@@ -293,7 +295,7 @@ const AccessoryDetails = () => {
                       href={accessory.DLC} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-green-600 hover:text-green-800 underline"
+                      className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                     >
                       View DLC Certificate
                     </a>
@@ -308,7 +310,7 @@ const AccessoryDetails = () => {
                       href={accessory['LM79 File']} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-purple-600 hover:text-purple-800 underline"
+                      className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                     >
                       View LM79 Report
                     </a>
@@ -323,7 +325,7 @@ const AccessoryDetails = () => {
                       href={accessory['IES File']} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-orange-600 hover:text-orange-800 underline"
+                      className="text-primary underline underline-offset-4 decoration-primary/30 hover:text-primary/80"
                     >
                       View IES File
                     </a>

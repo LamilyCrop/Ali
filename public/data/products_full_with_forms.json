@@ -1922,7 +1922,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/37-4F.pdf",
-        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Spec Sheet": "/products-spec-sheets/37-1.pdf",
         "Voltage": null
       },
       {
@@ -1936,7 +1936,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/37-4F.pdf",
-        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Spec Sheet": "/products-spec-sheets/37-1.pdf",
         "Voltage": null
       },
       {
@@ -1950,7 +1950,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/37-4F.pdf",
-        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Spec Sheet": "/products-spec-sheets/37-1.pdf",
         "Voltage": null
       },
       {
@@ -1964,7 +1964,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/37-4F.pdf",
-        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Spec Sheet": "/products-spec-sheets/37-1.pdf",
         "Voltage": null
       },
       {
@@ -1978,7 +1978,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/37-4F.pdf",
-        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Spec Sheet": "/products-spec-sheets/37-1.pdf",
         "Voltage": null
       },
       {
@@ -1992,7 +1992,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/37-4F.pdf",
-        "Spec Sheet": "/products-spec-sheets/37.pdf",
+        "Spec Sheet": "/products-spec-sheets/37-2.pdf",
         "Voltage": null
       }
     ],
@@ -2550,7 +2550,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/42-4FT-5CCT-1.pdf",
-        "Spec Sheet": "/products-spec-sheets/42.pdf",
+        "Spec Sheet": "/products-spec-sheets/42-1.pdf",
         "Voltage": null,
         "TYPE": null,
         "DLC Files": [
@@ -2611,7 +2611,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/42-4FT-5CCT-3.pdf",
-        "Spec Sheet": "/products-spec-sheets/42.pdf",
+        "Spec Sheet": "/products-spec-sheets/42-2.pdf",
         "Voltage": null,
         "TYPE": null,
         "DLC Files": [
@@ -2672,7 +2672,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/42-4FT-5CCT-2.pdf",
-        "Spec Sheet": "/products-spec-sheets/42.pdf",
+        "Spec Sheet": "/products-spec-sheets/42-3.pdf",
         "Voltage": null,
         "TYPE": null,
         "DLC Files": [
@@ -2733,7 +2733,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/42-8FT-5CCT-3.pdf",
-        "Spec Sheet": "/products-spec-sheets/42.pdf",
+        "Spec Sheet": "/products-spec-sheets/42-3.pdf",
         "Voltage": null,
         "TYPE": null,
         "DLC Files": [
@@ -2865,7 +2865,7 @@
         "IES File": null,
         "LM79 File": null,
         "DLC": "/LC-DLC/43-8FT-3.pdf",
-        "Spec Sheet": "/products-spec-sheets/43-1.pdf",
+        "Spec Sheet": "/products-spec-sheets/43-2.pdf",
         "Voltage": null,
         "TYPE": null,
         "DLC Files": [
@@ -2949,7 +2949,8 @@
         "Voltage": "AC120-277V",
         "Wattage": "Selectable",
         "CCT": "Selectable",
-        "IP Rating": "IP65"
+        "IP Rating": "IP65",
+        "Spec Sheet": "/products-spec-sheets/44.pdf"
       }
     ],
     "area_category": "Indoor",

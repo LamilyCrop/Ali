@@ -315,7 +315,7 @@ const Header = () => {
             </NavigationMenu>
 
             <a
-              href="https://books.zohosecure.com/portal/lamilycorp"
+              href="https://books.zohosecure.com/portal/americanlightingindustrycorp1"
               className={cn(navigationMenuTriggerStyle(), "text-foreground")}
             >
               Client Login

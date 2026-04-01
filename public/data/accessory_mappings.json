@@ -1366,7 +1366,15 @@
     "productIndex": 37,
     "productTitle": "Tube series Type B",
     "productCategory": "Tube Series",
-    "productVariant": "",
+    "productVariant": "Type B (DOUBLE ROLL)",
+    "matchingAccessories": [],
+    "totalAccessories": 0
+  },
+  "38": {
+    "productIndex": 38,
+    "productTitle": "Tube Series",
+    "productCategory": "Tube Series",
+    "productVariant": "Type AB Wattage and Color Tunable",
     "matchingAccessories": [],
     "totalAccessories": 0
   },

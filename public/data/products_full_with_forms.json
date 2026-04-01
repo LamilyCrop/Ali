@@ -1897,8 +1897,8 @@
   },
   {
     "Index": 37,
-    "Title": "Tube series Type B",
-    "Variant": "",
+    "Title": "Tube Series",
+    "Variant": "Type B (DOUBLE ROLL)",
     "Description": "Super bright LED tube light with double LED chips built in, which has higher lumen efficiency and perfect lighting performance. With flicker free driver, instant start, no radiation, no noise, no mercury and other material that is harmful to human body and environment. This tube operates on single-ended or double-ended power which allows for flexible installation in either shunted or non-shunted sockets.",
     "Category": "Tube Series",
     "mainImage": "/images/products/37/1.jpg",
@@ -1980,7 +1980,35 @@
         "DLC": "/LC-DLC/37-4F.pdf",
         "Spec Sheet": "/products-spec-sheets/37-1.pdf",
         "Voltage": null
-      },
+      }
+    ],
+    "area_category": "Indoor",
+    "mounting_category": "Inlay and Recessed",
+    "Features": [
+      "Doubled LED chips.",
+      "Single or double ended availability.",
+      "Flicker free, eyesight protection.",
+      "Driver end-cap, easy replacing.",
+      "Certificated: ETL/DLC.",
+      "On/Off, noise/UV/shadow free."
+    ]
+  },
+  {
+    "Index": 38,
+    "Title": "Tube Series",
+    "Variant": "Type AB Wattage and Color Tunable",
+    "Description": "Super bright LED tube light is with 96pcs SMD2835, which has higher lumen efficiency and perfect lighting performance. With flicker free driver, instant start, no radiation, no noise, no mercury and other material that is harmful to human body and environment. Also with 5 different color temperatures, you're sure to find the lighting color to best match your room. This tube operates on single-ended or double-ended power which allows for flexible installation in either shunted or non-shunted sockets.",
+    "Category": "Tube Series",
+    "mainImage": "/images/products/37/1.jpg",
+    "images": [
+      "/images/products/37/1.jpg",
+      "/images/products/37/2.jpg",
+      "/images/products/37/3.jpg",
+      "/images/products/37/4.jpg",
+      "/images/products/37/5.jpg",
+      "/images/products/37/6.jpg"
+    ],
+    "Specs": [
       {
         "SKU": "ALI-00-152-031",
         "SIZE": "4FT",
@@ -1999,7 +2027,7 @@
     "area_category": "Indoor",
     "mounting_category": "Inlay and Recessed",
     "Features": [
-      "Doubled LED chips.",
+      "Wattage/Color temperature CCT selectable.",
       "Single or double ended availability.",
       "Flicker free, eyesight protection.",
       "Driver end-cap, easy replacing.",
@@ -2120,7 +2148,7 @@
   {
     "Index": 40,
     "Title": "Tube Series",
-    "Variant": "（R17D High Output）",
+    "Variant": "R17D High Output",
     "Description": "Instant on, Non- dimmable; Dual-end powered. R17D HO base. Ballast bypass installation required. Bright, high output LED. 50,000+ hour lifetime. Durable, shatterproof construction. No UV or IR radiation. Does not contain mercury. With flicker free driver, instant start, noise free, other material that is harmful to human body and environment.",
     "Category": "Tube Series",
     "mainImage": "/images/products/40/微信图片_20240319154803.jpg",

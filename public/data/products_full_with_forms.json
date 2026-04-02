@@ -2951,7 +2951,7 @@
     "Index": 44,
     "Title": "Bollards Light",
     "Variant": "",
-    "Description": "Bollards are your first choice for garden lighting projects. 3-in-1 switch is selectable for CCT, wattage, and photocell ON/OFF control. D2D photocell automatically turns off at sunrise and turns on at sunset. Interchangeable bollard heads reduce SKUs and save volume while meeting different project demands.",
+    "Description": "LED bollards stand out as multifunctional installations, serving not only as sources of illumination but also as effective barriers for vehicle control, thus playing a pivotal role in ensuring public safety. Whether you're envisioning a park layout or elevating the aesthetics of a building's sidewalk, the PLT fixture stands out as an exemplary choice. Boasting energy-saving advantages and an appealing bronze finish for heightened aesthetics, this bollard goes beyond by significantly improving pedestrian visibility in diverse environments such as retail centers, schools, and medical facilities—all while prioritizing safety.",
     "Category": "Bollards",
     "mainImage": "/images/products/44/BR06-1.1105.png",
     "images": [
@@ -2973,10 +2973,50 @@
     ],
     "Specs": [
       {
-        "SKU": "BR06-Series",
+        "SKU": "Bollaed（14/19/24W，3CCT，Cone reflector A）",
         "Voltage": "AC120-277V",
-        "Wattage": "Selectable",
-        "CCT": "Selectable",
+        "Wattage": "14/19/24W",
+        "CCT": "3CCT",
+        "IP Rating": "IP65",
+        "Spec Sheet": "/products-spec-sheets/44.pdf"
+      },
+      {
+        "SKU": "Bollaed（14/19/24W，3CCT，Cone reflector B）",
+        "Voltage": "AC120-277V",
+        "Wattage": "14/19/24W",
+        "CCT": "3CCT",
+        "IP Rating": "IP65",
+        "Spec Sheet": "/products-spec-sheets/44.pdf"
+      },
+      {
+        "SKU": "Bollaed（14/19/24W，3CCT，Decorative E）",
+        "Voltage": "AC120-277V",
+        "Wattage": "14/19/24W",
+        "CCT": "3CCT",
+        "IP Rating": "IP65",
+        "Spec Sheet": "/products-spec-sheets/44.pdf"
+      },
+      {
+        "SKU": "Bollaed（14/19/24W，3CCT，Decorative F）",
+        "Voltage": "AC120-277V",
+        "Wattage": "14/19/24W",
+        "CCT": "3CCT",
+        "IP Rating": "IP65",
+        "Spec Sheet": "/products-spec-sheets/44.pdf"
+      },
+      {
+        "SKU": "Bollaed（14/19/24W，3CCT，Louvered reflector D）",
+        "Voltage": "AC120-277V",
+        "Wattage": "14/19/24W",
+        "CCT": "3CCT",
+        "IP Rating": "IP65",
+        "Spec Sheet": "/products-spec-sheets/44.pdf"
+      },
+      {
+        "SKU": "Bollaed（14/19/24W，3CCT，Louvered reflector C）",
+        "Voltage": "AC120-277V",
+        "Wattage": "14/19/24W",
+        "CCT": "3CCT",
         "IP Rating": "IP65",
         "Spec Sheet": "/products-spec-sheets/44.pdf"
       }
@@ -2984,11 +3024,13 @@
     "area_category": "Indoor",
     "mounting_category": "Pole Mount",
     "Features": [
-      "3-in-1 switch: CCT, wattage, photocell ON/OFF",
-      "Dusk-to-Dawn photocell auto on/off",
-      "Interchangeable heads reduce SKUs and volume",
-      "Rugged die-cast housing, IP65 rated",
-      "Multiple top styles available (dome/flat)"
+      "3-in-1 switch buttons, CCT Selectable & Power Adjustable & Photocell On/Off.",
+      "Cone reflector, Louvered reflector and Decorative different shapes.",
+      "Dome top and Flat top are options.",
+      "AC120-277V & AC120-347V for options.",
+      "ADC12 Aluminum die-casting housing provides excellent heat dissipation.",
+      "Bronze and black finish.",
+      "Waterproof rated IP65."
     ]
   }
 ]

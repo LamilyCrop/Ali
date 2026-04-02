@@ -2019,9 +2019,36 @@
         "Lumens": "3120lm",
         "IES File": null,
         "LM79 File": null,
-        "DLC": "/LC-DLC/37-4F.pdf",
+        "DLC": "/LC-DLC/38-5.pdf",
         "Spec Sheet": "/products-spec-sheets/38_lamily.pdf",
-        "Voltage": null
+        "Voltage": null,
+        "DLC Files": [
+          {
+            "name": "38-1",
+            "file": "/LC-DLC/38-1.pdf",
+            "show": true
+          },
+          {
+            "name": "38-2",
+            "file": "/LC-DLC/38-2.pdf",
+            "show": true
+          },
+          {
+            "name": "38-3",
+            "file": "/LC-DLC/38-3.pdf",
+            "show": true
+          },
+          {
+            "name": "38-4",
+            "file": "/LC-DLC/38-4.pdf",
+            "show": true
+          },
+          {
+            "name": "38-5",
+            "file": "/LC-DLC/38-5.pdf",
+            "show": true
+          }
+        ]
       }
     ],
     "area_category": "Indoor",
